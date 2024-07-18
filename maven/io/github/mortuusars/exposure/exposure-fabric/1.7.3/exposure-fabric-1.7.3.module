@@ -78,11 +78,11 @@
         {
           "name": "exposure-fabric-1.7.3-fabric.jar",
           "url": "exposure-fabric-1.7.3-fabric.jar",
-          "size": 1286383,
-          "sha512": "ca9253d2681fef5800277bdc18cf770589471537ee7588052069d3a83334d631ae2e41535442ffec02b18fcc22ac04fa28b54530a210fe746d59379f3becc5bc",
-          "sha256": "08106db724ff94cacd24df15fab77886a53485383cc3a4bdc2442db92ef9953d",
-          "sha1": "d5ab9b1bc50eecb510bce6ba54690325c9ef93a1",
-          "md5": "31579d4c29cff2c3863be9961afad3d1"
+          "size": 1286412,
+          "sha512": "bb7dc27733e04213c2d2e5c88fc57079f99f74800c4ee60618b41d2bb54d364eec946a0af66e23760237078565d0a8d2adc4410174e54a47f67ef69a641e28c2",
+          "sha256": "41c2c9f815eb766d8c612c40914579a93ca33f56d187aacc64ed0807745a03d7",
+          "sha1": "931c3c7c657f8bfc60df1ed4494fc7a5a5319fcb",
+          "md5": "8c461ecfa6a317e06d95eb4e3502b067"
         }
       ]
     },
@@ -142,11 +142,11 @@
         {
           "name": "exposure-fabric-1.7.3-fabric.jar",
           "url": "exposure-fabric-1.7.3-fabric.jar",
-          "size": 1286383,
-          "sha512": "ca9253d2681fef5800277bdc18cf770589471537ee7588052069d3a83334d631ae2e41535442ffec02b18fcc22ac04fa28b54530a210fe746d59379f3becc5bc",
-          "sha256": "08106db724ff94cacd24df15fab77886a53485383cc3a4bdc2442db92ef9953d",
-          "sha1": "d5ab9b1bc50eecb510bce6ba54690325c9ef93a1",
-          "md5": "31579d4c29cff2c3863be9961afad3d1"
+          "size": 1286412,
+          "sha512": "bb7dc27733e04213c2d2e5c88fc57079f99f74800c4ee60618b41d2bb54d364eec946a0af66e23760237078565d0a8d2adc4410174e54a47f67ef69a641e28c2",
+          "sha256": "41c2c9f815eb766d8c612c40914579a93ca33f56d187aacc64ed0807745a03d7",
+          "sha1": "931c3c7c657f8bfc60df1ed4494fc7a5a5319fcb",
+          "md5": "8c461ecfa6a317e06d95eb4e3502b067"
         }
       ]
     },
@@ -162,11 +162,11 @@
         {
           "name": "exposure-fabric-1.7.3-sources.jar",
           "url": "exposure-fabric-1.7.3-sources.jar",
-          "size": 932652,
-          "sha512": "6e319f43b0e8866ffd427136a2567634e901e892bdc0f57763fa9b3158f6867177c3213745dcf6e68e7fe26b2ae9099b451ed4546bb2c7d50783138bf53162b8",
-          "sha256": "da870d3918f9abebe96f1741e80e9cc101ebd8032997a6a8b9e261dc8452fd57",
-          "sha1": "5edd3df31a43d0b5587bdeac282f6caac2991765",
-          "md5": "f11ddb1547d47ec7e5a05129b1995e9c"
+          "size": 932655,
+          "sha512": "6f06b9638e71b8e53eb6088714ab59f5d1e9d2d33b2d07c2865b2f1318639bcbde2651201ce36bf3e907fef26f5033fa04673c3e94e6dcac219b35ff5ecdf408",
+          "sha256": "fdce819e91cc590060d24641b9729c442062bc955ebc138f06827a01bbe4318a",
+          "sha1": "1d5a5f12585b2dfdb27d3c3dfaa6b97d1ae9d62a",
+          "md5": "dbf1aeb05cbfd45c96ed3d39a362b8e4"
         }
       ]
     }
