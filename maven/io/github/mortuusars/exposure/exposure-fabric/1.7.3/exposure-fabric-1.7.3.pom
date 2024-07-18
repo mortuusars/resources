@@ -60,11 +60,5 @@
       <version>15.2.0.27</version>
       <scope>runtime</scope>
     </dependency>
-    <dependency>
-      <groupId>curse.maven</groupId>
-      <artifactId>real-camera-851574</artifactId>
-      <version>5328995</version>
-      <scope>runtime</scope>
-    </dependency>
   </dependencies>
 </project>

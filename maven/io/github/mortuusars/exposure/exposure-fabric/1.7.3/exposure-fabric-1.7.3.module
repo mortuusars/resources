@@ -136,13 +136,6 @@
           "version": {
             "requires": "15.2.0.27"
           }
-        },
-        {
-          "group": "curse.maven",
-          "module": "real-camera-851574",
-          "version": {
-            "requires": "5328995"
-          }
         }
       ],
       "files": [
@@ -170,10 +163,10 @@
           "name": "exposure-fabric-1.7.3-sources.jar",
           "url": "exposure-fabric-1.7.3-sources.jar",
           "size": 932653,
-          "sha512": "64f8f94987240c526653254b1d3918d529f4e3a90fecefde4a0a148a7a0fc844719356832a7089c18c2c7090ce697325b543fef5c1761b12b8653b6e2dd79e98",
-          "sha256": "741e89051a56615274dc789cf05af39ae0b12dc5996b42d6085b35e2be57995f",
-          "sha1": "9205da9e0c8c7a799cbb026d4c55563d1d259a08",
-          "md5": "34b67d631142c3accccd29916e44c148"
+          "sha512": "3b8e47baea7c215714e9dd977f73f4e8bab844267e5f84f434356a7fe7c143711cc224ec5b1856d051114b12b92eb05ea78afb1fc804bb7d69abb3a95e5fc5e5",
+          "sha256": "4b4cad5a1d5ed606cfeacbcf105ea0d978bc4100f68843c6f8faf3e3855fb50f",
+          "sha1": "a077c133286f21f6f36a10ef23088e6bd3ca3fad",
+          "md5": "b00dd2f388ffd11b0535e3645c3ca63b"
         }
       ]
     }

@@ -38,7 +38,7 @@
     <dependency>
       <groupId>curse.maven</groupId>
       <artifactId>real-camera-851574</artifactId>
-      <version>5328995</version>
+      <version>5328994</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

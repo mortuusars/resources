@@ -100,13 +100,6 @@
               "module": "*"
             }
           ]
-        },
-        {
-          "group": "curse.maven",
-          "module": "real-camera-851574",
-          "version": {
-            "requires": "5328994"
-          }
         }
       ],
       "files": [
