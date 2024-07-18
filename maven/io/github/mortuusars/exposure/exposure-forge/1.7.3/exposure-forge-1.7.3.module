@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.exposure",
+    "module": "exposure-forge",
+    "version": "1.7.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-common-api",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5072729"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge-api",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-forge",
+          "version": {
+            "requires": "2001.6.5-build.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-forge-1.7.3-forge.jar",
+          "url": "exposure-forge-1.7.3-forge.jar",
+          "size": 1304439,
+          "sha512": "1b1fa0fc16a8315f997bad5710ec543c7f3b78c82bd0b290bcbf289d2ca24c58fe4f85107fa8dd1ae65c84250c7b64839f1932736a03ba96ad8b08cfc8130d10",
+          "sha256": "ca505e0679b0d9af544cfe7003b569e25d605d564d137af406a842ddb4bd8091",
+          "sha1": "479d13e952e08436c4dc27f42108f44bcbd249a2",
+          "md5": "9972818bd24f3d0d2824f9b0b4ce7c9c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge",
+          "version": {
+            "requires": "15.2.0.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5072729"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "real-camera-851574",
+          "version": {
+            "requires": "5328994"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-forge-1.7.3-forge.jar",
+          "url": "exposure-forge-1.7.3-forge.jar",
+          "size": 1304439,
+          "sha512": "1b1fa0fc16a8315f997bad5710ec543c7f3b78c82bd0b290bcbf289d2ca24c58fe4f85107fa8dd1ae65c84250c7b64839f1932736a03ba96ad8b08cfc8130d10",
+          "sha256": "ca505e0679b0d9af544cfe7003b569e25d605d564d137af406a842ddb4bd8091",
+          "sha1": "479d13e952e08436c4dc27f42108f44bcbd249a2",
+          "md5": "9972818bd24f3d0d2824f9b0b4ce7c9c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure-forge-1.7.3-sources.jar",
+          "url": "exposure-forge-1.7.3-sources.jar",
+          "size": 942359,
+          "sha512": "0ff251451ad013a5ee5b504c4b54795a749e1141267f1d0fc34949253a5eb88b045f4d64c390fd63b6f1bf01af4825ed9b1fde5d792024ef2852b3a4af5dbdd1",
+          "sha256": "6e3a277af4e61dd422ab8067409fdfc8ea1b45aad21d9c3e77a4280e454e4341",
+          "sha1": "c2c8f405f9ab2db0868a610ec125a574079c11dc",
+          "md5": "f02734c511987a16c4e9571d2674c872"
+        }
+      ]
+    }
+  ]
+}
