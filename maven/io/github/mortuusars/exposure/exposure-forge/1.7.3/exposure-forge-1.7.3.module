@@ -126,11 +126,11 @@
         {
           "name": "exposure-forge-1.7.3-sources.jar",
           "url": "exposure-forge-1.7.3-sources.jar",
-          "size": 942359,
-          "sha512": "0ff251451ad013a5ee5b504c4b54795a749e1141267f1d0fc34949253a5eb88b045f4d64c390fd63b6f1bf01af4825ed9b1fde5d792024ef2852b3a4af5dbdd1",
-          "sha256": "6e3a277af4e61dd422ab8067409fdfc8ea1b45aad21d9c3e77a4280e454e4341",
-          "sha1": "c2c8f405f9ab2db0868a610ec125a574079c11dc",
-          "md5": "f02734c511987a16c4e9571d2674c872"
+          "size": 942358,
+          "sha512": "ed88733ce1dbab4dd495afd0e009443a11595e6c2ebfe7467df0205e037871f31f1c08b2e0765a6734b5574f98c08b8313115739cb7714e997c6c877f90f0a75",
+          "sha256": "7950b40dc69e4527b7c0dc1639cfe75341f53e37cd1e14581cc26631d72b4259",
+          "sha1": "b37d22ef8756f15a05cdec40e8dc0bb1b04a31ba",
+          "md5": "4f98d78c7771b3920068500502de7f79"
         }
       ]
     }

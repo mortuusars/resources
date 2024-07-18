@@ -51,24 +51,17 @@
           "version": {
             "requires": "2001.6.5-build.7"
           }
-        },
-        {
-          "group": "curse.maven",
-          "module": "real-camera-851574",
-          "version": {
-            "requires": "5328994"
-          }
         }
       ],
       "files": [
         {
           "name": "exposure-common-1.7.3.jar",
           "url": "exposure-common-1.7.3.jar",
-          "size": 1257444,
-          "sha512": "c3e755dad7cdd0a16a030a7c996e1e5e7686d39f7971f7ed89cd83a7feb5d2a66685810b9ae5e2045132cbe7f83add788026c67b50209fb3c901285c8a085672",
-          "sha256": "b97d772baeb682852a609540cb9e27a93ba9c7910bb5765a329258f5cd88ce36",
-          "sha1": "680a6137205cb02873fb2de59c267babc6fb6541",
-          "md5": "5e419e489e0fef086167f082bd280e65"
+          "size": 1257443,
+          "sha512": "d784faabc948762593e6d06cbf6512c9d76f0bbfab902b0961dfbb2bebb11ac8c17e144b5657d748812cdb2263e7d4dbeb503e0dcfa2996b5c1db96d8da37985",
+          "sha256": "24f54b25399afb451785b84c81e02f99a0c84f429e47ea7f4f4435d7316f7948",
+          "sha1": "901320a8fed9e7173d3e078f2d5424411b093226",
+          "md5": "e11e351ff69afe69e3fb91fbd4997d4f"
         }
       ]
     },
@@ -101,11 +94,11 @@
         {
           "name": "exposure-common-1.7.3.jar",
           "url": "exposure-common-1.7.3.jar",
-          "size": 1257444,
-          "sha512": "c3e755dad7cdd0a16a030a7c996e1e5e7686d39f7971f7ed89cd83a7feb5d2a66685810b9ae5e2045132cbe7f83add788026c67b50209fb3c901285c8a085672",
-          "sha256": "b97d772baeb682852a609540cb9e27a93ba9c7910bb5765a329258f5cd88ce36",
-          "sha1": "680a6137205cb02873fb2de59c267babc6fb6541",
-          "md5": "5e419e489e0fef086167f082bd280e65"
+          "size": 1257443,
+          "sha512": "d784faabc948762593e6d06cbf6512c9d76f0bbfab902b0961dfbb2bebb11ac8c17e144b5657d748812cdb2263e7d4dbeb503e0dcfa2996b5c1db96d8da37985",
+          "sha256": "24f54b25399afb451785b84c81e02f99a0c84f429e47ea7f4f4435d7316f7948",
+          "sha1": "901320a8fed9e7173d3e078f2d5424411b093226",
+          "md5": "e11e351ff69afe69e3fb91fbd4997d4f"
         }
       ]
     },
@@ -121,11 +114,11 @@
         {
           "name": "exposure-common-1.7.3-sources.jar",
           "url": "exposure-common-1.7.3-sources.jar",
-          "size": 902340,
-          "sha512": "49b7b680f71d2776b280106255df224efb978e01c7909857fe855a6d94d88c1d9ab8eeb5afb819925b9b9d334bc14bf3ec9d60b57b10051abd8687af9b871d00",
-          "sha256": "341d054f0d1007c9881b45fbb69d5b9f4bf08ab0bd859b49530577306d61c862",
-          "sha1": "e3e6617b1cf736dd87493df5231359c9ed292ac6",
-          "md5": "2c3072ffda67340b088c7adb3bc0c742"
+          "size": 902339,
+          "sha512": "e97163c30115150b5b24ffefbd2964cf8b12a4be7064571860ee849bce87f26124a83ef021636cd804766a73811848d8beba526ed155eb4036e43a2eaaba4c87",
+          "sha256": "de3e7df819fb2dbc1aac67907d37c73127f8c9553e42319186ab9de302b9b533",
+          "sha1": "7ad418dfe972a1384c15b7deb62af3252fdadf08",
+          "md5": "6f11e27c0a102cdc95db3c24b9e4edd1"
         }
       ]
     }
