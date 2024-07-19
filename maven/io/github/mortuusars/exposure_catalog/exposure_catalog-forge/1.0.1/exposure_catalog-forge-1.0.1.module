@@ -91,10 +91,10 @@
           "name": "exposure_catalog-forge-1.0.1-sources.jar",
           "url": "exposure_catalog-forge-1.0.1-sources.jar",
           "size": 74021,
-          "sha512": "1e21b9e7624523cdb830c8380f146ab1f99bb4226f7622019f34bdc8e5a29afe5f0828b8d22678a3865c909a876b04dd3fbd59668258d19c834ae0e628b4bdaa",
-          "sha256": "cea78d6f6cc71f2ae877320a2b1408edec6f89c6b91fa83acb80428b71507524",
-          "sha1": "9e0217a31b2785be91a8acc2be26c9da21e506a3",
-          "md5": "12201aee493c0c9ec6fef9962d048e98"
+          "sha512": "fe332bc57c13f031350f120360bad30db59ad88afc21d5ccd164508a34a3ad23acc4b12f5103cdf0c23346f853f61fb60c47dfdb8da4e39b6a7e4a77ddc51b52",
+          "sha256": "9adc0a25f4a76349fb25951930f2f11c72eb43f2d8e74853533530c3b2d9be01",
+          "sha1": "2bd9840d13e94d3e96bed4fd658105bdec1f52b6",
+          "md5": "0e06e5751b4abc762e88a66044451bcd"
         }
       ]
     }

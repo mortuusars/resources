@@ -121,11 +121,11 @@
         {
           "name": "exposure_catalog-fabric-1.0.1-sources.jar",
           "url": "exposure_catalog-fabric-1.0.1-sources.jar",
-          "size": 73180,
-          "sha512": "057cb00b256726d628e451899c83866a036f14005f78b58bf1b32dabb35ed2995a86eed43832f4553530248e9e8abb7a9e75a97d62a176236450972b0f386707",
-          "sha256": "148c290873d0c1cd467a2e0e1074b4275371056c9e626a8dec801fcad38b68f8",
-          "sha1": "cc47b765058505231a77a3c3d7a2c5ffabbb87da",
-          "md5": "87c5947508c8426c100ce94ebb5fc5e1"
+          "size": 73188,
+          "sha512": "5b231b9f5a504c7ca59ac0cd90b67ce892bd318e7101806becf22c323726b6cb9536491730461eb7843ff3f8ff3a44af0b8dd8603cdc9f495fb0832f21c1a675",
+          "sha256": "0a8644589602cc1fd489c6330c3dbf3571f53348739d07a2e05e2076f50cacea",
+          "sha1": "77a34527119649f780f754a6940f30519c891d65",
+          "md5": "5c0b357a81ca0ab5ed23aa53cde65508"
         }
       ]
     }
