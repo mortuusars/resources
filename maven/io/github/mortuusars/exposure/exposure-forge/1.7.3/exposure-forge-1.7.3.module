@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.exposure",
+    "module": "exposure-forge",
+    "version": "1.7.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-common-api",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5072729"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge-api",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-forge",
+          "version": {
+            "requires": "2001.6.5-build.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-forge-1.7.3-forge.jar",
+          "url": "exposure-forge-1.7.3-forge.jar",
+          "size": 1304513,
+          "sha512": "f64b0adf04e5a962f61583047c1acd9869254dd8a0893c8b3ea5ff60d3a44e2a5dd82a22dd4d156a8ce0681a0ffe752b5ec49a145f39f02879997e873bf281fb",
+          "sha256": "bb8781bfcbc147a5ca874b5b412464d410fd704ec9432c89e62a194882ebcd7a",
+          "sha1": "f9df39e8c7bef949ac5b355502c2f3fa21f32aa6",
+          "md5": "f8dc551fb33b3fe5ae2978972e49eacf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge",
+          "version": {
+            "requires": "15.2.0.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5072729"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-forge-1.7.3-forge.jar",
+          "url": "exposure-forge-1.7.3-forge.jar",
+          "size": 1304513,
+          "sha512": "f64b0adf04e5a962f61583047c1acd9869254dd8a0893c8b3ea5ff60d3a44e2a5dd82a22dd4d156a8ce0681a0ffe752b5ec49a145f39f02879997e873bf281fb",
+          "sha256": "bb8781bfcbc147a5ca874b5b412464d410fd704ec9432c89e62a194882ebcd7a",
+          "sha1": "f9df39e8c7bef949ac5b355502c2f3fa21f32aa6",
+          "md5": "f8dc551fb33b3fe5ae2978972e49eacf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure-forge-1.7.3-sources.jar",
+          "url": "exposure-forge-1.7.3-sources.jar",
+          "size": 942051,
+          "sha512": "4e4669aaea07a2e644bea44e1fb34bcf4368c427c9bd4cbab391317c1bb7a33f98166a3b6b5a451952527b952af195e5f6b4053ce051db76c69810b5e4ba6643",
+          "sha256": "42e3355f7dd3393a9fa87e79fe39ade5538657d80e31153a77fca69cef535786",
+          "sha1": "a0e4be31fa663ca08c9cdacbe198e19f54fcce69",
+          "md5": "4a486cafce924c702e221a4a66487f0d"
+        }
+      ]
+    }
+  ]
+}
