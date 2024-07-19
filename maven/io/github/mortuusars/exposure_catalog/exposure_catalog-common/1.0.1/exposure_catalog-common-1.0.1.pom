@@ -8,7 +8,7 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.mortuusars.exposure_catalog</groupId>
-  <artifactId>exposure_catalog</artifactId>
+  <artifactId>exposure_catalog-common</artifactId>
   <version>1.0.1</version>
   <dependencies>
     <dependency>

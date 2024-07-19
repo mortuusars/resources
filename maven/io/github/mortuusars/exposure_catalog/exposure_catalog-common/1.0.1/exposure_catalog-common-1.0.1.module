@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "io.github.mortuusars.exposure_catalog",
-    "module": "exposure_catalog",
+    "module": "exposure_catalog-common",
     "version": "1.0.1",
     "attributes": {
       "org.gradle.status": "release"
@@ -25,8 +25,8 @@
       },
       "files": [
         {
-          "name": "exposure_catalog-1.0.1.jar",
-          "url": "exposure_catalog-1.0.1.jar",
+          "name": "exposure_catalog-common-1.0.1.jar",
+          "url": "exposure_catalog-common-1.0.1.jar",
           "size": 129006,
           "sha512": "74eed42072ec8a19e228b4da9c8452d4b8254c81975cc513373a48a86d9cae0f8f91c9e813710b32f2ff7d9b45d0cd64690ba46a5145539b03bed5260ed0acfb",
           "sha256": "c0a79b1f6fe5dc6a23ffbc4ad260184e1330b5a7447f67f52a98b2379f6bbea4",
@@ -55,8 +55,8 @@
       ],
       "files": [
         {
-          "name": "exposure_catalog-1.0.1.jar",
-          "url": "exposure_catalog-1.0.1.jar",
+          "name": "exposure_catalog-common-1.0.1.jar",
+          "url": "exposure_catalog-common-1.0.1.jar",
           "size": 129006,
           "sha512": "74eed42072ec8a19e228b4da9c8452d4b8254c81975cc513373a48a86d9cae0f8f91c9e813710b32f2ff7d9b45d0cd64690ba46a5145539b03bed5260ed0acfb",
           "sha256": "c0a79b1f6fe5dc6a23ffbc4ad260184e1330b5a7447f67f52a98b2379f6bbea4",
@@ -75,8 +75,8 @@
       },
       "files": [
         {
-          "name": "exposure_catalog-1.0.1-sources.jar",
-          "url": "exposure_catalog-1.0.1-sources.jar",
+          "name": "exposure_catalog-common-1.0.1-sources.jar",
+          "url": "exposure_catalog-common-1.0.1-sources.jar",
           "size": 64922,
           "sha512": "d502b64f7a36bab808cf6c5dfc03d90c00d6cb33cefde4a68ed3cf2083b4fa642e34055ed05770117079527a5686d819b88929f7cb61120dbf67eb9353accdfe",
           "sha256": "d77933817da1f35c2cc97f2f660542aa74bcbafb07a1d0795ff074beb5e4892d",
