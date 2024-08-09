@@ -120,10 +120,10 @@
           "name": "sootychimneys-fabric-1.3.0-sources.jar",
           "url": "sootychimneys-fabric-1.3.0-sources.jar",
           "size": 8670,
-          "sha512": "562b12a26c0c2b14ac0badd714fd981fc70297ab394eeb21a26b563749dd5b51649c332fc10ae3f6607fd8f112ab0efa782efb1c34005828e79e8ec7f6774503",
-          "sha256": "7b0d96e9be5d024fe3e964d69face4a8d4971856b35f96e38a95ed9773d15510",
-          "sha1": "b4caeb9026cfbc84283f0ec895c0771514538a77",
-          "md5": "955b03b1c27c4c24635953ab4422a839"
+          "sha512": "592d1a3886b2fbeb7905430238cf445515b483ff85d08971100e6aaa23739cb417a3bc6bfcbee4f3125f40919a138185e8bb9a3804ab76f095579c295c069f09",
+          "sha256": "95efd7280972cb97de1ea7d16ddbc572ecbb650a379dad036124b727910170ab",
+          "sha1": "f3eef43fef5c17b60e747092b8417d5530c56a46",
+          "md5": "ec540b9f9dbb9efecf9d7491c9288b65"
         }
       ]
     },
@@ -140,10 +140,10 @@
           "name": "sootychimneys-fabric-1.3.0-dev-shadow.jar",
           "url": "sootychimneys-fabric-1.3.0-dev-shadow.jar",
           "size": 162145,
-          "sha512": "850b839a83e80ee18d9fcf162b99f529af330df38ff4f78b5ac8ca7e21ff0aaa3d6cd60fe0e0761cb6e4cca08b67c47bf023fd8560a754f9bf81bb7cb68ddac0",
-          "sha256": "540a14b9a3c04f82431092f17cd7426e0c0fe2791b43bfe821c1b719b140218b",
-          "sha1": "5079117604d55c72eee927cedc37c32ca21f97d5",
-          "md5": "006a6e16c62000a6185e8f1370a0d3f4"
+          "sha512": "b659255f0768dabeea223caf4d29b6b1c1b1fcbe00757027b9c96a52714acfc9cfc165b38d5c57061bc42d1b060b3c84aeaec721166afb4871f76e64dc48f02a",
+          "sha256": "f38d9736b846192a73b005c2da6723fbc4167e58c54d346ce64532436cdd18e3",
+          "sha1": "0b96f2ac9013fd03b58786daefab874db290d1f3",
+          "md5": "33314c667608d17a4dfca8af443edeb7"
         }
       ]
     }

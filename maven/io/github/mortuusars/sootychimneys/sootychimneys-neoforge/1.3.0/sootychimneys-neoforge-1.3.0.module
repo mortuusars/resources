@@ -99,10 +99,10 @@
           "name": "sootychimneys-neoforge-1.3.0-sources.jar",
           "url": "sootychimneys-neoforge-1.3.0-sources.jar",
           "size": 9435,
-          "sha512": "4c79eb190e134905f111a6574eb13c42d7c77476bef8bb06fcad6ba880058f41bcab3d503bee8e3c4195891ae53faf12fd2d0427f0ac76e530ed77547a91d039",
-          "sha256": "654503eae592e5de808f0a5cd69825c91e5554dc1f6dc760034fb7954f883ad1",
-          "sha1": "8dfdcc6770694ede415a0c3da40226e177070775",
-          "md5": "99a42014e66075bf43cbeb8cbca5cc0c"
+          "sha512": "4690cd6abdeae42507bef0baef90fd59d2b59246ac367d6860a2c8e4f174794ea178d4bf07db6ad8547d13860bd586380e0022445edd63af216e5895922f5ff4",
+          "sha256": "0cb679306c7c3ce16a3b5974e4c2fbce556b0bacee6fbacbaec70a5b027936e2",
+          "sha1": "3962a91a9c80f344bfaee2dae9c92bf61c0a9bf5",
+          "md5": "c391d1e81b230547dfc73d29a49bcc4b"
         }
       ]
     },
@@ -119,10 +119,10 @@
           "name": "sootychimneys-neoforge-1.3.0-dev-shadow.jar",
           "url": "sootychimneys-neoforge-1.3.0-dev-shadow.jar",
           "size": 163666,
-          "sha512": "72dbfa61705458fb2b13129b36f4baa4e0a96a3b0970a23ac6cd85d202fc5995c45e1799d3286d7a4edf0360dd40083c44316307a1ec6937549495c3f46c634f",
-          "sha256": "959e4a0a64242690ad3c3772984a3b9d07915cdf8bec6863b4af3b45d853fb41",
-          "sha1": "cc4dd11da7803eb05aa184110cc0b44b53f97521",
-          "md5": "0dc824b814c2321e25267b5a7d04fa93"
+          "sha512": "cb755cebd0f1b04c9d6cc51b2b421b268fa14b34950c116a7135878ea674999a2b6aabb2d22acc477171dc2251d7b083bf64a682b137837a04378996a477860e",
+          "sha256": "70a2f8c54f764de958a5da6bfcb72ed52aa825af219fce22871346c6b7549fc0",
+          "sha1": "1c28fbd50c5396ee6fe0b52041c0449114401805",
+          "md5": "238c114e172a1aaa792c88d5b8ccd0a9"
         }
       ]
     }
