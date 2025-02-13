@@ -1,0 +1,191 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.exposure",
+    "module": "exposure-neoforge",
+    "version": "1.21.1-1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "rhino",
+          "version": {
+            "requires": "2101.2.6-build.66"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-neoforge",
+          "version": {
+            "requires": "2101.7.1-build.181"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-neoforge-1.21.1-1.8.0.jar",
+          "url": "exposure-neoforge-1.21.1-1.8.0.jar",
+          "size": 1720021,
+          "sha512": "ebdab10c13aee45f0103dc841445a975f12098481dca4dfedba01b3461cffe7a04ab3ccb6dae529e4e614e76099f8e0740421186bbcd23f314489b9cc91ac4fe",
+          "sha256": "c42149e9c67103943b5c7b8eb2336f149612081fea365dca3d3ea9741ddbfc69",
+          "sha1": "f3766ad515bf5791eb3d01c2e4713da9962962bf",
+          "md5": "49d401ea2a7ae1ff75fac9d3fdf06cd5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge",
+          "version": {
+            "requires": "19.19.0.220"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "yeetusexperimentus-635427",
+          "version": {
+            "requires": "5444189"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "embeddium-908741",
+          "version": {
+            "requires": "6118392"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-neoforge-1.21.1-1.8.0.jar",
+          "url": "exposure-neoforge-1.21.1-1.8.0.jar",
+          "size": 1720021,
+          "sha512": "ebdab10c13aee45f0103dc841445a975f12098481dca4dfedba01b3461cffe7a04ab3ccb6dae529e4e614e76099f8e0740421186bbcd23f314489b9cc91ac4fe",
+          "sha256": "c42149e9c67103943b5c7b8eb2336f149612081fea365dca3d3ea9741ddbfc69",
+          "sha1": "f3766ad515bf5791eb3d01c2e4713da9962962bf",
+          "md5": "49d401ea2a7ae1ff75fac9d3fdf06cd5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure-neoforge-1.21.1-1.8.0-sources.jar",
+          "url": "exposure-neoforge-1.21.1-1.8.0-sources.jar",
+          "size": 38699,
+          "sha512": "83e929563426f255be51ba0643f9c7d6f60c3adf72061409fb5bf1dc6585d09ebe8eb5eca533bf8c346e4602688facb92aaf6c9325edd0f2bab367d9b2b284be",
+          "sha256": "56b288038f221ea3e8c896be76c90c41503b657a40132bad09875880822597d9",
+          "sha1": "3e25a9c5ba72ec02aa9130df7b3c683f977f3007",
+          "md5": "75b209499149687996e69edf6b75dafa"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure-neoforge-1.21.1-1.8.0-dev-shadow.jar",
+          "url": "exposure-neoforge-1.21.1-1.8.0-dev-shadow.jar",
+          "size": 1687469,
+          "sha512": "2d33a03f73febcccffed9ea96b13d0fb4d93763c2bddaa49d47ab77230f13313ed9546c0b8078be2f8b2502b2caa2a250d3b0deb2c4d3547a9e3b99da8609f6d",
+          "sha256": "c811858f169e31d40e342e3fc18ec44eb047c51d66b0779a4873527d6078e2a0",
+          "sha1": "c348633d4903c6a2dd969f7af9a388af3b291880",
+          "md5": "61fbb834d1db7fbd4e387be94e908795"
+        }
+      ]
+    }
+  ]
+}
