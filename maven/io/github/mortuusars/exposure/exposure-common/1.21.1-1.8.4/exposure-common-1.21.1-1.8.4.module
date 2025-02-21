@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.exposure",
+    "module": "exposure-common",
+    "version": "1.21.1-1.8.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-common-1.21.1-1.8.4.jar",
+          "url": "exposure-common-1.21.1-1.8.4.jar",
+          "size": 1689001,
+          "sha512": "86ab58c013778bd139b2e16c830c2b7304500856a28ba45f001622f08285e755da060c8a428906a14150003a0ce2f273eb0c6c7bb33a280d01a8af4862b7aab5",
+          "sha256": "8c3836ab708a7650274eb04042f86483588de35e6debfa5bd96cb2ad63cabcae",
+          "sha1": "6f22fcea910eb7ddbc257a51bc502c9d1d4b831c",
+          "md5": "5a45d7a247671ae8dce327bd7842672a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-common-1.21.1-1.8.4.jar",
+          "url": "exposure-common-1.21.1-1.8.4.jar",
+          "size": 1689001,
+          "sha512": "86ab58c013778bd139b2e16c830c2b7304500856a28ba45f001622f08285e755da060c8a428906a14150003a0ce2f273eb0c6c7bb33a280d01a8af4862b7aab5",
+          "sha256": "8c3836ab708a7650274eb04042f86483588de35e6debfa5bd96cb2ad63cabcae",
+          "sha1": "6f22fcea910eb7ddbc257a51bc502c9d1d4b831c",
+          "md5": "5a45d7a247671ae8dce327bd7842672a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure-common-1.21.1-1.8.4-sources.jar",
+          "url": "exposure-common-1.21.1-1.8.4-sources.jar",
+          "size": 1144584,
+          "sha512": "8a4fd4cabe4c96c46c4bf2f4071901b45e9eaef0e41700a0de7f5d51a08fd5dd007ab2f1f4481f5356f68d4dceda38e814f045f62b86cf410781d6b7230d1159",
+          "sha256": "c6c442101c5fef3a536f6900641515182e9b351b71143b5ff5e5296531d27ac1",
+          "sha1": "ca1b8044c308ba1ff1cd2b0a479d7292b62042a0",
+          "md5": "0de7b9ed943ae9c322a38cf2f2ad5271"
+        }
+      ]
+    }
+  ]
+}
