@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.exposure",
+    "module": "exposure-fabric",
+    "version": "1.21.1-1.8.4-snapshot1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-fabric-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-fabric-1.21.1-1.8.4-snapshot1.jar",
+          "url": "exposure-fabric-1.21.1-1.8.4-snapshot1.jar",
+          "size": 1873256,
+          "sha512": "4292164df0547f0c212c73e1647a05183aef4980eedd292f053cd858e22762b282595c6e7c28892d50413db177b755732b834b08b0606b0165dadffe1d149f1d",
+          "sha256": "ff24e1dff25abed28fe84e201c2b92f64b9835a520fe450fac089e0f9b35fbc7",
+          "sha1": "8f3dd6dae2efc3bfef00857bfe468786d510fce8",
+          "md5": "5118947adf29cc769d20348d99d97f42"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.102.1+1.21.1"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-fabric",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-fabric-1.21.1-1.8.4-snapshot1.jar",
+          "url": "exposure-fabric-1.21.1-1.8.4-snapshot1.jar",
+          "size": 1873256,
+          "sha512": "4292164df0547f0c212c73e1647a05183aef4980eedd292f053cd858e22762b282595c6e7c28892d50413db177b755732b834b08b0606b0165dadffe1d149f1d",
+          "sha256": "ff24e1dff25abed28fe84e201c2b92f64b9835a520fe450fac089e0f9b35fbc7",
+          "sha1": "8f3dd6dae2efc3bfef00857bfe468786d510fce8",
+          "md5": "5118947adf29cc769d20348d99d97f42"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure-fabric-1.21.1-1.8.4-snapshot1-sources.jar",
+          "url": "exposure-fabric-1.21.1-1.8.4-snapshot1-sources.jar",
+          "size": 28385,
+          "sha512": "74d6ec3c740fb14f35cfc27dee2f36e7ab42acbb50ef6e2f1f6e84f638122358eec61e6f0dc5e90eea3eef69e20b4b89f2aa8236719d8dbdfd8def104fae442f",
+          "sha256": "c46cd02bc577a736200c6474a1b3cfeea66b2253ac3e87ff3a212f21c27b566f",
+          "sha1": "9dbec45881353adcd473dffc2e693a852b364362",
+          "md5": "c054299daa3ab1a584f23c80efbaf041"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure-fabric-1.21.1-1.8.4-snapshot1-dev-shadow.jar",
+          "url": "exposure-fabric-1.21.1-1.8.4-snapshot1-dev-shadow.jar",
+          "size": 1675613,
+          "sha512": "82ca26c43a366ce8c0de08fbb2d1b6820276e88d27d387e13719798c01ae9c3d85b00a392f3872b850d39583e6ae9d0f29ea108df8dd079fdeb11c0c6382e53b",
+          "sha256": "983fc9d98f342e05607a95a5035ea7bc726daaed564a4958e0a92e3d0ecde968",
+          "sha1": "5b4004323546c3112d12f853e3e59109880a1314",
+          "md5": "8d51c441705af3f40033f2c9212bca83"
+        }
+      ]
+    }
+  ]
+}
