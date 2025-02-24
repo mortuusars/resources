@@ -51,10 +51,10 @@
           "name": "exposure-common-1.21.1-1.8.5-snapshot.jar",
           "url": "exposure-common-1.21.1-1.8.5-snapshot.jar",
           "size": 1689127,
-          "sha512": "04fefab5da52ab5af87e1d66a9d80bdd5bdb9f22e09583f2ee96c4451b75e4565ebc6731dbd3b3822def4cec6cbbfd010b9515f55a0815bec63856a1bb7aa334",
-          "sha256": "a42f9f198265d81e3d2ea5ecde216b0fc39db3e9fd904e3b58c0f76cbee7920e",
-          "sha1": "3ea152879045ab015b0caf6cff10327941bf9451",
-          "md5": "b5e031076c3a514a6bfd4f6f70a33d31"
+          "sha512": "e987622812d14f0dac8a9ff66659886eca201516c7a6b8f0ff16bc0827c842050d993e80f584f2a8966aa2a7e8e7b1e91cf047766a90cbfbb3d92feba18e9325",
+          "sha256": "421b92de58008d8fa6fc24201f934b571a4d1525b86347763bd46ec3af62dc32",
+          "sha1": "8e16edfbac704834a69605096f3936a80fb21ca4",
+          "md5": "fa8d477dc9fa0e7201336eca77771b08"
         }
       ]
     },
@@ -88,10 +88,10 @@
           "name": "exposure-common-1.21.1-1.8.5-snapshot.jar",
           "url": "exposure-common-1.21.1-1.8.5-snapshot.jar",
           "size": 1689127,
-          "sha512": "04fefab5da52ab5af87e1d66a9d80bdd5bdb9f22e09583f2ee96c4451b75e4565ebc6731dbd3b3822def4cec6cbbfd010b9515f55a0815bec63856a1bb7aa334",
-          "sha256": "a42f9f198265d81e3d2ea5ecde216b0fc39db3e9fd904e3b58c0f76cbee7920e",
-          "sha1": "3ea152879045ab015b0caf6cff10327941bf9451",
-          "md5": "b5e031076c3a514a6bfd4f6f70a33d31"
+          "sha512": "e987622812d14f0dac8a9ff66659886eca201516c7a6b8f0ff16bc0827c842050d993e80f584f2a8966aa2a7e8e7b1e91cf047766a90cbfbb3d92feba18e9325",
+          "sha256": "421b92de58008d8fa6fc24201f934b571a4d1525b86347763bd46ec3af62dc32",
+          "sha1": "8e16edfbac704834a69605096f3936a80fb21ca4",
+          "md5": "fa8d477dc9fa0e7201336eca77771b08"
         }
       ]
     },
@@ -107,11 +107,11 @@
         {
           "name": "exposure-common-1.21.1-1.8.5-snapshot-sources.jar",
           "url": "exposure-common-1.21.1-1.8.5-snapshot-sources.jar",
-          "size": 1144611,
-          "sha512": "4a7249d362f23f2dd06d1faaaf8d75184409237a296618ca06a02971880246bd1dbbe2056c2d1ff31a01997a435d6d2d09cddee9c103349fb5b39fdca7d3fd4b",
-          "sha256": "0eb84044b89b3fd2a44db92a76eac97312ff8dbd8497313718548bebc9e3aaa9",
-          "sha1": "a161dcf4151ff3a0dc537e414cc56ac39bc33316",
-          "md5": "b136434005c9ef4994a599045d9b20cf"
+          "size": 1144603,
+          "sha512": "42238ec12752755ecbc36854ea25beb30f16ea7d52855da7b7e2f658b5a31ef855d2f10824f9d267f24d2a36ce29e7556830974f8d578cde9c818ad9528f4169",
+          "sha256": "db1ab142dffa0047cce04c6593f6a1bbad4c238b5cc964e61d6f915d31c3727c",
+          "sha1": "afe8002f62b032eb759f579721c9de64356ddaab",
+          "md5": "6a87aa7ad8b34b46f299820e27e919fc"
         }
       ]
     }

@@ -71,10 +71,10 @@
           "name": "exposure-neoforge-1.21.1-1.8.5-snapshot.jar",
           "url": "exposure-neoforge-1.21.1-1.8.5-snapshot.jar",
           "size": 1903149,
-          "sha512": "5c2772247ea4e5238973918d9375988759f4e3829e8318843166f355a3caec857720f6510964a51f8fd6c745167b9b2dd4c20d1d099438a64f44c9eb3e0041ee",
-          "sha256": "ccf26f7cbf58b9e04aa35ca03cefdfbddccd206a5370ca7b021e673efd68d3b5",
-          "sha1": "19d5fd607c6ec914aab26a57136e06b740a2efb3",
-          "md5": "4919967f7349bba4cf601fadc68fbf6a"
+          "sha512": "be8ee0dce7ce455d2584e9bc0e62ad389c0df703b535b36926c490f70a772660e0addcb61d170c5cce6035d897d4b2589bac9c2477b76ecd81d778d41c098c73",
+          "sha256": "961d3835d45e5edfeeb86436629c6260136f070bf1a1f0e09135429f76167596",
+          "sha1": "8b7f7994f386bbfbea5a8c507e3cafda871fd377",
+          "md5": "a40a232e4dc4e6dc45d4b9624105e974"
         }
       ]
     },
@@ -147,10 +147,10 @@
           "name": "exposure-neoforge-1.21.1-1.8.5-snapshot.jar",
           "url": "exposure-neoforge-1.21.1-1.8.5-snapshot.jar",
           "size": 1903149,
-          "sha512": "5c2772247ea4e5238973918d9375988759f4e3829e8318843166f355a3caec857720f6510964a51f8fd6c745167b9b2dd4c20d1d099438a64f44c9eb3e0041ee",
-          "sha256": "ccf26f7cbf58b9e04aa35ca03cefdfbddccd206a5370ca7b021e673efd68d3b5",
-          "sha1": "19d5fd607c6ec914aab26a57136e06b740a2efb3",
-          "md5": "4919967f7349bba4cf601fadc68fbf6a"
+          "sha512": "be8ee0dce7ce455d2584e9bc0e62ad389c0df703b535b36926c490f70a772660e0addcb61d170c5cce6035d897d4b2589bac9c2477b76ecd81d778d41c098c73",
+          "sha256": "961d3835d45e5edfeeb86436629c6260136f070bf1a1f0e09135429f76167596",
+          "sha1": "8b7f7994f386bbfbea5a8c507e3cafda871fd377",
+          "md5": "a40a232e4dc4e6dc45d4b9624105e974"
         }
       ]
     },
@@ -167,10 +167,10 @@
           "name": "exposure-neoforge-1.21.1-1.8.5-snapshot-sources.jar",
           "url": "exposure-neoforge-1.21.1-1.8.5-snapshot-sources.jar",
           "size": 38702,
-          "sha512": "edd987a8831d69361acc2deebb0b030c15a94b67145a037b75b8eefbf0ebd7cc68a22e56e491bc6af9655d15aaa89c15cc3dbdf7b38e43be842c5e7acfcc7c92",
-          "sha256": "33df9513395b1d8a3d8773e668c72aceceec4327a0631fc6b3946116933e5e54",
-          "sha1": "375d2e230a259f255d8339646768df5b0fe301e9",
-          "md5": "e22945b0a5c03b67fd7879958660f13b"
+          "sha512": "e3f2acf9f2eba114c64a8264d1302b1a8c721631c68755c12ed6632d8399481b29637b1db737fd87c36dd735f327f3cd5b851411ea05b88ba6d72740f791f0f0",
+          "sha256": "cb3aa0ce20ffbeaccb96ef823adf15a4ba8a1477c078df928d379d47c088f362",
+          "sha1": "b8fd1361bb3e5d4def059a70966e70bf880240d9",
+          "md5": "7252d3a1e151caadcf5aa1ce89865624"
         }
       ]
     },
@@ -186,11 +186,11 @@
         {
           "name": "exposure-neoforge-1.21.1-1.8.5-snapshot-dev-shadow.jar",
           "url": "exposure-neoforge-1.21.1-1.8.5-snapshot-dev-shadow.jar",
-          "size": 1689981,
-          "sha512": "10a6a9835f5f09cf26180fa715bcfe1430fc9ba7ca47d8ee524e93ce1bc0593760f5b7b168637d9eaf409e85772656b086cff5a24e6f9f7ed278f83b65904a42",
-          "sha256": "af0d9cdc1e750d8c5e3c12741b83db76d38109acfa5d20d235a6416978f3f781",
-          "sha1": "02ab12ac5ceab3c15968554a0307b2e9acc6b3af",
-          "md5": "65d70394d734ba5db2a06df378e7c11e"
+          "size": 1689984,
+          "sha512": "a2c0ec8ed1e088069f74c49175137f4932566aaaab4a5c44d4e4fca77d06b83fb9384cec4e67323918c241d2de31dfb76a3cdacd4cfdc5b419153cccdb6a40df",
+          "sha256": "4a3397f3da94f61c10f2df7e9fe52359467aed6bb9765188bce1c1c16b30340a",
+          "sha1": "63489874f72b4bd34e1d5286bb040f23409a311b",
+          "md5": "8ba754f0f80536c5bca093faffe990b3"
         }
       ]
     }

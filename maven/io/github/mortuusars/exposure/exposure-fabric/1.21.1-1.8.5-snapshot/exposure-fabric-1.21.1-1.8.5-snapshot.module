@@ -51,10 +51,10 @@
           "name": "exposure-fabric-1.21.1-1.8.5-snapshot.jar",
           "url": "exposure-fabric-1.21.1-1.8.5-snapshot.jar",
           "size": 1873671,
-          "sha512": "91a033c24a90823fa6f5ce1140058ad4706311e1423e09ab34c4ce84a238aba09284cd5daf361db53421bf70a638f8e8d1c69a4b937232becd68bc3a8a53f044",
-          "sha256": "d506b80914753ee92bc81efa2a9c20f69c626cf089e1aa315d041dc87f8060db",
-          "sha1": "95fef15c914a0a0cd98f1f504e1b968ecbbdc059",
-          "md5": "409bdb4d28e1bfe1ab26e609717955bb"
+          "sha512": "d0daa30893ee3f483c21e6fe54aba2d1f00c2afb575b344bc6d95611f0950812f85f0de804a6e1ec29af5a9a3ff02e8c894aa553cc3819127b60883f6b61f5fb",
+          "sha256": "8ecb7dbfa6e217034335332196554ab79c6efee841d8b371ed7d7ccd8650cdd1",
+          "sha1": "1a610698868474ac0fd4f5ee077fab1055f9f71f",
+          "md5": "46100619acca348c0e803a02d08c1c10"
         }
       ]
     },
@@ -109,10 +109,10 @@
           "name": "exposure-fabric-1.21.1-1.8.5-snapshot.jar",
           "url": "exposure-fabric-1.21.1-1.8.5-snapshot.jar",
           "size": 1873671,
-          "sha512": "91a033c24a90823fa6f5ce1140058ad4706311e1423e09ab34c4ce84a238aba09284cd5daf361db53421bf70a638f8e8d1c69a4b937232becd68bc3a8a53f044",
-          "sha256": "d506b80914753ee92bc81efa2a9c20f69c626cf089e1aa315d041dc87f8060db",
-          "sha1": "95fef15c914a0a0cd98f1f504e1b968ecbbdc059",
-          "md5": "409bdb4d28e1bfe1ab26e609717955bb"
+          "sha512": "d0daa30893ee3f483c21e6fe54aba2d1f00c2afb575b344bc6d95611f0950812f85f0de804a6e1ec29af5a9a3ff02e8c894aa553cc3819127b60883f6b61f5fb",
+          "sha256": "8ecb7dbfa6e217034335332196554ab79c6efee841d8b371ed7d7ccd8650cdd1",
+          "sha1": "1a610698868474ac0fd4f5ee077fab1055f9f71f",
+          "md5": "46100619acca348c0e803a02d08c1c10"
         }
       ]
     },
@@ -129,10 +129,10 @@
           "name": "exposure-fabric-1.21.1-1.8.5-snapshot-sources.jar",
           "url": "exposure-fabric-1.21.1-1.8.5-snapshot-sources.jar",
           "size": 28385,
-          "sha512": "144600783528600347606d84e716a68e2685cc9eea3125d421d44972d149bdeef9e58e6462e518bffeede5b170342067e7e49a2c845a98ec44766d45da06f8e7",
-          "sha256": "c21df91fa75bf3a693be2f7cb4b0802684c5753554c8af8eda45884f1ccdfe1e",
-          "sha1": "26147284eee9aa4b42ef010e826f46a7f7bb6880",
-          "md5": "110307cf7d690f180c97ce2959cbc0c1"
+          "sha512": "63582388c7740ba11c1e1b2ed29e46530b51a448fc70e3c07c2d86f23fe6c6dd0bea5d8a0423f6a0368ff90b1dc283816414ee03778c56403b33d56d3696fea6",
+          "sha256": "cd9b0822bbfb37832817267163029d071035bacc2b68d5eb825abd01a8d6f7f6",
+          "sha1": "f2894fda8fde2419abec5da00fbcae63a85b8f88",
+          "md5": "182d6ff1e887f305dba496bbc5d7ab5f"
         }
       ]
     },
@@ -148,11 +148,11 @@
         {
           "name": "exposure-fabric-1.21.1-1.8.5-snapshot-dev-shadow.jar",
           "url": "exposure-fabric-1.21.1-1.8.5-snapshot-dev-shadow.jar",
-          "size": 1676037,
-          "sha512": "52cdff97b571781adbf5e0706126acdc942c5e7cb08495d65ac2fd172b6aca4de52171d8bae5e7a4b8e509cbd9aaa8f7c5d07cd7a3bfad044d5585fec906d2bf",
-          "sha256": "fe8af0f9389b47381c88315cda1f65949dbeddc7ac69f4500d51af99e24e101a",
-          "sha1": "8a6456a43a20b10d84fe72bf1c8ec1f937358ba2",
-          "md5": "d3c90fa7be806f69f071bd2cb267d0e5"
+          "size": 1676040,
+          "sha512": "88c72ed794278de6c40f9673abf785bcc7f966f2937d447691adc28c46c81e7dbfe173c2dc38cf9424ec22dd588b2f5c6dd33d367f9a16b10cc358ade229ea49",
+          "sha256": "8f347b45d079162a8c7d6463424a7951c1d92164cc5bb155115afb0b04b6002d",
+          "sha1": "18344c229203ce7e7c22943ea97d1ce832745a9d",
+          "md5": "c5c6ce10ac20f8b74127ced89a8372b5"
         }
       ]
     }
