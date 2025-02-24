@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.github.mortuusars.exposure</groupId>
+  <artifactId>exposure-common</artifactId>
+  <versioning>
+    <lastUpdated>20250224030908</lastUpdated>
+    <snapshot>
+      <timestamp>20250224.030908</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.21.1-1.8.5-snapshot</value>
+        <updated>20250224030908</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.21.1-1.8.5-snapshot</value>
+        <updated>20250224030908</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.21.1-1.8.5-snapshot</value>
+        <updated>20250224030908</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.21.1-1.8.5-snapshot</value>
+        <updated>20250224030908</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.21.1-1.8.5-snapshot</version>
+</metadata>

@@ -3,7 +3,7 @@
   <groupId>io.github.mortuusars.exposure</groupId>
   <artifactId>exposure-common</artifactId>
   <versioning>
-    <latest>1.21.1-1.8.4</latest>
+    <latest>1.21.1-1.8.5-snapshot</latest>
     <release>1.21.1-1.8.4</release>
     <versions>
       <version>1.7.3</version>
@@ -20,7 +20,8 @@
       <version>1.21.1-1.8.4-snapshot</version>
       <version>1.21.1-1.8.4-snapshot1</version>
       <version>1.21.1-1.8.4</version>
+      <version>1.21.1-1.8.5-snapshot</version>
     </versions>
-    <lastUpdated>20250221175900</lastUpdated>
+    <lastUpdated>20250224030940</lastUpdated>
   </versioning>
 </metadata>
