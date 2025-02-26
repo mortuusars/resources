@@ -1,0 +1,198 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.exposure",
+    "module": "exposure-neoforge",
+    "version": "1.21.1-1.8.5-snapshot3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "rhino",
+          "version": {
+            "requires": "2101.2.6-build.66"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-neoforge",
+          "version": {
+            "requires": "2101.7.1-build.181"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-neoforge-1.21.1-1.8.5-snapshot3.jar",
+          "url": "exposure-neoforge-1.21.1-1.8.5-snapshot3.jar",
+          "size": 1917844,
+          "sha512": "7809fa7b45e87cd0b8549e7f4f6608c13c7fb7e4d57fb9fc9bc8579fab40040e65dbd73236b8a37d9421eaadafdca8611ccb2e53ba9ab88db44de6f70029594c",
+          "sha256": "86336e40eb87c25994b0371a7837ceb97c89c64b58a4d05762851fb5c51e20d8",
+          "sha1": "764d11d766aa0ddc5db91c625ce05cc36a78280d",
+          "md5": "61fcd386135253bdf63e1d24806cc675"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge",
+          "version": {
+            "requires": "19.19.0.220"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "yeetusexperimentus-635427",
+          "version": {
+            "requires": "5444189"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "embeddium-908741",
+          "version": {
+            "requires": "6118392"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure-neoforge-1.21.1-1.8.5-snapshot3.jar",
+          "url": "exposure-neoforge-1.21.1-1.8.5-snapshot3.jar",
+          "size": 1917844,
+          "sha512": "7809fa7b45e87cd0b8549e7f4f6608c13c7fb7e4d57fb9fc9bc8579fab40040e65dbd73236b8a37d9421eaadafdca8611ccb2e53ba9ab88db44de6f70029594c",
+          "sha256": "86336e40eb87c25994b0371a7837ceb97c89c64b58a4d05762851fb5c51e20d8",
+          "sha1": "764d11d766aa0ddc5db91c625ce05cc36a78280d",
+          "md5": "61fcd386135253bdf63e1d24806cc675"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure-neoforge-1.21.1-1.8.5-snapshot3-sources.jar",
+          "url": "exposure-neoforge-1.21.1-1.8.5-snapshot3-sources.jar",
+          "size": 36413,
+          "sha512": "7318faed9ecc47a38c70814817a6cdc31e2ef7725eb21288178e62c161b905b0fb8a327e6468f9b4f868c89924bb7bfe84ff260a976f71f96b5bb501997af2ae",
+          "sha256": "94639f75aac12cbda5c61d74f3343101b079227aff606541466ae9130a053348",
+          "sha1": "6ff6b0b3718dc324683f531e13409acb4acc955b",
+          "md5": "2dfb9437dcc189e60c2617784ec561f2"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure-neoforge-1.21.1-1.8.5-snapshot3-dev-shadow.jar",
+          "url": "exposure-neoforge-1.21.1-1.8.5-snapshot3-dev-shadow.jar",
+          "size": 1704522,
+          "sha512": "a8c52d5fd30519cbd9668d9e0bf936f449a636f85faacef75bf6d8cc975b37578b95ca9091d01c6e170c611717a128f779f9e8cd88068376715c852a4cada57f",
+          "sha256": "c9e3f7308c6b6826fb26207e7c412f8f9f00532c2f15b38e83ac2c15459dfd4d",
+          "sha1": "a7ff7c463866d9793261b2537c085e987d3e2dde",
+          "md5": "bd832e23b1b5fec10fc08c15f7658bb0"
+        }
+      ]
+    }
+  ]
+}
