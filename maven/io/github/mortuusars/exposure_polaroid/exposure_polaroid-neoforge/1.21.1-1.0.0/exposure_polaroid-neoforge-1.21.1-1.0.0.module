@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.exposure_polaroid",
+    "module": "exposure_polaroid-neoforge",
+    "version": "1.21.1-1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "exposure_polaroid-neoforge-1.21.1-1.0.0.jar",
+          "url": "exposure_polaroid-neoforge-1.21.1-1.0.0.jar",
+          "size": 342359,
+          "sha512": "fb51dfb9359d724938746c34a1d98300b8f0b3f5f4f056bd7552283abd2049da3b660ae063f39df4b59d86a3f6a855816dfd7d3d366196b42a9d2dcd87607f12",
+          "sha256": "e8860fd899b56137bea82928eb925f32c212f390623dd266e52703ae8d2a054b",
+          "sha1": "3692cf3be855ee6329f809e95f77169ec3510451",
+          "md5": "a107750b42984041831fb72c52827a64"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.exposure",
+          "module": "exposure-neoforge",
+          "version": {
+            "requires": "1.21.1-1.8.5"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge",
+          "version": {
+            "requires": "19.19.0.220"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.mortuusars.exposure_catalog",
+          "module": "exposure_catalog-neoforge",
+          "version": {
+            "requires": "1.21.1-1.1.1-snapshot1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure_polaroid-neoforge-1.21.1-1.0.0.jar",
+          "url": "exposure_polaroid-neoforge-1.21.1-1.0.0.jar",
+          "size": 342359,
+          "sha512": "fb51dfb9359d724938746c34a1d98300b8f0b3f5f4f056bd7552283abd2049da3b660ae063f39df4b59d86a3f6a855816dfd7d3d366196b42a9d2dcd87607f12",
+          "sha256": "e8860fd899b56137bea82928eb925f32c212f390623dd266e52703ae8d2a054b",
+          "sha1": "3692cf3be855ee6329f809e95f77169ec3510451",
+          "md5": "a107750b42984041831fb72c52827a64"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure_polaroid-neoforge-1.21.1-1.0.0-sources.jar",
+          "url": "exposure_polaroid-neoforge-1.21.1-1.0.0-sources.jar",
+          "size": 9760,
+          "sha512": "ec0889b72ffe3349ceaa1b920a25fe15a41b7148b1bf0a75233de1a8dacd99a5a0a347052324e2ef951b52bb31d6b8290111e731b5da51fa12b8fcd6acb27adf",
+          "sha256": "d641a03a7d473b120736918d97d5a55581d88579795ffe3864744485bcd3c04a",
+          "sha1": "0b0089e4e78fec468ffe83971e0f20df8f283fe6",
+          "md5": "c4880057f0f4c0bb80cdec35f829a95b"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure_polaroid-neoforge-1.21.1-1.0.0-dev-shadow.jar",
+          "url": "exposure_polaroid-neoforge-1.21.1-1.0.0-dev-shadow.jar",
+          "size": 157841,
+          "sha512": "20720a187232cd35ded89f10b9c10f6c0337315e2574d5d1d0e720331b5402b74f7715ae368c753df45a445763d12274ce30fe0cdea8d979c39d42cc7e64f0a3",
+          "sha256": "c8144a2b7e586addbafd78ae2bc5bb13f6bf3f456c553da1cf491af5c9ad516c",
+          "sha1": "79faa540ac149b8c245d63c3b66f9cab0daf4de6",
+          "md5": "e2c56aff313c6c80b0fc77928685cb80"
+        }
+      ]
+    }
+  ]
+}
