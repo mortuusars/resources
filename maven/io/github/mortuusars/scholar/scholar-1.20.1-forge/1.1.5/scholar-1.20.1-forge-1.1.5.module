@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.scholar",
+    "module": "scholar-1.20.1-forge",
+    "version": "1.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-common-api",
+          "version": {
+            "requires": "15.2.0.22"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge-api",
+          "version": {
+            "requires": "15.2.0.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-1.20.1-forge-1.1.5-forge.jar",
+          "url": "scholar-1.20.1-forge-1.1.5-forge.jar",
+          "size": 680182,
+          "sha512": "d033556f73f445dc66b86655d7b7c4f1a56e78ab2e5a963ac774eabcb05b6cbdfbcb02723280c4181d9872ac8f2d0958fa6a344829438964438720725471edd9",
+          "sha256": "08c26d508fb1b0875daffdc7f7d48972f07ba4112b047809bd2ec6e33d922e63",
+          "sha1": "8c524282e96b54c0596c35ff579ad55948bdd4c1",
+          "md5": "fa72217e3ee75eabde243fa262ab81ff"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "blueprint",
+          "version": {
+            "requires": "z4m8zvm5"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "woodworks",
+          "version": {
+            "requires": "236Amnif"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge",
+          "version": {
+            "requires": "15.2.0.22"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "embeddium",
+          "version": {
+            "requires": "0.3.31+mc1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-1.20.1-forge-1.1.5-forge.jar",
+          "url": "scholar-1.20.1-forge-1.1.5-forge.jar",
+          "size": 680182,
+          "sha512": "d033556f73f445dc66b86655d7b7c4f1a56e78ab2e5a963ac774eabcb05b6cbdfbcb02723280c4181d9872ac8f2d0958fa6a344829438964438720725471edd9",
+          "sha256": "08c26d508fb1b0875daffdc7f7d48972f07ba4112b047809bd2ec6e33d922e63",
+          "sha1": "8c524282e96b54c0596c35ff579ad55948bdd4c1",
+          "md5": "fa72217e3ee75eabde243fa262ab81ff"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-1.20.1-forge-1.1.5-sources.jar",
+          "url": "scholar-1.20.1-forge-1.1.5-sources.jar",
+          "size": 402675,
+          "sha512": "2a2664bfe7f49f14e1319186c9f0f1f0473b2208cd56e77cde987252dd05e4a964d91512d0c0ad8a58c136df32e1033f1e1f2ed5c2c1b54b526e1a55380734ea",
+          "sha256": "94db8286e5cab6079ccac160dafff1c715cfc72e6a14026ce15ee5e2272de221",
+          "sha1": "357f7f23913970b042de465a7fcec92a1357e95d",
+          "md5": "609983cd48671873d75480acd3963b9c"
+        }
+      ]
+    }
+  ]
+}
