@@ -3,14 +3,15 @@
   <groupId>io.github.mortuusars.exposure</groupId>
   <artifactId>exposure-1.21.1-common</artifactId>
   <versioning>
-    <latest>1.9.0-snapshot1</latest>
-    <release>1.9.0-snapshot1</release>
+    <latest>1.9.0-snapshot2</latest>
+    <release>1.9.0-snapshot2</release>
     <versions>
       <version>1.8.10</version>
       <version>1.8.11</version>
       <version>1.9.0-snapshot</version>
       <version>1.9.0-snapshot1</version>
+      <version>1.9.0-snapshot2</version>
     </versions>
-    <lastUpdated>20250404033226</lastUpdated>
+    <lastUpdated>20250404151638</lastUpdated>
   </versioning>
 </metadata>
