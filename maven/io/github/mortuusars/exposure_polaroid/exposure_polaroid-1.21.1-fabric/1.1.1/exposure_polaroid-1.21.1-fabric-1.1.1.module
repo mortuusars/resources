@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.exposure_polaroid",
+    "module": "exposure_polaroid-1.21.1-fabric",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.102.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure_polaroid-1.21.1-fabric-1.1.1.jar",
+          "url": "exposure_polaroid-1.21.1-fabric-1.1.1.jar",
+          "size": 176789,
+          "sha512": "efef61846dd10e4fe10e9847e5c64dec5dac78dff842b500a5ac77bae3ec3763e589263fc6911d97d7d3cbaf42d85219e1b8a32bf2be5acbe56f5ca8d2b91ae2",
+          "sha256": "81b32847bba726c909f4e71c4b47117a8195185a32430a06daf557f8c1cefb8d",
+          "sha1": "cab22fae41efaab18e32fd08ea3b45d954af999a",
+          "md5": "c8589f3a663d07f7e77be58975c437f0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.102.1+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.exposure",
+          "module": "exposure-1.21.1-fabric",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-fabric",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.exposure_catalog",
+          "module": "exposure_catalog-fabric",
+          "version": {
+            "requires": "1.21.1-1.1.1-snapshot1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure_polaroid-1.21.1-fabric-1.1.1.jar",
+          "url": "exposure_polaroid-1.21.1-fabric-1.1.1.jar",
+          "size": 176789,
+          "sha512": "efef61846dd10e4fe10e9847e5c64dec5dac78dff842b500a5ac77bae3ec3763e589263fc6911d97d7d3cbaf42d85219e1b8a32bf2be5acbe56f5ca8d2b91ae2",
+          "sha256": "81b32847bba726c909f4e71c4b47117a8195185a32430a06daf557f8c1cefb8d",
+          "sha1": "cab22fae41efaab18e32fd08ea3b45d954af999a",
+          "md5": "c8589f3a663d07f7e77be58975c437f0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure_polaroid-1.21.1-fabric-1.1.1-sources.jar",
+          "url": "exposure_polaroid-1.21.1-fabric-1.1.1-sources.jar",
+          "size": 10487,
+          "sha512": "01e1b70a73b65db2c337c437801d22a7707f17fce3a99ae7a17d3c989f1bfcc521f665c71315dc7afdea060667e6ff9a33c2938ed53e72907feef50607d87e5e",
+          "sha256": "9ea9128ed6cee928539b2f9bff4798548638251deca9044a800a50fc5d6ee501",
+          "sha1": "53e85ff96fc47b28e31c6589023eb09260c880a8",
+          "md5": "4a7da713d0e3a301919549fbe82f8cf0"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure_polaroid-1.21.1-fabric-1.1.1-dev-shadow.jar",
+          "url": "exposure_polaroid-1.21.1-fabric-1.1.1-dev-shadow.jar",
+          "size": 174001,
+          "sha512": "5a765331cf79ab7155c87490484f3301520cb8383553a264c04f07b0a4a2c8d3fdbca9952a2b2299bee471c0dd12a89e56755e443f0ef0ae6ea344948ea3f161",
+          "sha256": "0b23d7131e90fc5c39bf65ed3876d67eede6dc31c393fa668776611d36b01442",
+          "sha1": "36cb3f058412e9f65f0a3b2df78d359f6f5ba248",
+          "md5": "b3687c7ec4a0a4fe1ef15ee9f10641dd"
+        }
+      ]
+    }
+  ]
+}
