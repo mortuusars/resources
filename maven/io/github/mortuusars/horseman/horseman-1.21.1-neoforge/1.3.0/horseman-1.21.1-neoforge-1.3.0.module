@@ -134,10 +134,10 @@
           "name": "horseman-1.21.1-neoforge-1.3.0-sources.jar",
           "url": "horseman-1.21.1-neoforge-1.3.0-sources.jar",
           "size": 13732,
-          "sha512": "b32c31cc62d47b499ac38ce5c939907be63412fcfe875b43cbd07b72b4f3a2ec8491a256798c8dc6cf85b52d6f0699d45c14bced89c51936bd3b3d4cf7aa944a",
-          "sha256": "84884aab695624274ea432f1d81f33b813939da882cf4cb6885d5b85be71ae12",
-          "sha1": "fd9eddc9adbd6525afce96ec845adc78b2adae05",
-          "md5": "32737765e6594eb8e5a9a56b7fafc8bf"
+          "sha512": "2f8e67c364af2c4a45e8b42738cb276b027319cefe6bfe3dfde9f7630e847fbb64d37cb7e3cbcbe35e293b10a45032c40a991f23d303ddfd5bbadb08feb24660",
+          "sha256": "5c358256e093c959ba910e73cab0f3f6118302c48cc7d5bce3ad5ec38d235fd2",
+          "sha1": "75f9bb66fb44aea8f206dde779a6740d099a59fe",
+          "md5": "eeac0ce53a2f7ba4cb4eaca65033942d"
         }
       ]
     },

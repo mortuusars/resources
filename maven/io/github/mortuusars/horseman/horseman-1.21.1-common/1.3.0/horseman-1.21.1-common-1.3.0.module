@@ -51,10 +51,10 @@
           "name": "horseman-1.21.1-common-1.3.0.jar",
           "url": "horseman-1.21.1-common-1.3.0.jar",
           "size": 116524,
-          "sha512": "6d84140b9eb8482acb09778efc2d8342ddd74d283ef54182ed43b035f051d0d56e0b8101255d9c31755987025244abfce64172d695e10196795599abbebd051a",
-          "sha256": "4f307792c2c54697ff19f11f809689c5e13e834e3cd3c7e5c10654d38c718e02",
-          "sha1": "06de1ea0918ef06393a12ac90f02ac8f316dc09c",
-          "md5": "2bdb7070d83b14ae3e306c34ff7e86e6"
+          "sha512": "625a11c527bbbf5660342929d3885d2bad0a7154af4b6ddedf5b1988095669aac1fec57b386ba8e8bf5e4747e2e7fe4d4e8814f40b25f04bf4d61ae207b4c0ad",
+          "sha256": "13d458cf6bebd64b232b19241d63db3d1a1ca17bbd63d26ae6ec033cc3f50587",
+          "sha1": "a4f1407a4d57b8c8d9e9c6ec90361ad885025122",
+          "md5": "a144bf9882c4f3ac2e513d8269ee5887"
         }
       ]
     },
@@ -88,10 +88,10 @@
           "name": "horseman-1.21.1-common-1.3.0.jar",
           "url": "horseman-1.21.1-common-1.3.0.jar",
           "size": 116524,
-          "sha512": "6d84140b9eb8482acb09778efc2d8342ddd74d283ef54182ed43b035f051d0d56e0b8101255d9c31755987025244abfce64172d695e10196795599abbebd051a",
-          "sha256": "4f307792c2c54697ff19f11f809689c5e13e834e3cd3c7e5c10654d38c718e02",
-          "sha1": "06de1ea0918ef06393a12ac90f02ac8f316dc09c",
-          "md5": "2bdb7070d83b14ae3e306c34ff7e86e6"
+          "sha512": "625a11c527bbbf5660342929d3885d2bad0a7154af4b6ddedf5b1988095669aac1fec57b386ba8e8bf5e4747e2e7fe4d4e8814f40b25f04bf4d61ae207b4c0ad",
+          "sha256": "13d458cf6bebd64b232b19241d63db3d1a1ca17bbd63d26ae6ec033cc3f50587",
+          "sha1": "a4f1407a4d57b8c8d9e9c6ec90361ad885025122",
+          "md5": "a144bf9882c4f3ac2e513d8269ee5887"
         }
       ]
     },
@@ -108,10 +108,10 @@
           "name": "horseman-1.21.1-common-1.3.0-sources.jar",
           "url": "horseman-1.21.1-common-1.3.0-sources.jar",
           "size": 69070,
-          "sha512": "235fd694fa6d12d5286a6f2e670ac138508c6cf02b89723ff75ba004434a0134e8e6e39ac56d84c220b97126bcd70cb6a8f679cfeab889f3d2ad01fe445ad828",
-          "sha256": "866b9b1f5c5c3d499524ad9d148a6f59f27cf91f270c230556990ca359efe1e3",
-          "sha1": "ad763e2dbef19970be54a65fa0fb3ed465ed80c2",
-          "md5": "9a874ba6b86a54edc2e35fa6f66486e8"
+          "sha512": "2db3a25fd808e0a7dd98717309adf77319fcd09fbf67177ac1550101483a674b1f37f75cd564af600ecf59011532a5acd541e951a037becd417b13afa0c77d10",
+          "sha256": "6289fd30b42a14d8e0f018c69ce59ee5f8c543bdcb8b67bbb6323424ac29776a",
+          "sha1": "12b3cc82376af55b2654a30df9c53c2c578265e8",
+          "md5": "240be02c8d6f811db5afa4f654ad6c65"
         }
       ]
     }
