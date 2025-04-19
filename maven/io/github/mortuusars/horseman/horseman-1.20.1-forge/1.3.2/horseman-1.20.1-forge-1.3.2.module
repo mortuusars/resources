@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.horseman",
+    "module": "horseman-1.20.1-forge",
+    "version": "1.3.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-common-api",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5072729"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge-api",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-forge",
+          "version": {
+            "requires": "2001.6.5-build.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "horseman-1.20.1-forge-1.3.2-forge.jar",
+          "url": "horseman-1.20.1-forge-1.3.2-forge.jar",
+          "size": 333200,
+          "sha512": "eb9ab130690d5e28f558e9d092ef2dd6fcc15b636168650a28d38373e84eb6e7a87e4c7d8b2d2782e2f8f91a5198bad5a6d6462ad27de9c126ba5a6b687c9dc7",
+          "sha256": "759315b261ec49403baf3ee43d56889f8a439e575757def94a0c18db6f3a1830",
+          "sha1": "9830312802a7009ff0335a3cb61cbc0f92325e76",
+          "md5": "b4d83f124021c19fd18614803730b93c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge",
+          "version": {
+            "requires": "15.2.0.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5072729"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "horseman-1.20.1-forge-1.3.2-forge.jar",
+          "url": "horseman-1.20.1-forge-1.3.2-forge.jar",
+          "size": 333200,
+          "sha512": "eb9ab130690d5e28f558e9d092ef2dd6fcc15b636168650a28d38373e84eb6e7a87e4c7d8b2d2782e2f8f91a5198bad5a6d6462ad27de9c126ba5a6b687c9dc7",
+          "sha256": "759315b261ec49403baf3ee43d56889f8a439e575757def94a0c18db6f3a1830",
+          "sha1": "9830312802a7009ff0335a3cb61cbc0f92325e76",
+          "md5": "b4d83f124021c19fd18614803730b93c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "horseman-1.20.1-forge-1.3.2-sources.jar",
+          "url": "horseman-1.20.1-forge-1.3.2-sources.jar",
+          "size": 89271,
+          "sha512": "5d695b22c6c1c6af73e189f13f72498733346f25e02371bb26bfed2af29ad5456a3cff4891c4ffeaf1165d9102063fbc1af5a543bcef5bf01e93570dca1f1c67",
+          "sha256": "0a6c25d63e159da412c5802cd9ff74b885d8c078ea3ec415eae2a984940081fa",
+          "sha1": "0bd538f1f4dc4322c2adcadfbbfa96ea63440744",
+          "md5": "9b13ba9ac37013b030b4d440638e9fe7"
+        }
+      ]
+    }
+  ]
+}
