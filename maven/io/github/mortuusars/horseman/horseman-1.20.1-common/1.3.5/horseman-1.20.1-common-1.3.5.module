@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.horseman",
+    "module": "horseman-1.20.1-common",
+    "version": "1.3.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-common-api",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5072729"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs",
+          "version": {
+            "requires": "2001.6.5-build.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "horseman-1.20.1-common-1.3.5.jar",
+          "url": "horseman-1.20.1-common-1.3.5.jar",
+          "size": 121330,
+          "sha512": "20ddb100372a9899ee19e5467771592927ad3f23a7e6e938334033a36f84a0eb46c6ec7884c203fc2a643be4f91d0d86a776335078ae173b452bece4b154375b",
+          "sha256": "9439abfe013c69ecd07e098727f4b9a4828be0beaa37cd9e8cd08c0b4cc1293c",
+          "sha1": "efa72c6e9bd948ec87bc39f58ca8febe064a5f03",
+          "md5": "4d845d54e2194283b439fd525b729504"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "horseman-1.20.1-common-1.3.5.jar",
+          "url": "horseman-1.20.1-common-1.3.5.jar",
+          "size": 121330,
+          "sha512": "20ddb100372a9899ee19e5467771592927ad3f23a7e6e938334033a36f84a0eb46c6ec7884c203fc2a643be4f91d0d86a776335078ae173b452bece4b154375b",
+          "sha256": "9439abfe013c69ecd07e098727f4b9a4828be0beaa37cd9e8cd08c0b4cc1293c",
+          "sha1": "efa72c6e9bd948ec87bc39f58ca8febe064a5f03",
+          "md5": "4d845d54e2194283b439fd525b729504"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "horseman-1.20.1-common-1.3.5-sources.jar",
+          "url": "horseman-1.20.1-common-1.3.5-sources.jar",
+          "size": 71426,
+          "sha512": "38c0486a3a046f41bd2933f4cb86dc81056eba49aa1eafba637a2797ad6510ee40d46039fe924c7d2f6749f5f682830e6b0ff5564975f731135c3bc98916e08e",
+          "sha256": "bcfc53e3e545096fb02632a0db5b32c4f600ec7fb6c09de501f3acdde66082b9",
+          "sha1": "508b8ecb5d06dce6f725caa68dee266f953d7bbf",
+          "md5": "6953ee38755d212c9023e9a2f7f0da85"
+        }
+      ]
+    }
+  ]
+}
