@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.thief",
+    "module": "thief-1.21.1-common",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.21.1-common-1.0.0.jar",
+          "url": "thief-1.21.1-common-1.0.0.jar",
+          "size": 109697,
+          "sha512": "89ba1801141de77b3cceb7f364c1ad6bc15693d158e99f82c827ac9bc29764ef2c9d9a441e2edb313fcc7793ec1d41416d24209b0d31c5c1d92beac6f3fea91c",
+          "sha256": "6720dcdc1e6507f6294692ace5c56c72db3ed2462b9ad3003d1b348a599f5b8e",
+          "sha1": "047951f3cd7fc7255fa40b448770a766ff769625",
+          "md5": "2a242aa494b83aa3713eae1d6d5475e3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.21.1-common-1.0.0.jar",
+          "url": "thief-1.21.1-common-1.0.0.jar",
+          "size": 109697,
+          "sha512": "89ba1801141de77b3cceb7f364c1ad6bc15693d158e99f82c827ac9bc29764ef2c9d9a441e2edb313fcc7793ec1d41416d24209b0d31c5c1d92beac6f3fea91c",
+          "sha256": "6720dcdc1e6507f6294692ace5c56c72db3ed2462b9ad3003d1b348a599f5b8e",
+          "sha1": "047951f3cd7fc7255fa40b448770a766ff769625",
+          "md5": "2a242aa494b83aa3713eae1d6d5475e3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.1-common-1.0.0-sources.jar",
+          "url": "thief-1.21.1-common-1.0.0-sources.jar",
+          "size": 55416,
+          "sha512": "de460e935f6dc5e83e5cc72de5d43e29a2e0ef67d749b73fa43e18ddf9e827ae292bda6ef86deaab2e35ad69138c240fa50bcee034b2369608a5f0e3aac4ad82",
+          "sha256": "81bb146cf1d57455b9fa110b3ff07c81a21a06c4e5d08479b73b04f93d1e984b",
+          "sha1": "0c9b056cb16c033872037cf62ca615a8ee2b2f7b",
+          "md5": "56e3c1f2ee0329340e6137d0410bb9d1"
+        }
+      ]
+    }
+  ]
+}
