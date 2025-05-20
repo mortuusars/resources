@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.monobank",
+    "module": "monobank-1.21.1-common",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "monobank-1.21.1-common-1.2.0.jar",
+          "url": "monobank-1.21.1-common-1.2.0.jar",
+          "size": 398033,
+          "sha512": "46faaedc9827bb189614b1e5f02f07d8db0ed7ead586f8dfca1221747c46f6ba0602a41b259bded3f94c3d5c4209b0d709bb30465efa16ab7138371d9686d2d7",
+          "sha256": "27f3aff65f5f07aad1c0160b1bf74f62fff573b505121a21604c439eccd9d213",
+          "sha1": "12ef4ab9b5abddbc26e6e10382aeb731d5a8dc11",
+          "md5": "a7f9872f8155da54736097a13a340d47"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "monobank-1.21.1-common-1.2.0.jar",
+          "url": "monobank-1.21.1-common-1.2.0.jar",
+          "size": 398033,
+          "sha512": "46faaedc9827bb189614b1e5f02f07d8db0ed7ead586f8dfca1221747c46f6ba0602a41b259bded3f94c3d5c4209b0d709bb30465efa16ab7138371d9686d2d7",
+          "sha256": "27f3aff65f5f07aad1c0160b1bf74f62fff573b505121a21604c439eccd9d213",
+          "sha1": "12ef4ab9b5abddbc26e6e10382aeb731d5a8dc11",
+          "md5": "a7f9872f8155da54736097a13a340d47"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "monobank-1.21.1-common-1.2.0-sources.jar",
+          "url": "monobank-1.21.1-common-1.2.0-sources.jar",
+          "size": 324637,
+          "sha512": "ef3fcee700aba6e77a005197c0289dbe9031c2d7c9595644be4bdb60ac718f60fbf22a5430ccfd4f4f9540d6a37792f72ad1cf91a5b783b1c3c9159e967db97e",
+          "sha256": "45cbe5ceafc384408a0215c8aa39be7a64dedfb71508f7dd03f57a4c03e6bc2e",
+          "sha1": "fdfaf721145fe9d1040bb0782c0fd4bd0643c66b",
+          "md5": "6ccb8a058bc71de1565ba7111df52e13"
+        }
+      ]
+    }
+  ]
+}
