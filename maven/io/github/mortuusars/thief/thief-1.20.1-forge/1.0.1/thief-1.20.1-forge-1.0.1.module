@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.thief",
+    "module": "thief-1.20.1-forge",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-common-api",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5072729"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge-api",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-forge",
+          "version": {
+            "requires": "2001.6.5-build.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.20.1-forge-1.0.1-forge.jar",
+          "url": "thief-1.20.1-forge-1.0.1-forge.jar",
+          "size": 310870,
+          "sha512": "c2272ebf48bdc63b8016f59a4b360bdf40c701516a5ae95db9ce9ea7fbe8665c520323843de542a9ef8796f40ca90d05a7acfd93e4a51e16ff3c786c962241fd",
+          "sha256": "dfae35b8ebcb330c16d0cb273e7085eaed13ffc55a47a06677cc7a598d8c5a7e",
+          "sha1": "0d82204a5561658974984d9ae817969a864d14f3",
+          "md5": "aaba4337dc061d260aabb51db3844bc1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge",
+          "version": {
+            "requires": "15.2.0.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5072729"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.20.1-forge-1.0.1-forge.jar",
+          "url": "thief-1.20.1-forge-1.0.1-forge.jar",
+          "size": 310870,
+          "sha512": "c2272ebf48bdc63b8016f59a4b360bdf40c701516a5ae95db9ce9ea7fbe8665c520323843de542a9ef8796f40ca90d05a7acfd93e4a51e16ff3c786c962241fd",
+          "sha256": "dfae35b8ebcb330c16d0cb273e7085eaed13ffc55a47a06677cc7a598d8c5a7e",
+          "sha1": "0d82204a5561658974984d9ae817969a864d14f3",
+          "md5": "aaba4337dc061d260aabb51db3844bc1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.20.1-forge-1.0.1-sources.jar",
+          "url": "thief-1.20.1-forge-1.0.1-sources.jar",
+          "size": 72250,
+          "sha512": "1b7f49d8cdd3deef7efee81e9f51275d218eead39f0c4d236f19f1a68494d6af7d28122c94e12ea1ed5befebd880eb996c64997e4b20a2d6e8c72a382fa4272d",
+          "sha256": "4eeada022e29187c1205ac0de3b4b8582dca7cc4406a19a84c6c74e52c025ae6",
+          "sha1": "6de8517be8242bb63eb4784a7898d5ce1aa540c2",
+          "md5": "9b85eca16a8e90316a8134d776c2c365"
+        }
+      ]
+    }
+  ]
+}
