@@ -50,11 +50,11 @@
         {
           "name": "horseman-1.21.1-fabric-1.3.10.jar",
           "url": "horseman-1.21.1-fabric-1.3.10.jar",
-          "size": 139555,
-          "sha512": "be0f8e032932727a787fabdb96864ef085673afb33621572355d734cb4489f3b5ed85f5e5a29d70f0c9c56a777a9e9eaf15d186af4ad0b266f20471e23420557",
-          "sha256": "1be40d0472bce3a7f9357b79e429f6ae922b5fedf2af80f4d8e8c86bcca85b39",
-          "sha1": "82c6ba7ab66132bcd1d09c39de0400febe29b9c4",
-          "md5": "8be34b0c85f7d85b6d7cb54446a949d1"
+          "size": 197975,
+          "sha512": "52fed1350b6d0cf359af2da11cef8794db07fc7dac04e322b34a16d734b52476268c050af777e369649f7ee7e238cb859ebcc8011a578889d49895460d311f66",
+          "sha256": "5a813b5ab524a68f22ad81dc07c2dc8792eb1cf87f83690fc7a4d58f2be2c789",
+          "sha1": "84e0554ad4be04912b7b66a79cf0e4b48ddd758b",
+          "md5": "902ff510e2d0fb4c0c97e4bf6d586ac5"
         }
       ]
     },
@@ -122,11 +122,11 @@
         {
           "name": "horseman-1.21.1-fabric-1.3.10.jar",
           "url": "horseman-1.21.1-fabric-1.3.10.jar",
-          "size": 139555,
-          "sha512": "be0f8e032932727a787fabdb96864ef085673afb33621572355d734cb4489f3b5ed85f5e5a29d70f0c9c56a777a9e9eaf15d186af4ad0b266f20471e23420557",
-          "sha256": "1be40d0472bce3a7f9357b79e429f6ae922b5fedf2af80f4d8e8c86bcca85b39",
-          "sha1": "82c6ba7ab66132bcd1d09c39de0400febe29b9c4",
-          "md5": "8be34b0c85f7d85b6d7cb54446a949d1"
+          "size": 197975,
+          "sha512": "52fed1350b6d0cf359af2da11cef8794db07fc7dac04e322b34a16d734b52476268c050af777e369649f7ee7e238cb859ebcc8011a578889d49895460d311f66",
+          "sha256": "5a813b5ab524a68f22ad81dc07c2dc8792eb1cf87f83690fc7a4d58f2be2c789",
+          "sha1": "84e0554ad4be04912b7b66a79cf0e4b48ddd758b",
+          "md5": "902ff510e2d0fb4c0c97e4bf6d586ac5"
         }
       ]
     },
@@ -142,11 +142,11 @@
         {
           "name": "horseman-1.21.1-fabric-1.3.10-sources.jar",
           "url": "horseman-1.21.1-fabric-1.3.10-sources.jar",
-          "size": 17899,
-          "sha512": "6a8f75b2ed2fced6c785ff34b781f556127e703ecf78ee8da4c35d3bf428550d18f499346f896355d5042c43eede11747359e0cd4a19fc8a40df25cb7267f4e4",
-          "sha256": "faf44a325c499fd8597842c7671df581e7960c7cbe4c02d80edc3c8d9caeb5ec",
-          "sha1": "2154a0c42ff5040b8de7bad76d1c8a5899ea7c90",
-          "md5": "ae43ddc86d5e284377ff394f922ad5cb"
+          "size": 18374,
+          "sha512": "d1f2b0f36154beb6dee31b1f5b52ae08035fe6a7122a549b963498c180ff37b17fb00aee43a2d09470c2d9d43e0c76ee3d19867c91a2c8f3a18d6e14412fef62",
+          "sha256": "4153496982e7da9fef0d527d291a43c4d2f630abcc269130ef89d777b94ae628",
+          "sha1": "accb596b97fbf92d5a48e3e5293cf1ba5b5247e5",
+          "md5": "40a7d84b4f200ccbbde53c1d1b62d31b"
         }
       ]
     },
@@ -162,11 +162,11 @@
         {
           "name": "horseman-1.21.1-fabric-1.3.10-dev-shadow.jar",
           "url": "horseman-1.21.1-fabric-1.3.10-dev-shadow.jar",
-          "size": 138083,
-          "sha512": "b7b1aff3068e61689df1e12a6bffbe59308fb02b53d1213cec4a15a740a6d14aa1263e4bb91fefbe2b0e7aee6e0322f6e1271005ac40917e107fec4c2928c41e",
-          "sha256": "f921a2e97d6c8d1f978dc3e8246cbb8110633be31ac576bc4ce0d597f79456f2",
-          "sha1": "05cdf4b30117144e598fd522cd7290fb8ef2cfc8",
-          "md5": "e855ad386087aec47b35a9aab53c6c44"
+          "size": 196136,
+          "sha512": "458c0183d71da37c9755f1ba662807fca60df18120bee6f8269d474cb6111ee55486682f3747c1ef005e02ecca6c4a9a9dd854a2600516ee583ab6af6d4906fd",
+          "sha256": "f244963d765fb402d40cae90df29c8782558102971b01739e62b15fefee2f405",
+          "sha1": "50e1248201cecb218470d1804c5ac7caa4a0ae04",
+          "md5": "3ff3758c281a086d9c479c6579d9e7bb"
         }
       ]
     }

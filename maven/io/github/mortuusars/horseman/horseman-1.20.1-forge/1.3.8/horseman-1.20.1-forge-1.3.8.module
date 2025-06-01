@@ -57,11 +57,11 @@
         {
           "name": "horseman-1.20.1-forge-1.3.8-forge.jar",
           "url": "horseman-1.20.1-forge-1.3.8-forge.jar",
-          "size": 327459,
-          "sha512": "0acd0a934aab0bdc5b5c9831a1e821dfe311314d686f3d433eff12e66f3659770e633a1a4be4b8dc3154dcc3e3f63475a78ec658aaf37213cbd9cfa1e030b6da",
-          "sha256": "d52425c336897daa8b73f3d9981e121baef48acb43780df96cbaecd2d124cc48",
-          "sha1": "2ce1a46711e526fc247375bc8946a12df2d8043c",
-          "md5": "fc83fec5480e35b886923b51c065c5b3"
+          "size": 329040,
+          "sha512": "06683c3dbc0f673a2af17203972cdd91992d6dc2aeb89f638b2d895666de99affaf686e7c455af56de8c5e4f9ace5b44e25d1b2b4b6c7368f2571f1b9913761d",
+          "sha256": "b804a7f5e934a5df7c8f68a94f2117e834900c0ceb926f5e25d84ab9e11701b1",
+          "sha1": "7f3bce065d6d1e5fa99e1fa048972c8a820c5ae9",
+          "md5": "691dfa7174cac14f893b38f5f0f4a126"
         }
       ]
     },
@@ -113,11 +113,11 @@
         {
           "name": "horseman-1.20.1-forge-1.3.8-forge.jar",
           "url": "horseman-1.20.1-forge-1.3.8-forge.jar",
-          "size": 327459,
-          "sha512": "0acd0a934aab0bdc5b5c9831a1e821dfe311314d686f3d433eff12e66f3659770e633a1a4be4b8dc3154dcc3e3f63475a78ec658aaf37213cbd9cfa1e030b6da",
-          "sha256": "d52425c336897daa8b73f3d9981e121baef48acb43780df96cbaecd2d124cc48",
-          "sha1": "2ce1a46711e526fc247375bc8946a12df2d8043c",
-          "md5": "fc83fec5480e35b886923b51c065c5b3"
+          "size": 329040,
+          "sha512": "06683c3dbc0f673a2af17203972cdd91992d6dc2aeb89f638b2d895666de99affaf686e7c455af56de8c5e4f9ace5b44e25d1b2b4b6c7368f2571f1b9913761d",
+          "sha256": "b804a7f5e934a5df7c8f68a94f2117e834900c0ceb926f5e25d84ab9e11701b1",
+          "sha1": "7f3bce065d6d1e5fa99e1fa048972c8a820c5ae9",
+          "md5": "691dfa7174cac14f893b38f5f0f4a126"
         }
       ]
     },
@@ -133,11 +133,11 @@
         {
           "name": "horseman-1.20.1-forge-1.3.8-sources.jar",
           "url": "horseman-1.20.1-forge-1.3.8-sources.jar",
-          "size": 87234,
-          "sha512": "3aa0d39797189519a991a4c45aebf371c3c5092b37708aa53d415f28fb8cf1a36e42100de9479cdb2811e08dd1261643d09cc591dc8c532d94c5a8f8d84e8186",
-          "sha256": "1ce14b11df97a1910972ffaffb5ebeb0ababd448655042c11fcb2dc81a71010d",
-          "sha1": "290e8c157a142f6e322cd39f6e82d76a2878dd30",
-          "md5": "ec7ce1f99886739d6471caa0d06cae0a"
+          "size": 88835,
+          "sha512": "644c693d52c03c7f2c33caa5428d8332f4f25dc338344346ab1e2cb2436e279a8ac3d6e3c07f4dc9b971bc782823f7ad006af1e8ab0119c9e6be21a13e8a84e5",
+          "sha256": "f622cf34d10046c8e548814e0d9c60f092379109c5ed4c03b25a23a82f4ae383",
+          "sha1": "80f53145a963e1e43512855bc6c6036d5f64c20e",
+          "md5": "9de5e86fdac516c71f79d331269406e5"
         }
       ]
     }

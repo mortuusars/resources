@@ -78,11 +78,11 @@
         {
           "name": "horseman-1.20.1-fabric-1.3.8-fabric.jar",
           "url": "horseman-1.20.1-fabric-1.3.8-fabric.jar",
-          "size": 314041,
-          "sha512": "b1089cdaf3fa2547d69d1d2981ef824784a28da016bb899bc05320fc19d331d22df80278b561593d1e952fce1ca5c1dc02f51d4aa4d66b09632bbc7a87b1801e",
-          "sha256": "4837302872bbbed4278a641546feaaa6311ed6f362d08bc54154145d31268583",
-          "sha1": "8ffd5315bfb93d0e9484d5357a578c3367f54076",
-          "md5": "ce87690a3adb28f76100529cdfe56343"
+          "size": 315609,
+          "sha512": "7ce8df610568acdce4f207e7255fc68547aa872cbe618d9e6f595713a209570e0e95124ba9bf4f3c74f94576e7a5c0ed43c48faae62a79006b45ce79663962d6",
+          "sha256": "e766089b57a4278a54a2d2e539f06728430d79fe08b4287c01d50e3741668ad6",
+          "sha1": "4c357364bd1099e8e1763039f09115cec2303a24",
+          "md5": "7f87ac7386c4061f1fb7b4c240821929"
         }
       ]
     },
@@ -156,11 +156,11 @@
         {
           "name": "horseman-1.20.1-fabric-1.3.8-fabric.jar",
           "url": "horseman-1.20.1-fabric-1.3.8-fabric.jar",
-          "size": 314041,
-          "sha512": "b1089cdaf3fa2547d69d1d2981ef824784a28da016bb899bc05320fc19d331d22df80278b561593d1e952fce1ca5c1dc02f51d4aa4d66b09632bbc7a87b1801e",
-          "sha256": "4837302872bbbed4278a641546feaaa6311ed6f362d08bc54154145d31268583",
-          "sha1": "8ffd5315bfb93d0e9484d5357a578c3367f54076",
-          "md5": "ce87690a3adb28f76100529cdfe56343"
+          "size": 315609,
+          "sha512": "7ce8df610568acdce4f207e7255fc68547aa872cbe618d9e6f595713a209570e0e95124ba9bf4f3c74f94576e7a5c0ed43c48faae62a79006b45ce79663962d6",
+          "sha256": "e766089b57a4278a54a2d2e539f06728430d79fe08b4287c01d50e3741668ad6",
+          "sha1": "4c357364bd1099e8e1763039f09115cec2303a24",
+          "md5": "7f87ac7386c4061f1fb7b4c240821929"
         }
       ]
     },
@@ -176,11 +176,11 @@
         {
           "name": "horseman-1.20.1-fabric-1.3.8-sources.jar",
           "url": "horseman-1.20.1-fabric-1.3.8-sources.jar",
-          "size": 80745,
-          "sha512": "40bedf2264801b2ae2fb4a111ccf871954657db878bee975ac9fba2efd66c3bd1450cf992486a3db0988a00367638053b6b508355bb62f8de9d371ee50e4ec40",
-          "sha256": "588dbe8864d9bd99a933efaec9298621e19f03725a512fb29bb2e8ba27fdec46",
-          "sha1": "ebc1942ab7c9e302bf8ba19ee769dbef36d97c45",
-          "md5": "6a651a191883afdcdfa379a644edb233"
+          "size": 82346,
+          "sha512": "5ab2d8b726bb0563680c5c121936714983c6d37e54b5b54853365bed923eb40284dbd9f8c0ae9f63b7f358b066220dcdb3dd4696390d0ddb8b30a75726a3d71f",
+          "sha256": "aa3959ffd3f0e5f0fa822511d0cbe5d3245441bba9a0f888c316f033b0303ac7",
+          "sha1": "55a8940fd8a94ebd3cc5ec4a3829df836a6f7a65",
+          "md5": "5da6b440f398c762cb2970a8ebe8955b"
         }
       ]
     }
