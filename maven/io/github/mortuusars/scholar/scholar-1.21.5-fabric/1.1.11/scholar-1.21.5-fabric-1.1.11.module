@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.scholar",
+    "module": "scholar-1.21.5-fabric",
+    "version": "1.1.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.5-common-api",
+          "version": {
+            "requires": "21.4.0.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-1.21.5-fabric-1.1.11.jar",
+          "url": "scholar-1.21.5-fabric-1.1.11.jar",
+          "size": 530196,
+          "sha512": "afc366008b80f74b7ac3a960b8698c98e7c3102c747cc9c20a8f0dbcc872c440003596a4bc6ecdb313002f5ad0370ed5f6b397d3ce533768e86a3446b89d3edc",
+          "sha256": "5072fe910b52375b96f1cf34ff8422e91691a688165edeafb00e1ef35eb465b8",
+          "sha1": "b276a3f008f3e4117fb52a297db1baf7cd895479",
+          "md5": "dca127104b06fe97dbd279a26cda35b9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.119.5+1.21.5"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-1.21.5-fabric-1.1.11.jar",
+          "url": "scholar-1.21.5-fabric-1.1.11.jar",
+          "size": 530196,
+          "sha512": "afc366008b80f74b7ac3a960b8698c98e7c3102c747cc9c20a8f0dbcc872c440003596a4bc6ecdb313002f5ad0370ed5f6b397d3ce533768e86a3446b89d3edc",
+          "sha256": "5072fe910b52375b96f1cf34ff8422e91691a688165edeafb00e1ef35eb465b8",
+          "sha1": "b276a3f008f3e4117fb52a297db1baf7cd895479",
+          "md5": "dca127104b06fe97dbd279a26cda35b9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-1.21.5-fabric-1.1.11-sources.jar",
+          "url": "scholar-1.21.5-fabric-1.1.11-sources.jar",
+          "size": 31616,
+          "sha512": "6ea38f248e071f2bc5c7b901b8a34e855c041055679324e75e562b168062e0f99286d54d700a8c39588eee7a92241e692e0c667126ddd6a4c4bad4585579161e",
+          "sha256": "3187f9e93ec32f24d686e46ccd6fbf10e80b4dc68380cb41144914d2fc40e848",
+          "sha1": "974d22be36c8ca3ecdc706e83b8be4a13084ef32",
+          "md5": "d8c4c7243464e10cc44a39c3ab38d7a0"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-1.21.5-fabric-1.1.11-dev-shadow.jar",
+          "url": "scholar-1.21.5-fabric-1.1.11-dev-shadow.jar",
+          "size": 522963,
+          "sha512": "0705b2eaa853963c55dcddf54643a4dcfe915b489fd6aad162c8ef26836de8aca0253402f76d0cc6c7dd63398b8a8a387da9f9875fdde4b382c4487b0a39a7d0",
+          "sha256": "bd1013c4f895fee5c0ed6a276e441bf7c53b29555b91f9f079797f203d2ddba7",
+          "sha1": "b3d7f7c2d96164325a39112be4000775ff6dd7a5",
+          "md5": "73abcdbaa46c664dd8847db1c600d2cf"
+        }
+      ]
+    }
+  ]
+}
