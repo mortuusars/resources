@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.horseman",
+    "module": "horseman-1.21.1-neoforge",
+    "version": "1.5.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "horseman-1.21.1-neoforge-1.5.8.jar",
+          "url": "horseman-1.21.1-neoforge-1.5.8.jar",
+          "size": 436238,
+          "sha512": "d6829eee45a32de5281f7e3fb22fbcb4c5004f120c6068ef80d949b3e61a8a457b4fb207b3af6dded73d2fb2ef4020339ea468de54de9a4979497fae4c19b526",
+          "sha256": "c7b157f914744c1f95e26e5e5ad5c966e8e3fd196e5178d3a9926a06fde0d784",
+          "sha1": "491a93b0b6a057b8af2592aafca97a401185ca46",
+          "md5": "2935ee9c04227ced2c3b65754f063157"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge",
+          "version": {
+            "requires": "19.19.0.220"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "embeddium-908741",
+          "version": {
+            "requires": "6118392"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "horseman-1.21.1-neoforge-1.5.8.jar",
+          "url": "horseman-1.21.1-neoforge-1.5.8.jar",
+          "size": 436238,
+          "sha512": "d6829eee45a32de5281f7e3fb22fbcb4c5004f120c6068ef80d949b3e61a8a457b4fb207b3af6dded73d2fb2ef4020339ea468de54de9a4979497fae4c19b526",
+          "sha256": "c7b157f914744c1f95e26e5e5ad5c966e8e3fd196e5178d3a9926a06fde0d784",
+          "sha1": "491a93b0b6a057b8af2592aafca97a401185ca46",
+          "md5": "2935ee9c04227ced2c3b65754f063157"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "horseman-1.21.1-neoforge-1.5.8-sources.jar",
+          "url": "horseman-1.21.1-neoforge-1.5.8-sources.jar",
+          "size": 14684,
+          "sha512": "7039bd766947b14b439693997db3675ef34a0eed48de097c3f018527cbbfbc6d7a0951fb3db739a3361ac015047e0e06031fee314260d535128b49f57875cd35",
+          "sha256": "94d5cf0ff6327213ad1ae1ffe11bd49ed1c2b103e5478e0c8cfbc487f001c51f",
+          "sha1": "5d832092e99163195ce7499acc9552e6a805fb35",
+          "md5": "1823733d9547db0a35a0003fff5f3ca5"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "horseman-1.21.1-neoforge-1.5.8-dev-shadow.jar",
+          "url": "horseman-1.21.1-neoforge-1.5.8-dev-shadow.jar",
+          "size": 248940,
+          "sha512": "b131bb2e16de6792693a03ba8f2a7cab9721f0a3ca0cc184f3132f686cea2073ccf4a31abf8897300cf7bb000935c29cc7b58634b4599473bb4a0d6f085219be",
+          "sha256": "a255885388fba778a226de73cd84a594694644c0edcdc88d7a314fa6deedf17b",
+          "sha1": "824e53cfc487f1843a2b6c045f7c4a6a6329200e",
+          "md5": "2e5cab6f647d276f8a5939a9e006b180"
+        }
+      ]
+    }
+  ]
+}
