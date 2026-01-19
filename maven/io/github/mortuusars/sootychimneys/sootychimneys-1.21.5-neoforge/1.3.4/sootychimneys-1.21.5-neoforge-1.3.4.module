@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.sootychimneys",
+    "module": "sootychimneys-1.21.5-neoforge",
+    "version": "1.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.5-neoforge-api",
+          "version": {
+            "requires": "21.4.0.25"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sootychimneys-1.21.5-neoforge-1.3.4.jar",
+          "url": "sootychimneys-1.21.5-neoforge-1.3.4.jar",
+          "size": 179037,
+          "sha512": "1e782bed2ae3581c18f1fe2f98350262d9d42a4ad2a7c02dd7ccedc59cfd7652d51a78b7931f0a550738eebb09aaa224adc67e513430a9e943b73183271d366e",
+          "sha256": "cd92334d1c21838394d66bd60ea1ccbf24cf18ba3706aaede351e08c812fd80f",
+          "sha1": "7f6f084e8e0fa7b88896292e9bb99469d73da31d",
+          "md5": "502715c31fa3c8077e77b5ea40435dce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.5-neoforge",
+          "version": {
+            "requires": "21.4.0.25"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sootychimneys-1.21.5-neoforge-1.3.4.jar",
+          "url": "sootychimneys-1.21.5-neoforge-1.3.4.jar",
+          "size": 179037,
+          "sha512": "1e782bed2ae3581c18f1fe2f98350262d9d42a4ad2a7c02dd7ccedc59cfd7652d51a78b7931f0a550738eebb09aaa224adc67e513430a9e943b73183271d366e",
+          "sha256": "cd92334d1c21838394d66bd60ea1ccbf24cf18ba3706aaede351e08c812fd80f",
+          "sha1": "7f6f084e8e0fa7b88896292e9bb99469d73da31d",
+          "md5": "502715c31fa3c8077e77b5ea40435dce"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-1.21.5-neoforge-1.3.4-sources.jar",
+          "url": "sootychimneys-1.21.5-neoforge-1.3.4-sources.jar",
+          "size": 13751,
+          "sha512": "83d4bab5ab826217b2bfacd8a9fcfd33c62737101aacb1c1267dd4703519f8e740b257c100388a9665e81004d9a86b3a206601044ba51a29825afd6989cff422",
+          "sha256": "76443d36df3143339eee74b58603ca37b6f7e8866e08f15f534c5e75e6f66c4c",
+          "sha1": "7c682aa6c4243b39ce45ae2d6b0ffa7b4b6b6639",
+          "md5": "b06cca1707b15ed8085787e065ed1a51"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-1.21.5-neoforge-1.3.4-dev-shadow.jar",
+          "url": "sootychimneys-1.21.5-neoforge-1.3.4-dev-shadow.jar",
+          "size": 173811,
+          "sha512": "5693e0ffb7fc63df889cfccf0b16a77c089894b6c3397c5e5963f24b7230b61f2f4987fa9ddde6c9c77d15f0d2fbe4b43bcd04198aec5d939039d650aa105837",
+          "sha256": "c5d43470168fa87bbaf1a070f4d970c952ff9beb825ea39fdf3491138cf94d2c",
+          "sha1": "22de6bfe6d418213ee56ba4a78f7c6a461dc71ad",
+          "md5": "8137edf47023ba8e2a45ad54725aaa52"
+        }
+      ]
+    }
+  ]
+}

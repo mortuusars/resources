@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.sootychimneys",
+    "module": "sootychimneys-1.21.5-fabric",
+    "version": "1.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-1.21.5-fabric-1.3.4.jar",
+          "url": "sootychimneys-1.21.5-fabric-1.3.4.jar",
+          "size": 169906,
+          "sha512": "563b7e66cc7365ae109708a3f93014bb5154399a68ab3af6c54bff6587171844a3e1bdb19e0b88f326b55d57b3f7539e8202e666cf0bc0a93dc9c16910399212",
+          "sha256": "f5c178a801d38a9112407048c90cc685659d49d67c7d151427df5b6dc4c69a98",
+          "sha1": "d86a448e581f73da5b4ad0c69fe4dee758b5958c",
+          "md5": "3dbf72da93960f9b5d97eb62e2b26a28"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.119.5+1.21.5"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sootychimneys-1.21.5-fabric-1.3.4.jar",
+          "url": "sootychimneys-1.21.5-fabric-1.3.4.jar",
+          "size": 169906,
+          "sha512": "563b7e66cc7365ae109708a3f93014bb5154399a68ab3af6c54bff6587171844a3e1bdb19e0b88f326b55d57b3f7539e8202e666cf0bc0a93dc9c16910399212",
+          "sha256": "f5c178a801d38a9112407048c90cc685659d49d67c7d151427df5b6dc4c69a98",
+          "sha1": "d86a448e581f73da5b4ad0c69fe4dee758b5958c",
+          "md5": "3dbf72da93960f9b5d97eb62e2b26a28"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-1.21.5-fabric-1.3.4-sources.jar",
+          "url": "sootychimneys-1.21.5-fabric-1.3.4-sources.jar",
+          "size": 7446,
+          "sha512": "8adb159fa6d59bd239579208272d243239cdfe48c9cab59dcb2ee82be6c8529541a5f0a4aeceb436f2ba462e4d9e2845875cf7cd3f95530ed0421bf62ab9f082",
+          "sha256": "a828c96102f161c78654b08cd2984310df975ba3405dfb89b706fe7a8fe8dd63",
+          "sha1": "6106e46a9820c64878f9a92b2acef4a25218d82d",
+          "md5": "412330dd738309f95e994fe38d63bba3"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-1.21.5-fabric-1.3.4-dev-shadow.jar",
+          "url": "sootychimneys-1.21.5-fabric-1.3.4-dev-shadow.jar",
+          "size": 166219,
+          "sha512": "43ffbb315af02dc89ccf8edb3cec50c532ee9a14424349bf15df28fdf1e99cbc048089d4c8c782e1e0041c2a6ac13682a8c633e9cf1f6d52113fffb3b16e9d40",
+          "sha256": "97261b6ebf51a7d131f7f1f7a2b5da3ecb95188784dd63383d97c9aeec06d68e",
+          "sha1": "44c4b9602ad2b31866b3d857ab2e4090738cdcc8",
+          "md5": "89d1d34b16069025d6fed85a93cc6748"
+        }
+      ]
+    }
+  ]
+}
