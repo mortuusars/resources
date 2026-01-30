@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.envelope",
+    "module": "envelope-1.21.1-common",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "envelope-1.21.1-common-0.5.0.jar",
+          "url": "envelope-1.21.1-common-0.5.0.jar",
+          "size": 1192017,
+          "sha512": "4b778d57638b91e69f64ca340ca7e877e8773257e8dc9169aa170d4c238a83c1fac579d954da4ac1b3b963bd5aa2383a42bf832dda89b930755169dfa22223b2",
+          "sha256": "31df8fe88f1ad3c4d652dfb250ec6c89645ab4007d61c0f97dbf99585a13ae24",
+          "sha1": "743ec8e8af6e5ff562a8400f6cf2349d52f381e2",
+          "md5": "b678bf0ffa81421e45333cdf23659469"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "envelope-1.21.1-common-0.5.0.jar",
+          "url": "envelope-1.21.1-common-0.5.0.jar",
+          "size": 1192017,
+          "sha512": "4b778d57638b91e69f64ca340ca7e877e8773257e8dc9169aa170d4c238a83c1fac579d954da4ac1b3b963bd5aa2383a42bf832dda89b930755169dfa22223b2",
+          "sha256": "31df8fe88f1ad3c4d652dfb250ec6c89645ab4007d61c0f97dbf99585a13ae24",
+          "sha1": "743ec8e8af6e5ff562a8400f6cf2349d52f381e2",
+          "md5": "b678bf0ffa81421e45333cdf23659469"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "envelope-1.21.1-common-0.5.0-sources.jar",
+          "url": "envelope-1.21.1-common-0.5.0-sources.jar",
+          "size": 730022,
+          "sha512": "27fcd43d250dd83fd7d15c3eef9c6491c40244fb360a00c1c6c92921eebb86137124047501c15d4cdd0527187b4c7f2365428b5df66e62544fae19d3a3114184",
+          "sha256": "dd3b9c0c69ebc9c1012bef68995d53130682d6817d36a336f7471e70063c2c42",
+          "sha1": "35f3fe72843b22fa5767600eb359f833a76bd472",
+          "md5": "9df5f5391f94e267441af8212a955ea5"
+        }
+      ]
+    }
+  ]
+}
