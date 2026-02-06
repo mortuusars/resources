@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.scholar",
+    "module": "scholar-1.21.1-neoforge",
+    "version": "1.1.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge-api",
+          "version": {
+            "requires": "19.19.0.220"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-1.21.1-neoforge-1.1.13.jar",
+          "url": "scholar-1.21.1-neoforge-1.1.13.jar",
+          "size": 721844,
+          "sha512": "b3ff55c6aba369ffa960a3e197ba371c2ee209360fcbb9bdfdb61cf7dcb8d605357f04019fe0eb72a7545f61c24e6773dbc9c488674311690e516e17b214c864",
+          "sha256": "36dde43bb49748af0ef26ee590e40e4cfdd4b316bb557f1b55775f8a20001af8",
+          "sha1": "2974d5eedb06b69d54b0405f18a5b35ccb0eacb8",
+          "md5": "a189e96f52b3a46e56e55d0f3084ec3a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "woodster-869951",
+          "version": {
+            "requires": "6425772"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge",
+          "version": {
+            "requires": "19.19.0.220"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "embeddium-908741",
+          "version": {
+            "requires": "6118392"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-1.21.1-neoforge-1.1.13.jar",
+          "url": "scholar-1.21.1-neoforge-1.1.13.jar",
+          "size": 721844,
+          "sha512": "b3ff55c6aba369ffa960a3e197ba371c2ee209360fcbb9bdfdb61cf7dcb8d605357f04019fe0eb72a7545f61c24e6773dbc9c488674311690e516e17b214c864",
+          "sha256": "36dde43bb49748af0ef26ee590e40e4cfdd4b316bb557f1b55775f8a20001af8",
+          "sha1": "2974d5eedb06b69d54b0405f18a5b35ccb0eacb8",
+          "md5": "a189e96f52b3a46e56e55d0f3084ec3a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-1.21.1-neoforge-1.1.13-sources.jar",
+          "url": "scholar-1.21.1-neoforge-1.1.13-sources.jar",
+          "size": 33667,
+          "sha512": "e48b65a0a7a2e0dca6675474e8c2a0399220a7ab3c2c9e0dc827c4f73d2e8afd970dfde1e18e7d90520b6f0b74b918ce12900efae041c032f15ff8f8a6df05e3",
+          "sha256": "9b00e1ac9b367ce6c1f13b95aa3221b09327c88383a7a0007643aec5733aa1db",
+          "sha1": "42ea290c65bb9df610efef420efaddc4f8c7e4c1",
+          "md5": "92728de4731b4d7492c67f0b2b65efa0"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-1.21.1-neoforge-1.1.13-dev-shadow.jar",
+          "url": "scholar-1.21.1-neoforge-1.1.13-dev-shadow.jar",
+          "size": 529880,
+          "sha512": "31054dba90059192327ee423bcdd0f9d46e4f971aac58fb34cfea1d342cc95fcec8e15edaa4d24c38fbfa83969223fedeb1c11dac370eb1cb8daeb2fae82f8eb",
+          "sha256": "c24838377726441071827b8549b9206309ac97853318b81510bfc4b8e057701c",
+          "sha1": "04ee691b294ebc129d9fa788ab59d5fda0d7f319",
+          "md5": "0466b2d91aea4d14ef1e1ec971ad8b31"
+        }
+      ]
+    }
+  ]
+}
