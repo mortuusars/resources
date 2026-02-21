@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.thief",
+    "module": "thief-1.21.4-neoforge",
+    "version": "1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.4-neoforge-1.2.3.jar",
+          "url": "thief-1.21.4-neoforge-1.2.3.jar",
+          "size": 328894,
+          "sha512": "f730b4505d8435f264e74a821023a7626d9af242af69b71a1b67c1db53af5cfee3b9294c5aa0604faecfde5c778d5012abbfa274c803d7cddff7a7f29adc12c8",
+          "sha256": "8b6c685a676e4593e7ab7277fc083486ae80aa7d72b6f936fb4cd56930bd3493",
+          "sha1": "4a0dd6cd153d8f7f2548f5ef9774da921329f4ab",
+          "md5": "6fc06a80d183008fbdd5470e01c4e054"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.4-neoforge",
+          "version": {
+            "requires": "20.0.0.4"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6170888"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.21.4-neoforge-1.2.3.jar",
+          "url": "thief-1.21.4-neoforge-1.2.3.jar",
+          "size": 328894,
+          "sha512": "f730b4505d8435f264e74a821023a7626d9af242af69b71a1b67c1db53af5cfee3b9294c5aa0604faecfde5c778d5012abbfa274c803d7cddff7a7f29adc12c8",
+          "sha256": "8b6c685a676e4593e7ab7277fc083486ae80aa7d72b6f936fb4cd56930bd3493",
+          "sha1": "4a0dd6cd153d8f7f2548f5ef9774da921329f4ab",
+          "md5": "6fc06a80d183008fbdd5470e01c4e054"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.4-neoforge-1.2.3-sources.jar",
+          "url": "thief-1.21.4-neoforge-1.2.3-sources.jar",
+          "size": 11685,
+          "sha512": "20a96bf20097f62e6b90171b71282cdfc8351acda3c46790d5a6f17a5a476e21219ab3c469ae798b0ce3907e3fbf6b48a0ba8537ba48606bf86b378616bb35c8",
+          "sha256": "540799a9e0f50a66974c49d734e23abe5b41ce08ff3580c45e553d01196c89c1",
+          "sha1": "f6acbab15a7838b8a6e4997ae3c184c7c2e2152a",
+          "md5": "9fca354c1b91407e3deeb33dea783346"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.4-neoforge-1.2.3-dev-shadow.jar",
+          "url": "thief-1.21.4-neoforge-1.2.3-dev-shadow.jar",
+          "size": 144034,
+          "sha512": "97af5dbb507d6251f9639696eb570c99ac72f90472dd0ea3f464adae328eef552c39868e9c1da7a891df56e6620495190572853c729bb029cb177b570e00dd8b",
+          "sha256": "3b3ab529a1fcc2a6a2338f8f0202fa5ffbb67129142e0a2372616272b2829f2e",
+          "sha1": "90ba9a9046056d0cb9b789c0cc9d2c2cd1eeaeaa",
+          "md5": "e9b3ee3915286480f69cfc179687a3c7"
+        }
+      ]
+    }
+  ]
+}
