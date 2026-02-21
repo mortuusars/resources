@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.thief",
+    "module": "thief-1.21.4-fabric",
+    "version": "1.2.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.119.3+1.21.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.21.4-fabric-1.2.3.1.jar",
+          "url": "thief-1.21.4-fabric-1.2.3.1.jar",
+          "size": 153708,
+          "sha512": "fdab8c8a3d8596663aa8c7dd1d197e5c2e91ce81fb7fc994bf381e3200bb608993641e95443c876259cf3a4c55d20ff7ebc644cb6c0046f42004bde373a540ef",
+          "sha256": "1373b154e3b5329b9675e33e54018902ff165d73ae7207e783d0c3dfb60a8f62",
+          "sha1": "f1c672a5ec4855c27fc4ec3ed04545075fa0a02f",
+          "md5": "467dd0e4ab8207bbe767b01d2f00aa4d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.119.3+1.21.4"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.21.4-fabric-1.2.3.1.jar",
+          "url": "thief-1.21.4-fabric-1.2.3.1.jar",
+          "size": 153708,
+          "sha512": "fdab8c8a3d8596663aa8c7dd1d197e5c2e91ce81fb7fc994bf381e3200bb608993641e95443c876259cf3a4c55d20ff7ebc644cb6c0046f42004bde373a540ef",
+          "sha256": "1373b154e3b5329b9675e33e54018902ff165d73ae7207e783d0c3dfb60a8f62",
+          "sha1": "f1c672a5ec4855c27fc4ec3ed04545075fa0a02f",
+          "md5": "467dd0e4ab8207bbe767b01d2f00aa4d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.4-fabric-1.2.3.1-sources.jar",
+          "url": "thief-1.21.4-fabric-1.2.3.1-sources.jar",
+          "size": 13569,
+          "sha512": "7e06cfb07f8158d9659c36f38d6f233ce54d64f0420b5d0ff589fe18e724c49c63bd793f82bf5c164571f79d938bf5c4f7f8e7647583af300156b7c3836b985a",
+          "sha256": "71c40f806192966c4da64e947ac5cb3a44575b333165e6c16c90e6cdd89606bf",
+          "sha1": "4963786bacb1b2b1d1b887330e55fed95b55c7fc",
+          "md5": "8c6104d57402be06e91ce87806c1a195"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.4-fabric-1.2.3.1-dev-shadow.jar",
+          "url": "thief-1.21.4-fabric-1.2.3.1-dev-shadow.jar",
+          "size": 152237,
+          "sha512": "9918727143d22725a4c63ea05f083584ee5b42b965e065d038404a3c8bb0c8c3f4efd8bdd0bd5ba8044ccf8d803b027fd9e8d4d56ae4af97b6cf2ca5f37b8f92",
+          "sha256": "37afd04c3879dad5c2add7428cd17bb375897da86d90cdd683f3362ed956fc0f",
+          "sha1": "58ba87132ad821dc170f99b09f573e8d29bc424e",
+          "md5": "56d95625485e8c0547afdc38c7e8e497"
+        }
+      ]
+    }
+  ]
+}
