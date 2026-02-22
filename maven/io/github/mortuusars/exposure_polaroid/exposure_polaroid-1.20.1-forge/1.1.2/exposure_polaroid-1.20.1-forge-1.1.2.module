@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.exposure_polaroid",
+    "module": "exposure_polaroid-1.20.1-forge",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "exposure_polaroid-1.20.1-forge-1.1.2.jar",
+          "url": "exposure_polaroid-1.20.1-forge-1.1.2.jar",
+          "size": 345683,
+          "sha512": "dee7e67e8a7d51a6e7b6eef25992ae37629c0114031c243666744dbbf43bbf0e6e5f516b7663efb8077288a6d58a2e5212f86f284d5f035cb9d6a4a521c150cf",
+          "sha256": "51351abe017b31bd66e76ce1fb41932adca1c8360b54153f107cf6bd4bff45be",
+          "sha1": "c7d61cf3f12130901d4cbc584e967e96ad695828",
+          "md5": "f824782791313b7652dfb0ef42d1c3b6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.exposure",
+          "module": "exposure-1.20.1-forge",
+          "version": {
+            "requires": "1.9.14"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge",
+          "version": {
+            "requires": "15.20.0.112"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure_polaroid-1.20.1-forge-1.1.2.jar",
+          "url": "exposure_polaroid-1.20.1-forge-1.1.2.jar",
+          "size": 345683,
+          "sha512": "dee7e67e8a7d51a6e7b6eef25992ae37629c0114031c243666744dbbf43bbf0e6e5f516b7663efb8077288a6d58a2e5212f86f284d5f035cb9d6a4a521c150cf",
+          "sha256": "51351abe017b31bd66e76ce1fb41932adca1c8360b54153f107cf6bd4bff45be",
+          "sha1": "c7d61cf3f12130901d4cbc584e967e96ad695828",
+          "md5": "f824782791313b7652dfb0ef42d1c3b6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure_polaroid-1.20.1-forge-1.1.2-sources.jar",
+          "url": "exposure_polaroid-1.20.1-forge-1.1.2-sources.jar",
+          "size": 9596,
+          "sha512": "7e9578cebef5586baf5f07ca4bab71c960200b8bd34d3985b0c3538b52ba2135c3ea0acada283ee37f189a606dd82e29146f1603f555f1c0f67db5ab8ab2a1e2",
+          "sha256": "85463c08fb3fe753750e2b0b5340890106dc207583c83cfec696bf68d47b3b34",
+          "sha1": "cd05ae153b87d33088ab8efa805f71cf4b78456f",
+          "md5": "9ed51c5036ce8962560b7cf2f8478a42"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure_polaroid-1.20.1-forge-1.1.2-dev-shadow.jar",
+          "url": "exposure_polaroid-1.20.1-forge-1.1.2-dev-shadow.jar",
+          "size": 158496,
+          "sha512": "cc233b515e590196fa0fc3a5b44c0eee64f717662d12012264a2e7abea50fad81cc4eea775766cd515f57f2653c2b74585c125242b8deb251305bcb085fa02f9",
+          "sha256": "f28ee21a435a0d0c82ea812d39bd6da1c21c009d3b9adc0b60b701e9c618e3a8",
+          "sha1": "0e2df759b4c51d7a648134dcd91f6bab011febff",
+          "md5": "72546951f797dc360d8a572ac8575e87"
+        }
+      ]
+    }
+  ]
+}
