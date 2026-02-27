@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.sootychimneys",
+    "module": "sootychimneys-1.20.1-fabric",
+    "version": "1.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sootychimneys-1.20.1-fabric-1.3.4.jar",
+          "url": "sootychimneys-1.20.1-fabric-1.3.4.jar",
+          "size": 177131,
+          "sha512": "9671a0acebbd88a54e0c4487cfc5680abbf8dc6ff892c6a12f47bcffc625890f77c68383a81476e9b17bfd77454620a72c637b867df50c3cf3af9e1d9f5d79fe",
+          "sha256": "1fbbedcdc4f9cbcb1e9d422c854d3c86fe0e0e1c0e0e5664512b4031f4b3ed33",
+          "sha1": "e38654fe497f10740dc31443cc492418a0b13faa",
+          "md5": "510f7f4074122859d8966653dfadd42f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.2+1.20.1"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "modmenu",
+          "version": {
+            "requires": "lEkperf6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sootychimneys-1.20.1-fabric-1.3.4.jar",
+          "url": "sootychimneys-1.20.1-fabric-1.3.4.jar",
+          "size": 177131,
+          "sha512": "9671a0acebbd88a54e0c4487cfc5680abbf8dc6ff892c6a12f47bcffc625890f77c68383a81476e9b17bfd77454620a72c637b867df50c3cf3af9e1d9f5d79fe",
+          "sha256": "1fbbedcdc4f9cbcb1e9d422c854d3c86fe0e0e1c0e0e5664512b4031f4b3ed33",
+          "sha1": "e38654fe497f10740dc31443cc492418a0b13faa",
+          "md5": "510f7f4074122859d8966653dfadd42f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-1.20.1-fabric-1.3.4-sources.jar",
+          "url": "sootychimneys-1.20.1-fabric-1.3.4-sources.jar",
+          "size": 14348,
+          "sha512": "4ecac6088df9eb2345249aeb8b21b093b3fab618986f66df58c5d40acc0100564662aee9224ae8727b1185e3b8726ff8c92c87c3ae591f94b17569fd162eda60",
+          "sha256": "e3693cfb3c216101d7312de9acb661b4e7e23e7106f20eea6789674982566fa2",
+          "sha1": "3b98ef09a809ce5ddb5ee0c367dc96b0217c4cc8",
+          "md5": "b20cd87e6aaadca35fb646cb217934b2"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-1.20.1-fabric-1.3.4-dev-shadow.jar",
+          "url": "sootychimneys-1.20.1-fabric-1.3.4-dev-shadow.jar",
+          "size": 173563,
+          "sha512": "d96bd60c43bbfe15c6b34c777ae1868799ead1d290f88856d55f8270f162c18b01ceb678fec85cfb96972389535090ea962c0e52454da62b2f393f5a85c389de",
+          "sha256": "3a02cc83c3bfbcb88bea9575b3a31b702bc459c32178ce8886e5ce9553048acd",
+          "sha1": "75a59b0b23f7e1d1f57f7bb4f21fb32ecd1857b0",
+          "md5": "25162fc5f8b44b45121d34caea17e7d2"
+        }
+      ]
+    }
+  ]
+}

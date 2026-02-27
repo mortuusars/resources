@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.thief",
+    "module": "thief-1.21.8-fabric",
+    "version": "1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.136.1+1.21.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.21.8-fabric-1.2.3.jar",
+          "url": "thief-1.21.8-fabric-1.2.3.jar",
+          "size": 153484,
+          "sha512": "abf522e62d32268fe49da5db4bb4748e628bbf9a665a4b35bdf1f6e4ba4176fc427d343825f03793163f1d1a0750f1698765c5eb3cfe25cc2beccd6a9e2adc7f",
+          "sha256": "7e40a89ac6e256ac288fe5c282836b22b05984a6c76d157046766f61892c4bc9",
+          "sha1": "ac058974ef1d8afa9a8dadbac4682079d0207284",
+          "md5": "7c9ff6f6ed012dbdf408befe51448d0b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.136.1+1.21.8"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.1"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.21.8-fabric-1.2.3.jar",
+          "url": "thief-1.21.8-fabric-1.2.3.jar",
+          "size": 153484,
+          "sha512": "abf522e62d32268fe49da5db4bb4748e628bbf9a665a4b35bdf1f6e4ba4176fc427d343825f03793163f1d1a0750f1698765c5eb3cfe25cc2beccd6a9e2adc7f",
+          "sha256": "7e40a89ac6e256ac288fe5c282836b22b05984a6c76d157046766f61892c4bc9",
+          "sha1": "ac058974ef1d8afa9a8dadbac4682079d0207284",
+          "md5": "7c9ff6f6ed012dbdf408befe51448d0b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.8-fabric-1.2.3-sources.jar",
+          "url": "thief-1.21.8-fabric-1.2.3-sources.jar",
+          "size": 13554,
+          "sha512": "fc130030cf6cc1fc59fcbd55b0930f82017186e4cece6a2b9eb739a97d9e27eca9acf4ab76ab6c2478c1ab6fdeff8108b9228ee32d634d4d0c6fb36706727b06",
+          "sha256": "cb77b86211804cde6a50b5a3a8df79c3dc311a6a211e8bfe12621cd1d22afee3",
+          "sha1": "088c47c66cfccbd51c4842ca2a1146cbc17cc25f",
+          "md5": "e350280e27ef665fc131eed6fa9d9629"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.8-fabric-1.2.3-dev-shadow.jar",
+          "url": "thief-1.21.8-fabric-1.2.3-dev-shadow.jar",
+          "size": 151986,
+          "sha512": "9c3f7cd7f617bbcddd5281181a5ab97679f28fd060c5bd651ee7dd06ed24acfb6b7f6362c7fd0b14772a8b4da1e286e71fb488bb2198633b66dbf7d31fbbe419",
+          "sha256": "3e66c80fc8788839dfeeae6e0d0b978c8c451015b8631b7c046f95dd8a170a7e",
+          "sha1": "e3a97c49a6f25b3d95edc82a31ade06a3e5170d6",
+          "md5": "b2ff7df2dfd1137c638078c0b5aefe52"
+        }
+      ]
+    }
+  ]
+}

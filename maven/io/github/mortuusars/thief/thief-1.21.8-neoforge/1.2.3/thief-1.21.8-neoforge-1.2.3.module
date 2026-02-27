@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.thief",
+    "module": "thief-1.21.8-neoforge",
+    "version": "1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.8-neoforge-1.2.3.jar",
+          "url": "thief-1.21.8-neoforge-1.2.3.jar",
+          "size": 330415,
+          "sha512": "412deb386ee2b9dbe234446e5e2652fe50afb4e8ec5ca2af1410edbdb14349bc0e4a66f93d39d9ef5c22d27f665c7f5060414996496c30d7f8f76faf4b381307",
+          "sha256": "3446b1a758196a32d6a689f94f94136eaa258e22c333ed65a5dbac503a59eac6",
+          "sha1": "c3ac3928492a2560cf722a2209580b4aa0330bf3",
+          "md5": "ec8a107db069a8d7588117b32ae6b0c0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.8-neoforge",
+          "version": {
+            "requires": "24.2.0.6"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.21.8-neoforge-1.2.3.jar",
+          "url": "thief-1.21.8-neoforge-1.2.3.jar",
+          "size": 330415,
+          "sha512": "412deb386ee2b9dbe234446e5e2652fe50afb4e8ec5ca2af1410edbdb14349bc0e4a66f93d39d9ef5c22d27f665c7f5060414996496c30d7f8f76faf4b381307",
+          "sha256": "3446b1a758196a32d6a689f94f94136eaa258e22c333ed65a5dbac503a59eac6",
+          "sha1": "c3ac3928492a2560cf722a2209580b4aa0330bf3",
+          "md5": "ec8a107db069a8d7588117b32ae6b0c0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.8-neoforge-1.2.3-sources.jar",
+          "url": "thief-1.21.8-neoforge-1.2.3-sources.jar",
+          "size": 11720,
+          "sha512": "73c3664068f4c49963864a71e6e424ef985e24b56bc066a6950ee1c23086924f420cf4705641d084c1ac92310487b4bf67d9472bb287c5a91ce7f781e9ae21a4",
+          "sha256": "db35a6afc952507613ef9d173db157e87783ffd9fae37c73b546f0ddb263d67b",
+          "sha1": "86418c103a5eec830e872b6f288d1d6cb2fc479f",
+          "md5": "69eca80a02be7bce2b6b24a1e4b423b4"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.8-neoforge-1.2.3-dev-shadow.jar",
+          "url": "thief-1.21.8-neoforge-1.2.3-dev-shadow.jar",
+          "size": 145542,
+          "sha512": "28ab27c76a09b7cdf111ae6f72544054af6f0c4fb62b1e52a7d5fe88e1980b27f83be65a3a9fcb02c88f4f2e1993c02537c61993377ceecd45b0171ed9fb1d7a",
+          "sha256": "9d6d92cd590230f7415f340723a7aefc00979fc9aac64e3926d252d3e40432a4",
+          "sha1": "d80a846a8d56d6306affdaed74037a2b4636bbc1",
+          "md5": "fe9ad4905e1dff7344ecd0b54e61d6a5"
+        }
+      ]
+    }
+  ]
+}
