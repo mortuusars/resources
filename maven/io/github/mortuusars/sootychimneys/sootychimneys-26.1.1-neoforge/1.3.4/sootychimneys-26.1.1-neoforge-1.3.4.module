@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.sootychimneys",
+    "module": "sootychimneys-26.1.1-neoforge",
+    "version": "1.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-26.1.1-neoforge-1.3.4.jar",
+          "url": "sootychimneys-26.1.1-neoforge-1.3.4.jar",
+          "size": 183497,
+          "sha512": "57f939f3bbe0c4feeb621b2f62eed6170ee718e7e19a72ed2559dfced34bac80fd8d50d1554ae677663f12c2b589370e8b1d83e3e36c802db80136e868e80608",
+          "sha256": "b94b5c74824044dec692895b0e03d5351714cbf08db55f5042b60c81e07cd66b",
+          "sha1": "2410d616f5bbf1d15022725a57657e7bde5b5d7f",
+          "md5": "db90d82ce1d0da78e5b41157a851075d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-26.1.1-neoforge-1.3.4.jar",
+          "url": "sootychimneys-26.1.1-neoforge-1.3.4.jar",
+          "size": 183497,
+          "sha512": "57f939f3bbe0c4feeb621b2f62eed6170ee718e7e19a72ed2559dfced34bac80fd8d50d1554ae677663f12c2b589370e8b1d83e3e36c802db80136e868e80608",
+          "sha256": "b94b5c74824044dec692895b0e03d5351714cbf08db55f5042b60c81e07cd66b",
+          "sha1": "2410d616f5bbf1d15022725a57657e7bde5b5d7f",
+          "md5": "db90d82ce1d0da78e5b41157a851075d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-26.1.1-neoforge-1.3.4-sources.jar",
+          "url": "sootychimneys-26.1.1-neoforge-1.3.4-sources.jar",
+          "size": 121926,
+          "sha512": "9a43bd73ddff882754c713c6092d13d7921aad9bf75955ca1a0d0476f67299c1c913e33211f2d3107c0cb7867166cad7731b559e42ed49c9e087c3d5a36afb27",
+          "sha256": "de49b1dee5022b54f6f4881da9df50a90ab927ce8183d4d1f508f468ca4c1d07",
+          "sha1": "527560d8e1a57a7043e990b70aef2f6a38340c67",
+          "md5": "5a62e45774b75256c0c08dcad7e78579"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-26.1.1-neoforge-1.3.4.jar",
+          "url": "sootychimneys-26.1.1-neoforge-1.3.4.jar",
+          "size": 183497,
+          "sha512": "57f939f3bbe0c4feeb621b2f62eed6170ee718e7e19a72ed2559dfced34bac80fd8d50d1554ae677663f12c2b589370e8b1d83e3e36c802db80136e868e80608",
+          "sha256": "b94b5c74824044dec692895b0e03d5351714cbf08db55f5042b60c81e07cd66b",
+          "sha1": "2410d616f5bbf1d15022725a57657e7bde5b5d7f",
+          "md5": "db90d82ce1d0da78e5b41157a851075d"
+        }
+      ]
+    }
+  ]
+}

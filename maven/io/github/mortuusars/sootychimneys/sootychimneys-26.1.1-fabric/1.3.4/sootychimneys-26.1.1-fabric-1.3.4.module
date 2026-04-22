@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.sootychimneys",
+    "module": "sootychimneys-26.1.1-fabric",
+    "version": "1.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.144.3+26.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sootychimneys-26.1.1-fabric-1.3.4.jar",
+          "url": "sootychimneys-26.1.1-fabric-1.3.4.jar",
+          "size": 174840,
+          "sha512": "22b503d1d042b55c0a0ea3f6d43b9dce80bf47a3d9f85d01c8da10806fd8dd5d4db52139e4e3257b9d17159c15f428feeadf0977ebe1fbc6ecc735e48ab0bdc2",
+          "sha256": "e6b301caaeaeb7f418d1594af05ab7c891e193243a6e20ebd80ecef2ac6db7b6",
+          "sha1": "6f529a74f7f6921aa120f01aa583edfc77671ec0",
+          "md5": "db0078a97a78baf89611a1fa3b09e494"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.144.3+26.1"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "26.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sootychimneys-26.1.1-fabric-1.3.4.jar",
+          "url": "sootychimneys-26.1.1-fabric-1.3.4.jar",
+          "size": 174840,
+          "sha512": "22b503d1d042b55c0a0ea3f6d43b9dce80bf47a3d9f85d01c8da10806fd8dd5d4db52139e4e3257b9d17159c15f428feeadf0977ebe1fbc6ecc735e48ab0bdc2",
+          "sha256": "e6b301caaeaeb7f418d1594af05ab7c891e193243a6e20ebd80ecef2ac6db7b6",
+          "sha1": "6f529a74f7f6921aa120f01aa583edfc77671ec0",
+          "md5": "db0078a97a78baf89611a1fa3b09e494"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-26.1.1-fabric-1.3.4-sources.jar",
+          "url": "sootychimneys-26.1.1-fabric-1.3.4-sources.jar",
+          "size": 115229,
+          "sha512": "e5b342920dd80574ce7ef5159da196a9b07602a8d50f75d980cc7d1d0068a62ae532d14a09886ec41e7dc259cedfe5e4239b6acfec919f6d3e73b820d2ba5c84",
+          "sha256": "841c5b82d622600ce0094b51da166bc4042932e878cead39965a71ac6f11e0fb",
+          "sha1": "a3167186a74952198c9e831191fbf6b62ba955b8",
+          "md5": "ef25894dabee89982d9004aa3657e833"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-26.1.1-fabric-1.3.4.jar",
+          "url": "sootychimneys-26.1.1-fabric-1.3.4.jar",
+          "size": 174840,
+          "sha512": "22b503d1d042b55c0a0ea3f6d43b9dce80bf47a3d9f85d01c8da10806fd8dd5d4db52139e4e3257b9d17159c15f428feeadf0977ebe1fbc6ecc735e48ab0bdc2",
+          "sha256": "e6b301caaeaeb7f418d1594af05ab7c891e193243a6e20ebd80ecef2ac6db7b6",
+          "sha1": "6f529a74f7f6921aa120f01aa583edfc77671ec0",
+          "md5": "db0078a97a78baf89611a1fa3b09e494"
+        }
+      ]
+    }
+  ]
+}
