@@ -1,0 +1,183 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.thief",
+    "module": "thief-1.21.1-neoforge",
+    "version": "1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-neoforge",
+          "version": {
+            "requires": "2101.7.1-build.181"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.21.1-neoforge-1.2.3.jar",
+          "url": "thief-1.21.1-neoforge-1.2.3.jar",
+          "size": 345650,
+          "sha512": "9adfecc4e143b84f6ca50f0ef146758486cbdb4252fabeaa07423bf70f32ce519f5aa38ef6b0d422b89a4e0a420a8aba69c14bb0d99a7d3c0b8cfbc4e379e622",
+          "sha256": "281e241d567c411f91b5a09ea814a31a1949f8b9d73dc8ab7e5f3a93fc3029f0",
+          "sha1": "4ba935e18acbabb3bd46425d8e68625497dd9efc",
+          "md5": "17e1a8b2fba7a953dcbb436c6069a817"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "guard-villagers",
+          "version": {
+            "requires": "cXW6pA2s"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "carry-on",
+          "version": {
+            "requires": "79dpvD0M"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge",
+          "version": {
+            "requires": "19.19.0.220"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "embeddium-908741",
+          "version": {
+            "requires": "6118392"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.21.1-neoforge-1.2.3.jar",
+          "url": "thief-1.21.1-neoforge-1.2.3.jar",
+          "size": 345650,
+          "sha512": "9adfecc4e143b84f6ca50f0ef146758486cbdb4252fabeaa07423bf70f32ce519f5aa38ef6b0d422b89a4e0a420a8aba69c14bb0d99a7d3c0b8cfbc4e379e622",
+          "sha256": "281e241d567c411f91b5a09ea814a31a1949f8b9d73dc8ab7e5f3a93fc3029f0",
+          "sha1": "4ba935e18acbabb3bd46425d8e68625497dd9efc",
+          "md5": "17e1a8b2fba7a953dcbb436c6069a817"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.1-neoforge-1.2.3-sources.jar",
+          "url": "thief-1.21.1-neoforge-1.2.3-sources.jar",
+          "size": 17602,
+          "sha512": "e1ec534d976060585d3bd3cce0f8b6607394bb7a277e15f53e81d7128dbf2d892683d4dbdeded078c4c3ec68c57fa68760f423bba52b9525d86a1379da5b21ea",
+          "sha256": "1ea129c38ef88cb05606f17ff45012c4bd05d1e4b3a9220d1197837f67f35bba",
+          "sha1": "3dfbe0c0e257dc26089d885d550e4ff69ae8d7d7",
+          "md5": "1f81be5f0a40fcaad3210191cf98f96c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.21.1-neoforge-1.2.3-dev-shadow.jar",
+          "url": "thief-1.21.1-neoforge-1.2.3-dev-shadow.jar",
+          "size": 160365,
+          "sha512": "aa61ab96c5b18396dbf013d502bf832ae399248b4d3c5f154aee6b5dec07615423a9eb1a2081ce1522ae6f1d9eb1294bbc326f1422afb741d62b9b21b8ca69fc",
+          "sha256": "005b3094cfd5b22d495a9120147c2bd3baf2fb91cb98d5e225049a0ea12d9a8f",
+          "sha1": "f5a33b397377296b8fcbb1517f43ffaa17077a32",
+          "md5": "32e93cc5e35fcd42bbf0470623a0fb6a"
+        }
+      ]
+    }
+  ]
+}

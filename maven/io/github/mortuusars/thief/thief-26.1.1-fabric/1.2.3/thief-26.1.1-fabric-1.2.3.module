@@ -36,11 +36,11 @@
         {
           "name": "thief-26.1.1-fabric-1.2.3.jar",
           "url": "thief-26.1.1-fabric-1.2.3.jar",
-          "size": 153065,
-          "sha512": "c176f8be17c444713c8c2fadf1cfb80b7b97af5c7acbaf2c6aeffd65788bf1e985ed5950bce46e3a3c24316719b68f5c698d8cd922999bbb8437e538b4478529",
-          "sha256": "ed77092cf1dbd89cca6426780c53adbc6aec9ce026e4694bdb8521a11f91d808",
-          "sha1": "56af7a6b38f87c994d71738440487eda07ca52b3",
-          "md5": "16e59b265e51f9a988486ee0b225c0d5"
+          "size": 153083,
+          "sha512": "52ab4cb3ee07d85e4527c617442e5ef3903c2365afe680a01b082abe057b2c2bdbbe667213bae61c4cce25df41d7529ed7e82d7f7f4370dcef222767c3d2b151",
+          "sha256": "6c0c994889dc4ed9e1ce8cdea5c1f263354b00e537ad64c2485e1bb2fbf76d89",
+          "sha1": "0c5af84e85ef2e1a7ec18db610dd36d33d395e03",
+          "md5": "20f587ccefeb683f89793c6fdd51b5da"
         }
       ]
     },
@@ -80,11 +80,11 @@
         {
           "name": "thief-26.1.1-fabric-1.2.3.jar",
           "url": "thief-26.1.1-fabric-1.2.3.jar",
-          "size": 153065,
-          "sha512": "c176f8be17c444713c8c2fadf1cfb80b7b97af5c7acbaf2c6aeffd65788bf1e985ed5950bce46e3a3c24316719b68f5c698d8cd922999bbb8437e538b4478529",
-          "sha256": "ed77092cf1dbd89cca6426780c53adbc6aec9ce026e4694bdb8521a11f91d808",
-          "sha1": "56af7a6b38f87c994d71738440487eda07ca52b3",
-          "md5": "16e59b265e51f9a988486ee0b225c0d5"
+          "size": 153083,
+          "sha512": "52ab4cb3ee07d85e4527c617442e5ef3903c2365afe680a01b082abe057b2c2bdbbe667213bae61c4cce25df41d7529ed7e82d7f7f4370dcef222767c3d2b151",
+          "sha256": "6c0c994889dc4ed9e1ce8cdea5c1f263354b00e537ad64c2485e1bb2fbf76d89",
+          "sha1": "0c5af84e85ef2e1a7ec18db610dd36d33d395e03",
+          "md5": "20f587ccefeb683f89793c6fdd51b5da"
         }
       ]
     },
@@ -100,11 +100,11 @@
         {
           "name": "thief-26.1.1-fabric-1.2.3-sources.jar",
           "url": "thief-26.1.1-fabric-1.2.3-sources.jar",
-          "size": 82451,
-          "sha512": "9ffd0627c00c779dff14c578edee80c9d33eb9bf22d1f9a85fd896690ac2b95786018442a64200aba57804df6dca184d59ffc81cf75795c984329362736be775",
-          "sha256": "e2df73333b6bc843617b111e7ba034f5193dce880cbcac8bb1c626307413d7f6",
-          "sha1": "baf060fadaa1c9fa8f124d70d58b0aafcbb0de84",
-          "md5": "da6d083e5ebddfb8e6949730bb8e06b5"
+          "size": 82386,
+          "sha512": "e1edd9e73d158fdfb119a4ee035e8b485afaca7797e56af57f82f3f397cb2f23cde2272924d14cbba06c8f3c5ad8931ef3a063783e51b017c4be0a625cf76403",
+          "sha256": "2c2f994f9e0a6941f583f40e8dc3f089cd38551c8e7605d6fe000969be7f99f3",
+          "sha1": "b7811d436d88e970f91279c66c58b75f5f03fed1",
+          "md5": "8180438fe46efe5171ba396abb83a7b2"
         }
       ]
     },
@@ -121,11 +121,11 @@
         {
           "name": "thief-26.1.1-fabric-1.2.3.jar",
           "url": "thief-26.1.1-fabric-1.2.3.jar",
-          "size": 153065,
-          "sha512": "c176f8be17c444713c8c2fadf1cfb80b7b97af5c7acbaf2c6aeffd65788bf1e985ed5950bce46e3a3c24316719b68f5c698d8cd922999bbb8437e538b4478529",
-          "sha256": "ed77092cf1dbd89cca6426780c53adbc6aec9ce026e4694bdb8521a11f91d808",
-          "sha1": "56af7a6b38f87c994d71738440487eda07ca52b3",
-          "md5": "16e59b265e51f9a988486ee0b225c0d5"
+          "size": 153083,
+          "sha512": "52ab4cb3ee07d85e4527c617442e5ef3903c2365afe680a01b082abe057b2c2bdbbe667213bae61c4cce25df41d7529ed7e82d7f7f4370dcef222767c3d2b151",
+          "sha256": "6c0c994889dc4ed9e1ce8cdea5c1f263354b00e537ad64c2485e1bb2fbf76d89",
+          "sha1": "0c5af84e85ef2e1a7ec18db610dd36d33d395e03",
+          "md5": "20f587ccefeb683f89793c6fdd51b5da"
         }
       ]
     }

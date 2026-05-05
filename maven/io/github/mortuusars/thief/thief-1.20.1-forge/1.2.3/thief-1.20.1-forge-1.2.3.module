@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.thief",
+    "module": "thief-1.20.1-forge",
+    "version": "1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-common-api",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5072729"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge-api",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-forge",
+          "version": {
+            "requires": "2001.6.5-build.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.20.1-forge-1.2.3-forge.jar",
+          "url": "thief-1.20.1-forge-1.2.3-forge.jar",
+          "size": 339312,
+          "sha512": "0cda8b34103ac8e88bf52cfb7e19f09a93ce660d225c8e07ec86282ecf4ad555b5087b78f1e7f83db7cea64c032c707ef5b20d6f482a66f513c95e1a6f27cca2",
+          "sha256": "cbd255d6ef2d1e9e73b9bad0251e3475ca1c18b5e8477be9ddff00474458f456",
+          "sha1": "5f61297c68fc9fd7437957d37348c7ee2be311f4",
+          "md5": "93e622f0878fbf94faddd105c8ac3819"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-forge",
+          "version": {
+            "requires": "15.2.0.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-forge",
+          "version": {
+            "requires": "2001.6.5-build.20"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "probejs-585406",
+          "version": {
+            "requires": "5227399"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5072729"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-1.20.1-forge-1.2.3-forge.jar",
+          "url": "thief-1.20.1-forge-1.2.3-forge.jar",
+          "size": 339312,
+          "sha512": "0cda8b34103ac8e88bf52cfb7e19f09a93ce660d225c8e07ec86282ecf4ad555b5087b78f1e7f83db7cea64c032c707ef5b20d6f482a66f513c95e1a6f27cca2",
+          "sha256": "cbd255d6ef2d1e9e73b9bad0251e3475ca1c18b5e8477be9ddff00474458f456",
+          "sha1": "5f61297c68fc9fd7437957d37348c7ee2be311f4",
+          "md5": "93e622f0878fbf94faddd105c8ac3819"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-1.20.1-forge-1.2.3-sources.jar",
+          "url": "thief-1.20.1-forge-1.2.3-sources.jar",
+          "size": 89959,
+          "sha512": "09b0788011a23d4b0ace22b5a6ed3358133abc83ee1d78e8ab19d67b5ddd9b6134a13c2fc9b6c4112fce5ceb7ca8209cd99ae99f9268c238f2adc05fdc0117b6",
+          "sha256": "ab19b2a4c687fb8aae7464896c362dbf73daca268f33edb9a581015c346fc6d6",
+          "sha1": "11db66990457f0e1e779a4c455da7dbba501aa38",
+          "md5": "d884cfbb88b03e049e3106ba7712baa9"
+        }
+      ]
+    }
+  ]
+}
