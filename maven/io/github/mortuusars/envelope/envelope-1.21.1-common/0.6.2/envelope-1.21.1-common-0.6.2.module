@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.envelope",
+    "module": "envelope-1.21.1-common",
+    "version": "0.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.ryanhcode.sable-companion",
+          "module": "sable-companion-common-1.21.1",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.25.0.322"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "envelope-1.21.1-common-0.6.2.jar",
+          "url": "envelope-1.21.1-common-0.6.2.jar",
+          "size": 1379132,
+          "sha512": "059f904383a68d1c6d2102a9a767ef846b48298e54496fca3276a3f41c928fb3991f177b80fbcee57d3f44ffc4ab5b6cdd9b939ccd351f9897c3539ce39b292c",
+          "sha256": "1b04fb71983dfe3fb01794158680a3c80ac9864aa2a0ab382e2b0617f7bc7fd5",
+          "sha1": "0961747a10d3543e381bc8ff8d671c75e753f1f3",
+          "md5": "6b9265ff166e2490b171eb1912502aad"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.ryanhcode.sable-companion",
+          "module": "sable-companion-common-1.21.1",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "envelope-1.21.1-common-0.6.2.jar",
+          "url": "envelope-1.21.1-common-0.6.2.jar",
+          "size": 1379132,
+          "sha512": "059f904383a68d1c6d2102a9a767ef846b48298e54496fca3276a3f41c928fb3991f177b80fbcee57d3f44ffc4ab5b6cdd9b939ccd351f9897c3539ce39b292c",
+          "sha256": "1b04fb71983dfe3fb01794158680a3c80ac9864aa2a0ab382e2b0617f7bc7fd5",
+          "sha1": "0961747a10d3543e381bc8ff8d671c75e753f1f3",
+          "md5": "6b9265ff166e2490b171eb1912502aad"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "envelope-1.21.1-common-0.6.2-sources.jar",
+          "url": "envelope-1.21.1-common-0.6.2-sources.jar",
+          "size": 832821,
+          "sha512": "6dbc552d7aa1500ff981d7b44d711362d1ec109bee47bc62ca2b428f7638b114e77d4dbd9a8af810a053f567ce3fd28df8103af064d484895144d06987c98d6a",
+          "sha256": "37d440d05d44473ab74f9d13b34b037606f155c57f48aa8a243f61b9034c8527",
+          "sha1": "7d6fc710ede924dce9266c6e1bb523ab8e1b4301",
+          "md5": "5cd24d44a00a6765839607bca7b27abd"
+        }
+      ]
+    }
+  ]
+}
