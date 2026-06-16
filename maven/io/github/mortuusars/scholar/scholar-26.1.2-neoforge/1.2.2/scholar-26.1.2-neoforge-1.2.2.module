@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.scholar",
+    "module": "scholar-26.1.2-neoforge",
+    "version": "1.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "scholar-26.1.2-neoforge-1.2.2.jar",
+          "url": "scholar-26.1.2-neoforge-1.2.2.jar",
+          "size": 738200,
+          "sha512": "39ee2015225a098755747a3e5a0cc638c9f19a2e370aba974b360af91b8c48f016505a836a365d6de87164c83ab50cd7bc1a64a149e856cbff16b71138e567ff",
+          "sha256": "76e5b7d951fcf7114c7e241938930a6d0b6253de3db99963d794f6b75444e3de",
+          "sha1": "a47ee3617be1fb07fb888df2f50647d2f0fe6b62",
+          "md5": "8f88a97ec791fc6f74d94fe5b646f361"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-26.1.2-neoforge-1.2.2.jar",
+          "url": "scholar-26.1.2-neoforge-1.2.2.jar",
+          "size": 738200,
+          "sha512": "39ee2015225a098755747a3e5a0cc638c9f19a2e370aba974b360af91b8c48f016505a836a365d6de87164c83ab50cd7bc1a64a149e856cbff16b71138e567ff",
+          "sha256": "76e5b7d951fcf7114c7e241938930a6d0b6253de3db99963d794f6b75444e3de",
+          "sha1": "a47ee3617be1fb07fb888df2f50647d2f0fe6b62",
+          "md5": "8f88a97ec791fc6f74d94fe5b646f361"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-26.1.2-neoforge-1.2.2-sources.jar",
+          "url": "scholar-26.1.2-neoforge-1.2.2-sources.jar",
+          "size": 567037,
+          "sha512": "b73deb2d27c6496a0811c9b3295d9a578be3248430fa86f1f5646d95033ee3439c96f6cd32e8a4f4e7d2c8a36de6516c0c41b3af54f57ca837d84127ec52fbde",
+          "sha256": "4af4785f4d8a3caaaa39d1be4069ff62e305f63596df125a1adb11cb8741670d",
+          "sha1": "0943237435015821bcc38742cc732635e9c3b413",
+          "md5": "aabd6ce132e25674b704bf7026dfe9e0"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-26.1.2-neoforge-1.2.2.jar",
+          "url": "scholar-26.1.2-neoforge-1.2.2.jar",
+          "size": 738200,
+          "sha512": "39ee2015225a098755747a3e5a0cc638c9f19a2e370aba974b360af91b8c48f016505a836a365d6de87164c83ab50cd7bc1a64a149e856cbff16b71138e567ff",
+          "sha256": "76e5b7d951fcf7114c7e241938930a6d0b6253de3db99963d794f6b75444e3de",
+          "sha1": "a47ee3617be1fb07fb888df2f50647d2f0fe6b62",
+          "md5": "8f88a97ec791fc6f74d94fe5b646f361"
+        }
+      ]
+    }
+  ]
+}
