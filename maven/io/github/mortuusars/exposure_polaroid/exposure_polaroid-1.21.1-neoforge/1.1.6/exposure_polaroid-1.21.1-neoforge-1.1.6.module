@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.exposure_polaroid",
+    "module": "exposure_polaroid-1.21.1-neoforge",
+    "version": "1.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "exposure_polaroid-1.21.1-neoforge-1.1.6.jar",
+          "url": "exposure_polaroid-1.21.1-neoforge-1.1.6.jar",
+          "size": 361404,
+          "sha512": "3bd93c62297a725194eee35c511570debc52729d126c7e2e4e819ade73d9fbc91e4ea80088b24126532dd06288a8c537baa2787db6cb2e4a234438ff7b992d56",
+          "sha256": "a39485de154de47422671b763677814bfe09227214775c78a0052e5b22b30e61",
+          "sha1": "141ea133aff47e1655bd4a4937688bede22ebe58",
+          "md5": "16db23eafadc5fb8dcda4c79f98d43cf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.exposure",
+          "module": "exposure-1.21.1-neoforge",
+          "version": {
+            "requires": "1.9.18"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "exposure_polaroid-1.21.1-neoforge-1.1.6.jar",
+          "url": "exposure_polaroid-1.21.1-neoforge-1.1.6.jar",
+          "size": 361404,
+          "sha512": "3bd93c62297a725194eee35c511570debc52729d126c7e2e4e819ade73d9fbc91e4ea80088b24126532dd06288a8c537baa2787db6cb2e4a234438ff7b992d56",
+          "sha256": "a39485de154de47422671b763677814bfe09227214775c78a0052e5b22b30e61",
+          "sha1": "141ea133aff47e1655bd4a4937688bede22ebe58",
+          "md5": "16db23eafadc5fb8dcda4c79f98d43cf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure_polaroid-1.21.1-neoforge-1.1.6-sources.jar",
+          "url": "exposure_polaroid-1.21.1-neoforge-1.1.6-sources.jar",
+          "size": 9970,
+          "sha512": "8dab100354a965f4ac6dd728c10a2f08372a09cfb0349f756660c7fcd66fc06a6fe1a0ae05f79e9ef61452c0a5cdb6461e06fe230964cd5c688b440d28be8cba",
+          "sha256": "d60ecf39cd99de0c66672d91045893bcae7aca4f4d9c5221d8f36c425ccc75d9",
+          "sha1": "42421cea1658d570b8eb1942b1956f2dc79e91ef",
+          "md5": "9290df3a733b21ec1afe2636dcb61153"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exposure_polaroid-1.21.1-neoforge-1.1.6-dev-shadow.jar",
+          "url": "exposure_polaroid-1.21.1-neoforge-1.1.6-dev-shadow.jar",
+          "size": 176530,
+          "sha512": "62c1356fe4bb00e0d3163c89192563d63720b877f4b8788f33a6b20a8677b85d183a477f4188a3c55f43e084ba0c0c4d796f88fdc3956538d99ccc9d3630a38f",
+          "sha256": "5a945e326d950e1a79c27e9dba6d1df4446320cc680175dba9a2386de441a7dd",
+          "sha1": "2bf654a079e526a56a97f159fdb690e0ddc4bc73",
+          "md5": "0e6e6f4419b9c60db0639b998dc28161"
+        }
+      ]
+    }
+  ]
+}
