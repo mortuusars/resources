@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.sootychimneys",
+    "module": "sootychimneys-26.2-common",
+    "version": "1.3.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.2.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-26.2-common-api",
+          "version": {
+            "requires": "30.15.0.108"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sootychimneys-26.2-common-1.3.5.jar",
+          "url": "sootychimneys-26.2-common-1.3.5.jar",
+          "size": 161772,
+          "sha512": "34432f6009170507e14e113cab9c6fcaaabc084d83c2f9b464a296e742b4797ae231d3deb109a4fff12043bfb9010ecac45b68294b342c07769ea375c54096c1",
+          "sha256": "ac9a4d31fd506ce47ef805fba4a7fb0b6f7260cffef2490f850c79f71208a37a",
+          "sha1": "a273b42bcf8a25f96859914e477d74b3a695aec6",
+          "md5": "8c799c00ed0f1cb8cd8beadc5df4ea7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sootychimneys-26.2-common-1.3.5.jar",
+          "url": "sootychimneys-26.2-common-1.3.5.jar",
+          "size": 161772,
+          "sha512": "34432f6009170507e14e113cab9c6fcaaabc084d83c2f9b464a296e742b4797ae231d3deb109a4fff12043bfb9010ecac45b68294b342c07769ea375c54096c1",
+          "sha256": "ac9a4d31fd506ce47ef805fba4a7fb0b6f7260cffef2490f850c79f71208a37a",
+          "sha1": "a273b42bcf8a25f96859914e477d74b3a695aec6",
+          "md5": "8c799c00ed0f1cb8cd8beadc5df4ea7f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-26.2-common-1.3.5-sources.jar",
+          "url": "sootychimneys-26.2-common-1.3.5-sources.jar",
+          "size": 109411,
+          "sha512": "c2e869f3c00d5f40726e828314250f5c639ebdad3dae61a99b2f0e3bfdf0ba47ce87a604ae8ae1b85fc5314d159be6f9f0ea7841d36adeb906cfd0fb474dcd21",
+          "sha256": "ffe9667d3cdfd1056375467c57e4e65dae19262bb0f25efb48b0e8e80d329358",
+          "sha1": "8630bc25017caeb66490d92c051a89d2107df024",
+          "md5": "19f2bb378609d5c692b10b18de327194"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sootychimneys-26.2-common-1.3.5.jar",
+          "url": "sootychimneys-26.2-common-1.3.5.jar",
+          "size": 161772,
+          "sha512": "34432f6009170507e14e113cab9c6fcaaabc084d83c2f9b464a296e742b4797ae231d3deb109a4fff12043bfb9010ecac45b68294b342c07769ea375c54096c1",
+          "sha256": "ac9a4d31fd506ce47ef805fba4a7fb0b6f7260cffef2490f850c79f71208a37a",
+          "sha1": "a273b42bcf8a25f96859914e477d74b3a695aec6",
+          "md5": "8c799c00ed0f1cb8cd8beadc5df4ea7f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.thief",
+    "module": "thief-26.2-common",
+    "version": "1.2.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-26.2-common-1.2.5.jar",
+          "url": "thief-26.2-common-1.2.5.jar",
+          "size": 130843,
+          "sha512": "db6ff69ef3b9b13d42360475da1bd110fb8c8244c83578406632ab0dd398ba4b211b03b76ed5777ff97f13bac96e51957494fa7ce108ac01559828c044a5df5c",
+          "sha256": "36361dade26a82fe2e23a6ca1688c68200953130fd971f6fec7639223da7a2b6",
+          "sha1": "928a5ca30c80634de84b5a9cfee0576554531cbb",
+          "md5": "56790aaf28baa3c06f3d4f00b084623d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thief-26.2-common-1.2.5.jar",
+          "url": "thief-26.2-common-1.2.5.jar",
+          "size": 130843,
+          "sha512": "db6ff69ef3b9b13d42360475da1bd110fb8c8244c83578406632ab0dd398ba4b211b03b76ed5777ff97f13bac96e51957494fa7ce108ac01559828c044a5df5c",
+          "sha256": "36361dade26a82fe2e23a6ca1688c68200953130fd971f6fec7639223da7a2b6",
+          "sha1": "928a5ca30c80634de84b5a9cfee0576554531cbb",
+          "md5": "56790aaf28baa3c06f3d4f00b084623d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-26.2-common-1.2.5-sources.jar",
+          "url": "thief-26.2-common-1.2.5-sources.jar",
+          "size": 72494,
+          "sha512": "9e5f072c29895ce254ccafd3d4b61f5a78d00cd2af6880dee97fd3e832bc33a5b2966a69da256b789df4664cb1d8d9bdf14fa9e162a360981990d606191efc86",
+          "sha256": "bbfe59b705ecdb24efa9dde7021e8ed57f93fd82af100d44cf8afd5797e8cc32",
+          "sha1": "08e80337ce56d8ecf2afaeab887fa02afbe6c4f1",
+          "md5": "bf38b6cce1abefafb6683aba3ca90af5"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-26.2-common-1.2.5.jar",
+          "url": "thief-26.2-common-1.2.5.jar",
+          "size": 130843,
+          "sha512": "db6ff69ef3b9b13d42360475da1bd110fb8c8244c83578406632ab0dd398ba4b211b03b76ed5777ff97f13bac96e51957494fa7ce108ac01559828c044a5df5c",
+          "sha256": "36361dade26a82fe2e23a6ca1688c68200953130fd971f6fec7639223da7a2b6",
+          "sha1": "928a5ca30c80634de84b5a9cfee0576554531cbb",
+          "md5": "56790aaf28baa3c06f3d4f00b084623d"
+        }
+      ]
+    }
+  ]
+}
