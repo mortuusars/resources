@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.scholar",
+    "module": "scholar-26.2-common",
+    "version": "1.2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.2.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-26.2-common-api",
+          "version": {
+            "requires": "30.15.0.108"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-26.2-common-1.2.4.jar",
+          "url": "scholar-26.2-common-1.2.4.jar",
+          "size": 719042,
+          "sha512": "1d97d6b3171b6113abe300c2d9d995b67fb0c611de71f357137cf8387ef5fe63b3008a7e4cb294888a7d894f9251c0e16d98efb16a7cdb898efb7bc95c601546",
+          "sha256": "992ca56c017c50d5a63fb6403d5e1f8bc7b45ae103a715949c965af6f71f22b2",
+          "sha1": "b2e115203f39768cbaa7802f3e3d95c657ee4706",
+          "md5": "f194f0e15e28d154fe61c1f09c8746a2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-26.2-common-1.2.4.jar",
+          "url": "scholar-26.2-common-1.2.4.jar",
+          "size": 719042,
+          "sha512": "1d97d6b3171b6113abe300c2d9d995b67fb0c611de71f357137cf8387ef5fe63b3008a7e4cb294888a7d894f9251c0e16d98efb16a7cdb898efb7bc95c601546",
+          "sha256": "992ca56c017c50d5a63fb6403d5e1f8bc7b45ae103a715949c965af6f71f22b2",
+          "sha1": "b2e115203f39768cbaa7802f3e3d95c657ee4706",
+          "md5": "f194f0e15e28d154fe61c1f09c8746a2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-26.2-common-1.2.4-sources.jar",
+          "url": "scholar-26.2-common-1.2.4-sources.jar",
+          "size": 559538,
+          "sha512": "9de479f3df7e703b4955a1270c852030ba7b821ce17a7735749b6273cfa281a68f84c5f02b7eb7f5e24f3fd48188db0542057098cf8ffd76ca6612573493c911",
+          "sha256": "15d4cac3c4f94381e0bf95853b79683b8dd5b355f3e2daed648121b2275c39d0",
+          "sha1": "197ed6121317b4c76ed1982867ec29399b7dad73",
+          "md5": "e17751b261a0fd539523e2c9980b6d2a"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-26.2-common-1.2.4.jar",
+          "url": "scholar-26.2-common-1.2.4.jar",
+          "size": 719042,
+          "sha512": "1d97d6b3171b6113abe300c2d9d995b67fb0c611de71f357137cf8387ef5fe63b3008a7e4cb294888a7d894f9251c0e16d98efb16a7cdb898efb7bc95c601546",
+          "sha256": "992ca56c017c50d5a63fb6403d5e1f8bc7b45ae103a715949c965af6f71f22b2",
+          "sha1": "b2e115203f39768cbaa7802f3e3d95c657ee4706",
+          "md5": "f194f0e15e28d154fe61c1f09c8746a2"
+        }
+      ]
+    }
+  ]
+}
