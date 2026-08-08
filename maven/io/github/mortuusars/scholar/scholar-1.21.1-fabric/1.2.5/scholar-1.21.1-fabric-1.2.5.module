@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.scholar",
+    "module": "scholar-1.21.1-fabric",
+    "version": "1.2.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.25.0.322"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "6155158"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-fabric-api",
+          "version": {
+            "requires": "19.25.0.322"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-1.21.1-fabric-1.2.5.jar",
+          "url": "scholar-1.21.1-fabric-1.2.5.jar",
+          "size": 738355,
+          "sha512": "4b25ac51a551f7730fa7c4bb9a1eac24c03cf4fae3bf323905ad27402b96bcf1e1b87410da5e521a4e79a511bac5ef870801e8355bc1e0a12b972b7402bcddad",
+          "sha256": "35ff355d876cbc7c5cb06d1b4f01cc58a65fc2099de1ab8c313330ad6ef0e4f3",
+          "sha1": "763a5e1b3afd9a0b9147d45b4603a0b1a82fdd6d",
+          "md5": "8bd77a53f9bb5e3bab94f9a2735c9953"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.102.1+1.21.1"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-1.21.1-fabric-1.2.5.jar",
+          "url": "scholar-1.21.1-fabric-1.2.5.jar",
+          "size": 738355,
+          "sha512": "4b25ac51a551f7730fa7c4bb9a1eac24c03cf4fae3bf323905ad27402b96bcf1e1b87410da5e521a4e79a511bac5ef870801e8355bc1e0a12b972b7402bcddad",
+          "sha256": "35ff355d876cbc7c5cb06d1b4f01cc58a65fc2099de1ab8c313330ad6ef0e4f3",
+          "sha1": "763a5e1b3afd9a0b9147d45b4603a0b1a82fdd6d",
+          "md5": "8bd77a53f9bb5e3bab94f9a2735c9953"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-1.21.1-fabric-1.2.5-sources.jar",
+          "url": "scholar-1.21.1-fabric-1.2.5-sources.jar",
+          "size": 12400,
+          "sha512": "38c9689a62306971f8a427173752f9a1811057220f1a6a0c92eb11f2aa0f8c39b0403c2f683be2789689673bad272a8bc5eb84c872d4cb474a22b042e41112e0",
+          "sha256": "0854e98fb80eb2ab4ee1a47bd11dca8c2abc110db3797d173536c4667a087518",
+          "sha1": "8520b16861b27e57bf003710133d907abe7c0246",
+          "md5": "c6ca8a6c6b4150324b2256d126042dc2"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-1.21.1-fabric-1.2.5-dev-shadow.jar",
+          "url": "scholar-1.21.1-fabric-1.2.5-dev-shadow.jar",
+          "size": 730631,
+          "sha512": "0a18ea4fd2e828a276a6c49efed8be89ca9c09724a88fcd98f1669069831c7fe7296c3446ef2c722c267b00fddc856666ac70f92cd5a7e46fb8ef753a212e939",
+          "sha256": "9440e92550a9afd3dda4839d7dfccf88e8aaa3ac896da8ed6cdab88207a5d969",
+          "sha1": "497a5555223387d06e1aea2a52eea8f1e9441391",
+          "md5": "47e4f6d982b4a539e57f09586059fd26"
+        }
+      ]
+    }
+  ]
+}
