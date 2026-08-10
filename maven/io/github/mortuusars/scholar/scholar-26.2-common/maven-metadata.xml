@@ -3,11 +3,12 @@
   <groupId>io.github.mortuusars.scholar</groupId>
   <artifactId>scholar-26.2-common</artifactId>
   <versioning>
-    <latest>1.2.4</latest>
-    <release>1.2.4</release>
+    <latest>1.2.5</latest>
+    <release>1.2.5</release>
     <versions>
       <version>1.2.4</version>
+      <version>1.2.5</version>
     </versions>
-    <lastUpdated>20260801133912</lastUpdated>
+    <lastUpdated>20260808162900</lastUpdated>
   </versioning>
 </metadata>
