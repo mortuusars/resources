@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.envelope",
+    "module": "envelope-1.21.1-common",
+    "version": "0.7.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.ryanhcode.sable-companion",
+          "module": "sable-companion-common-1.21.1",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.25.0.322"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "envelope-1.21.1-common-0.7.5.jar",
+          "url": "envelope-1.21.1-common-0.7.5.jar",
+          "size": 1933706,
+          "sha512": "4daf7b76543244df6978c3455ba1b37995bfc3aef760c0ad0a1916e890e0a670756f7f9453feaa06bd6989cf7382aec9d63141ecb23457d72e4ddf0449f89c73",
+          "sha256": "8aeb5cffe8880d90294d71005d3fc40ad5decb0ad41c09014e95b6b0a28f7321",
+          "sha1": "72f7a9697361bd8a05e03e7b648acaf5cb5faf4b",
+          "md5": "9c73ad7ca8cb6a15d76d857b0f71e2e4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.ryanhcode.sable-companion",
+          "module": "sable-companion-common-1.21.1",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "envelope-1.21.1-common-0.7.5.jar",
+          "url": "envelope-1.21.1-common-0.7.5.jar",
+          "size": 1933706,
+          "sha512": "4daf7b76543244df6978c3455ba1b37995bfc3aef760c0ad0a1916e890e0a670756f7f9453feaa06bd6989cf7382aec9d63141ecb23457d72e4ddf0449f89c73",
+          "sha256": "8aeb5cffe8880d90294d71005d3fc40ad5decb0ad41c09014e95b6b0a28f7321",
+          "sha1": "72f7a9697361bd8a05e03e7b648acaf5cb5faf4b",
+          "md5": "9c73ad7ca8cb6a15d76d857b0f71e2e4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "envelope-1.21.1-common-0.7.5-sources.jar",
+          "url": "envelope-1.21.1-common-0.7.5-sources.jar",
+          "size": 1313499,
+          "sha512": "358cddf2044e76556ae24b0e26c8273c8f250eeddac5bb13009f39e1ec3fde5af836d6befa6b9ce5248840ca6f85b9aadff1ef849b8356232e17c703f2a35b70",
+          "sha256": "477c72c4c06e296c23626963d583b745abe6aa513c2c714e8e7d14012b5015b3",
+          "sha1": "d8f8e6d1933c54b1095764d851e98986dd930835",
+          "md5": "7bfcfe90761c658c5e0f8feb12fd01ba"
+        }
+      ]
+    }
+  ]
+}
