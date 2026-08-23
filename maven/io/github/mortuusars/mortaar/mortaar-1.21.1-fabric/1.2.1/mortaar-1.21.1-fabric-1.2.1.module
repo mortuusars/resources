@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.mortaar",
+    "module": "mortaar-1.21.1-fabric",
+    "version": "1.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mortaar-1.21.1-fabric-1.2.1.jar",
+          "url": "mortaar-1.21.1-fabric-1.2.1.jar",
+          "size": 77239,
+          "sha512": "45bf1ef0e50dfbdf345036d6cd04ab62de3eccf3d07a57f93fe46c393c82c0a8df78202f2641c51a25f9b5f52fb144112bc9542f290952b00121597a0d92d5e3",
+          "sha256": "c665c69ba18b60d080e9a7522c77e78c169ca9a841950a99e94a76998ab16da0",
+          "sha1": "854250be4a7d5bffaab70aa8c4ae316cd70ceb5b",
+          "md5": "cc813fa704400fd098a33d349c529d2b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mortaar-1.21.1-fabric-1.2.1.jar",
+          "url": "mortaar-1.21.1-fabric-1.2.1.jar",
+          "size": 77239,
+          "sha512": "45bf1ef0e50dfbdf345036d6cd04ab62de3eccf3d07a57f93fe46c393c82c0a8df78202f2641c51a25f9b5f52fb144112bc9542f290952b00121597a0d92d5e3",
+          "sha256": "c665c69ba18b60d080e9a7522c77e78c169ca9a841950a99e94a76998ab16da0",
+          "sha1": "854250be4a7d5bffaab70aa8c4ae316cd70ceb5b",
+          "md5": "cc813fa704400fd098a33d349c529d2b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mortaar-1.21.1-fabric-1.2.1-sources.jar",
+          "url": "mortaar-1.21.1-fabric-1.2.1-sources.jar",
+          "size": 5411,
+          "sha512": "92195acead78d8950672e8f777b110bfc02be57227a0277ab25c9a08fc4509ddbe51cebe714c88b965b595be9fbff947c01989ec1ef788d85991a3939d1eb80e",
+          "sha256": "df436edb9e026957b2b6b6ebc02259bded19f3d2a815f9683cb3c06538d18bb5",
+          "sha1": "4f65e01e2d329915a8fb460bf2ef292b819a77cf",
+          "md5": "2405311e92be1c1647c7b3bed7181b8c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mortaar-1.21.1-fabric-1.2.1-dev-shadow.jar",
+          "url": "mortaar-1.21.1-fabric-1.2.1-dev-shadow.jar",
+          "size": 75569,
+          "sha512": "b0523291d52223a328aa482dad16e8e69cca07d3efd762137c7d365929b8e230002e4932d3eb7efddfeba5a39f27b1209cf243e0a34fff477931832fa268839f",
+          "sha256": "246150196e7f70819711b2e1cd484514fc70538dfa4683ec85335a70492f1033",
+          "sha1": "ec33feaaad24a18918c092ae6bbdcab7c382eb57",
+          "md5": "36033b0049276781d1c3f7acbbbb0035"
+        }
+      ]
+    }
+  ]
+}
