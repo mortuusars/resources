@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.chalk",
+    "module": "chalk-1.21.1-fabric",
+    "version": "2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chalk-1.21.1-fabric-2.0.2.jar",
+          "url": "chalk-1.21.1-fabric-2.0.2.jar",
+          "size": 549703,
+          "sha512": "c95ac82e1c0eef44fd46683a3cd609ba80d5b65faa200cbf74ae326c971e046db67daee394b7b6c2ed3723f021b2c91a7f1375854970a20b8394a8eaa6eea791",
+          "sha256": "8b98174a011a5d26ca69bb032d1e28bc5f239b19e01cbbe923ad266308be819d",
+          "sha1": "48508ac0af32932b1e8360e6ed1c35ad7816444b",
+          "md5": "4d3caaf9b806b0ce3488ae93c09702a6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.107.0+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.mortaar",
+          "module": "mortaar-1.21.1-fabric",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chalk-1.21.1-fabric-2.0.2.jar",
+          "url": "chalk-1.21.1-fabric-2.0.2.jar",
+          "size": 549703,
+          "sha512": "c95ac82e1c0eef44fd46683a3cd609ba80d5b65faa200cbf74ae326c971e046db67daee394b7b6c2ed3723f021b2c91a7f1375854970a20b8394a8eaa6eea791",
+          "sha256": "8b98174a011a5d26ca69bb032d1e28bc5f239b19e01cbbe923ad266308be819d",
+          "sha1": "48508ac0af32932b1e8360e6ed1c35ad7816444b",
+          "md5": "4d3caaf9b806b0ce3488ae93c09702a6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "chalk-1.21.1-fabric-2.0.2-sources.jar",
+          "url": "chalk-1.21.1-fabric-2.0.2-sources.jar",
+          "size": 8112,
+          "sha512": "153363f5750978f98507967d7b2546d8d7ff0324f67861f84808bfd5a83218be6df57407f9c340e404b5201c9d9a02ff26e76a1535e1e0f2e3454a2f2c0287b8",
+          "sha256": "bfef3c0cc4c76cc55075ead90b25cbeb8caf79f5f5ff3eac5e2fadb6e6219f4c",
+          "sha1": "1ff6d7618c777840f05c2a714f1b8cc680c44589",
+          "md5": "718a0925f18314bf5cbe5c7342e707cf"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "chalk-1.21.1-fabric-2.0.2-dev-shadow.jar",
+          "url": "chalk-1.21.1-fabric-2.0.2-dev-shadow.jar",
+          "size": 409040,
+          "sha512": "c2e3f187ba9b07124f7ab23e0a90ae377ff45825f87ce249a418861f9896792d9c3f31076e1531c7bfe6532e8ac62d6dfeea8d16bf376863e3e19447c64c9509",
+          "sha256": "dd8b9be6419bc456c86b4c66f4a0726b21eb8a78b2635ba630330b7ae39b49d1",
+          "sha1": "0c62499be832219d446234bccafb98d6912a21ac",
+          "md5": "75edf152eaa644ab341431702b908d63"
+        }
+      ]
+    }
+  ]
+}
