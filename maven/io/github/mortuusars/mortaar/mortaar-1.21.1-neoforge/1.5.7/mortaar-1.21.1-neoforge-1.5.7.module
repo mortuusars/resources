@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.mortaar",
+    "module": "mortaar-1.21.1-neoforge",
+    "version": "1.5.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mortaar-1.21.1-neoforge-1.5.7.jar",
+          "url": "mortaar-1.21.1-neoforge-1.5.7.jar",
+          "size": 167688,
+          "sha512": "c0cbe19934c64e1264d842c517319c7c990555e6ae09f57bddb5be8576938bcf637b37bf86cf8a7932dc4547d3d64d6f8450656eedad4718a85ddff7b30fcef1",
+          "sha256": "d1bb558e48adf556b5c576cbbb494f0775edcc1bc137ac1e1ab6c44470c8e3f9",
+          "sha1": "db75b9b43881fb64273cd7f9aa29b47f5aa7901d",
+          "md5": "e588e6a6350fc1ceaa96feaf4c3d69b7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mortaar-1.21.1-neoforge-1.5.7.jar",
+          "url": "mortaar-1.21.1-neoforge-1.5.7.jar",
+          "size": 167688,
+          "sha512": "c0cbe19934c64e1264d842c517319c7c990555e6ae09f57bddb5be8576938bcf637b37bf86cf8a7932dc4547d3d64d6f8450656eedad4718a85ddff7b30fcef1",
+          "sha256": "d1bb558e48adf556b5c576cbbb494f0775edcc1bc137ac1e1ab6c44470c8e3f9",
+          "sha1": "db75b9b43881fb64273cd7f9aa29b47f5aa7901d",
+          "md5": "e588e6a6350fc1ceaa96feaf4c3d69b7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mortaar-1.21.1-neoforge-1.5.7-sources.jar",
+          "url": "mortaar-1.21.1-neoforge-1.5.7-sources.jar",
+          "size": 9274,
+          "sha512": "8aa5d706f688ee22efdb69c9755cb0f1ec447f08378da2b61044828d58709be0b1b80f9675aba34c2d180c0f7722e6bf0c073e2f0ffd75f6100d0171c53a89e1",
+          "sha256": "74b601c126cd8983635879c2c51f17ff1d2c693b44274e4bfd72dfc944a2d85c",
+          "sha1": "83670a9bad327695506098f8d6ca0dd2d82aa9c0",
+          "md5": "d419978558917e16eb9145a65bdfaca2"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mortaar-1.21.1-neoforge-1.5.7-dev-shadow.jar",
+          "url": "mortaar-1.21.1-neoforge-1.5.7-dev-shadow.jar",
+          "size": 162914,
+          "sha512": "cdd343cf91ede80090a6ca509458436392440c53b5bc549ed3edb50f9f16ea51dcde298598c672b802c3b4674f17ffd65218e38d558545a55023584d987a6512",
+          "sha256": "a7bcb3e3527f88ed4a7e772fc4ec959dd99ce19641d39615d8c7c479d94b78c9",
+          "sha1": "abc036b0eb208d6910efa6416cdc1394f18a584e",
+          "md5": "24528f230f0cc21a026c41f3011bef2b"
+        }
+      ]
+    }
+  ]
+}
