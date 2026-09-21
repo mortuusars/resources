@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.thief",
+    "module": "thief-26.2-neoforge",
+    "version": "1.2.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "thief-26.2-neoforge-1.2.6.jar",
+          "url": "thief-26.2-neoforge-1.2.6.jar",
+          "size": 151935,
+          "sha512": "9e2fb12c503a0a0c6090673e43f5c9e13f9b932c84bae66fa0f20fa842c50be1b3c1604906f530a9d0ddc128d1ed202dfbfafdf7acf71eec5254947672d6426d",
+          "sha256": "0d62b2f0f280865438a4b33cc2a62e744da36526cd076b71a4a79ce2bf556342",
+          "sha1": "f91197ef9f2bf7d1e35cf723c1b961911328832e",
+          "md5": "7527701037693cbc9a94418851ce738b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-26.2-neoforge-1.2.6.jar",
+          "url": "thief-26.2-neoforge-1.2.6.jar",
+          "size": 151935,
+          "sha512": "9e2fb12c503a0a0c6090673e43f5c9e13f9b932c84bae66fa0f20fa842c50be1b3c1604906f530a9d0ddc128d1ed202dfbfafdf7acf71eec5254947672d6426d",
+          "sha256": "0d62b2f0f280865438a4b33cc2a62e744da36526cd076b71a4a79ce2bf556342",
+          "sha1": "f91197ef9f2bf7d1e35cf723c1b961911328832e",
+          "md5": "7527701037693cbc9a94418851ce738b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-26.2-neoforge-1.2.6-sources.jar",
+          "url": "thief-26.2-neoforge-1.2.6-sources.jar",
+          "size": 82851,
+          "sha512": "321908ad046325435b6d7d832cd2474864f72f06472035cc51a62bdd8054e47a5093ca511d2a2d850551ea5f0bafbab5c920fe85281f7d2e69623c5b6628058b",
+          "sha256": "93d143f9ca1beb035443bb417beebaed3b867e9a0d4d7ba2b9cd884418fc8fa2",
+          "sha1": "624ad4e4a2e64b70366e70ca9f4b08c545274535",
+          "md5": "c2c341f1578bf7ba55f4b55a5f3642ce"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thief-26.2-neoforge-1.2.6.jar",
+          "url": "thief-26.2-neoforge-1.2.6.jar",
+          "size": 151935,
+          "sha512": "9e2fb12c503a0a0c6090673e43f5c9e13f9b932c84bae66fa0f20fa842c50be1b3c1604906f530a9d0ddc128d1ed202dfbfafdf7acf71eec5254947672d6426d",
+          "sha256": "0d62b2f0f280865438a4b33cc2a62e744da36526cd076b71a4a79ce2bf556342",
+          "sha1": "f91197ef9f2bf7d1e35cf723c1b961911328832e",
+          "md5": "7527701037693cbc9a94418851ce738b"
+        }
+      ]
+    }
+  ]
+}

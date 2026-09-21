@@ -3,11 +3,12 @@
   <groupId>io.github.mortuusars.thief</groupId>
   <artifactId>thief-26.2-neoforge</artifactId>
   <versioning>
-    <latest>1.2.5</latest>
-    <release>1.2.5</release>
+    <latest>1.2.6</latest>
+    <release>1.2.6</release>
     <versions>
       <version>1.2.5</version>
+      <version>1.2.6</version>
     </versions>
-    <lastUpdated>20260730171420</lastUpdated>
+    <lastUpdated>20260921204213</lastUpdated>
   </versioning>
 </metadata>
