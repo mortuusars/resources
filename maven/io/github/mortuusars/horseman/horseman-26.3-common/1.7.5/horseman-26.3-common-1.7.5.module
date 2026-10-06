@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.horseman",
+    "module": "horseman-26.3-common",
+    "version": "1.7.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.3.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-26.3-common-api",
+          "version": {
+            "requires": "31.9.0.57"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "horseman-26.3-common-1.7.5.jar",
+          "url": "horseman-26.3-common-1.7.5.jar",
+          "size": 258229,
+          "sha512": "0030ebd7c8d0f2b93a7e1ed5320dee453aad8be3b758dfc4f5154f8fcd98839a671d1a1ff84bce03d9b500e29aa17d43e84ae7cee5179c2ca044fe50050caab1",
+          "sha256": "9d67af2e49e804769b05df2ec24eade2bb2ed4292443ac954dd3eabd6eeb1c97",
+          "sha1": "1e7faa7f1053bf1aee5bf53ac4e9ac4ec534cead",
+          "md5": "159bcad6009fca212a3f1e0ba4cab44b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.5"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "horseman-26.3-common-1.7.5.jar",
+          "url": "horseman-26.3-common-1.7.5.jar",
+          "size": 258229,
+          "sha512": "0030ebd7c8d0f2b93a7e1ed5320dee453aad8be3b758dfc4f5154f8fcd98839a671d1a1ff84bce03d9b500e29aa17d43e84ae7cee5179c2ca044fe50050caab1",
+          "sha256": "9d67af2e49e804769b05df2ec24eade2bb2ed4292443ac954dd3eabd6eeb1c97",
+          "sha1": "1e7faa7f1053bf1aee5bf53ac4e9ac4ec534cead",
+          "md5": "159bcad6009fca212a3f1e0ba4cab44b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "horseman-26.3-common-1.7.5-sources.jar",
+          "url": "horseman-26.3-common-1.7.5-sources.jar",
+          "size": 179750,
+          "sha512": "67b5704d0febbd41ac81f45938f4a1ff6cd3c477ba9cbca54d4c735df56fb684becd0077e36869542b3a29f3fcb040d3e46269920b910c0acc13d2e0f0bc9b44",
+          "sha256": "82888f0ee6533e6f6ec347f75d11d2a77d01d5f4d83b4ae4302100e15be0bfe0",
+          "sha1": "eb15a43b8844a2eca9713008327d9730d001231a",
+          "md5": "ca6b39d9524cc51014c04c57fde719ba"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "horseman-26.3-common-1.7.5.jar",
+          "url": "horseman-26.3-common-1.7.5.jar",
+          "size": 258229,
+          "sha512": "0030ebd7c8d0f2b93a7e1ed5320dee453aad8be3b758dfc4f5154f8fcd98839a671d1a1ff84bce03d9b500e29aa17d43e84ae7cee5179c2ca044fe50050caab1",
+          "sha256": "9d67af2e49e804769b05df2ec24eade2bb2ed4292443ac954dd3eabd6eeb1c97",
+          "sha1": "1e7faa7f1053bf1aee5bf53ac4e9ac4ec534cead",
+          "md5": "159bcad6009fca212a3f1e0ba4cab44b"
+        }
+      ]
+    }
+  ]
+}

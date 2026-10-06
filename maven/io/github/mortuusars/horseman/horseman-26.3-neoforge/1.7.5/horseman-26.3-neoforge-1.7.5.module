@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.horseman",
+    "module": "horseman-26.3-neoforge",
+    "version": "1.7.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "horseman-26.3-neoforge-1.7.5.jar",
+          "url": "horseman-26.3-neoforge-1.7.5.jar",
+          "size": 278224,
+          "sha512": "4e0d28dcdc38d6620f04ce7d7918a4761af3e677be25e23dcc9e3c4819b521e1429eff86032cc13ee5e6d673ce30c735979fadafc99e735f63030cf94f70d7a7",
+          "sha256": "bf2d7f33d77a342abf30deccf9713746cdebfce09e455a83fde5791733c9a5b1",
+          "sha1": "7e1fbc5428df9ec66ed0bbf9d14af629ba952365",
+          "md5": "41be9b03303a0b3bdbbf33ba0c555b9b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "horseman-26.3-neoforge-1.7.5.jar",
+          "url": "horseman-26.3-neoforge-1.7.5.jar",
+          "size": 278224,
+          "sha512": "4e0d28dcdc38d6620f04ce7d7918a4761af3e677be25e23dcc9e3c4819b521e1429eff86032cc13ee5e6d673ce30c735979fadafc99e735f63030cf94f70d7a7",
+          "sha256": "bf2d7f33d77a342abf30deccf9713746cdebfce09e455a83fde5791733c9a5b1",
+          "sha1": "7e1fbc5428df9ec66ed0bbf9d14af629ba952365",
+          "md5": "41be9b03303a0b3bdbbf33ba0c555b9b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "horseman-26.3-neoforge-1.7.5-sources.jar",
+          "url": "horseman-26.3-neoforge-1.7.5-sources.jar",
+          "size": 189723,
+          "sha512": "2bf5cb01ce0ebb6af3a2da7385109daabcce7f94660d594b4350f2ded419ef269ceab6adb41cddcb8749df7e7547164dea0461dfd9ffcd5b0d247f4f34f31ab9",
+          "sha256": "0efe52893e8442e3c1b78e62870df5de0b80671e70272e925a8773f1223a1e1b",
+          "sha1": "a44757fbf98cecc447426a1f3a9afe495700f936",
+          "md5": "92a22e446db903a0449504f22e1247fe"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "horseman-26.3-neoforge-1.7.5.jar",
+          "url": "horseman-26.3-neoforge-1.7.5.jar",
+          "size": 278224,
+          "sha512": "4e0d28dcdc38d6620f04ce7d7918a4761af3e677be25e23dcc9e3c4819b521e1429eff86032cc13ee5e6d673ce30c735979fadafc99e735f63030cf94f70d7a7",
+          "sha256": "bf2d7f33d77a342abf30deccf9713746cdebfce09e455a83fde5791733c9a5b1",
+          "sha1": "7e1fbc5428df9ec66ed0bbf9d14af629ba952365",
+          "md5": "41be9b03303a0b3bdbbf33ba0c555b9b"
+        }
+      ]
+    }
+  ]
+}
