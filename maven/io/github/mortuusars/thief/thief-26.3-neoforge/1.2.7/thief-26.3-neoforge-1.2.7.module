@@ -27,11 +27,11 @@
         {
           "name": "thief-26.3-neoforge-1.2.7.jar",
           "url": "thief-26.3-neoforge-1.2.7.jar",
-          "size": 144354,
-          "sha512": "5b45a9698560a188ec5481985daeacde4896535dd5a41c0e1f42ef8199748265b8f1385aaf17af66ddf2c1954a9fe06f5dd84b42a679b338e460dc490070ec2e",
-          "sha256": "0213ac53e89e21d8b5cd714a37446e92f23471575117598a74b2300998f8ad1b",
-          "sha1": "9144b35cc178162a4f7281b3095f2e51dfee8340",
-          "md5": "b49a820b42696a269891c5d5c227dcb4"
+          "size": 144375,
+          "sha512": "1e971562bfa5e171e8723ced86b3502d25606e712c7f4e07b5e3e4024540e298ab17f4e3e9e6da372e2804dabe4e868112bd6e73b5f60f712ad0e20e463f96d7",
+          "sha256": "a7013491cd3a79c10c30102490c73aebf91fb47c5ab5ec57fd75c3132ff6fa22",
+          "sha1": "4336f7e523756176426bad92366ad1828a9fc108",
+          "md5": "c6ea0a886978cddaa2d135bb049ea678"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "thief-26.3-neoforge-1.2.7.jar",
           "url": "thief-26.3-neoforge-1.2.7.jar",
-          "size": 144354,
-          "sha512": "5b45a9698560a188ec5481985daeacde4896535dd5a41c0e1f42ef8199748265b8f1385aaf17af66ddf2c1954a9fe06f5dd84b42a679b338e460dc490070ec2e",
-          "sha256": "0213ac53e89e21d8b5cd714a37446e92f23471575117598a74b2300998f8ad1b",
-          "sha1": "9144b35cc178162a4f7281b3095f2e51dfee8340",
-          "md5": "b49a820b42696a269891c5d5c227dcb4"
+          "size": 144375,
+          "sha512": "1e971562bfa5e171e8723ced86b3502d25606e712c7f4e07b5e3e4024540e298ab17f4e3e9e6da372e2804dabe4e868112bd6e73b5f60f712ad0e20e463f96d7",
+          "sha256": "a7013491cd3a79c10c30102490c73aebf91fb47c5ab5ec57fd75c3132ff6fa22",
+          "sha1": "4336f7e523756176426bad92366ad1828a9fc108",
+          "md5": "c6ea0a886978cddaa2d135bb049ea678"
         }
       ]
     },
@@ -68,11 +68,11 @@
         {
           "name": "thief-26.3-neoforge-1.2.7-sources.jar",
           "url": "thief-26.3-neoforge-1.2.7-sources.jar",
-          "size": 75252,
-          "sha512": "4d48140b57b6a3bb6937981b5df8f3cbf84827846461e162545c3d771ab078a58446f321c0d648eef475dd2b36f19fb231566cbe674825a6132eaa94f773eca4",
-          "sha256": "0752ea0bd368882bd94fad32fcd82263cc8941ef107d9e7ff2d34e7524dd79e4",
-          "sha1": "1ff0aede160f16c8a75c00a3b6befdc156f84d3d",
-          "md5": "b5ff34bad0db2f903164af0a5146a1d4"
+          "size": 75274,
+          "sha512": "ac13d662cfda01eb44b21f4ca04958a75d23f578518f9313936f07222773d72885bd23f809913dd48a9c1890f5f8dabd0be6234b4bd2424c7f9662330bc62728",
+          "sha256": "4b65e9866d25b15c517920a6ff29a113b5d67eb1ea6bc2a3c99469af694dc0b1",
+          "sha1": "cc28dbadf5970d399646b4c4beadaa314a9285bc",
+          "md5": "cc1b3c30be87d5ceb7f062789e7dbe38"
         }
       ]
     },
@@ -89,11 +89,11 @@
         {
           "name": "thief-26.3-neoforge-1.2.7.jar",
           "url": "thief-26.3-neoforge-1.2.7.jar",
-          "size": 144354,
-          "sha512": "5b45a9698560a188ec5481985daeacde4896535dd5a41c0e1f42ef8199748265b8f1385aaf17af66ddf2c1954a9fe06f5dd84b42a679b338e460dc490070ec2e",
-          "sha256": "0213ac53e89e21d8b5cd714a37446e92f23471575117598a74b2300998f8ad1b",
-          "sha1": "9144b35cc178162a4f7281b3095f2e51dfee8340",
-          "md5": "b49a820b42696a269891c5d5c227dcb4"
+          "size": 144375,
+          "sha512": "1e971562bfa5e171e8723ced86b3502d25606e712c7f4e07b5e3e4024540e298ab17f4e3e9e6da372e2804dabe4e868112bd6e73b5f60f712ad0e20e463f96d7",
+          "sha256": "a7013491cd3a79c10c30102490c73aebf91fb47c5ab5ec57fd75c3132ff6fa22",
+          "sha1": "4336f7e523756176426bad92366ad1828a9fc108",
+          "md5": "c6ea0a886978cddaa2d135bb049ea678"
         }
       ]
     }
