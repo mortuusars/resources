@@ -28,5 +28,10 @@
         "name": "Garrett",
         "uuid": "1eeae4f3-01c3-412e-877c-5805a2652575",
         "active": true
-    }    
+    },
+    {
+        "name": "Wilkins",
+        "uuid": "542d7003-b66b-4bc8-a425-847302e0276e",
+        "active": true
+    }  
 ]
