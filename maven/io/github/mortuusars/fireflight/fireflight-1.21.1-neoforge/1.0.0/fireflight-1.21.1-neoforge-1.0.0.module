@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.fireflight",
+    "module": "fireflight-1.21.1-neoforge",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fireflight-1.21.1-neoforge-1.0.0.jar",
+          "url": "fireflight-1.21.1-neoforge-1.0.0.jar",
+          "size": 488097,
+          "sha512": "fbae6bfb19b6aa2d4e30332f468f92cc5795e85e5cccbb567f5fe7fa205b7234dd735627f23f6cef0280058aadcd53b0156575910f2ad8ef18a63dc91e05381e",
+          "sha256": "5c6a7104dd1d846c7f083c7c03fc37cc9e2b417f7cd6f5d496fd2971263817c2",
+          "sha1": "791e5354766659ad36c32b56c76caf1cba97173e",
+          "md5": "ec5bb569f872ce583d0812278fa04887"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.mortaar",
+          "module": "mortaar-1.21.1-neoforge",
+          "version": {
+            "requires": "1.7.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fireflight-1.21.1-neoforge-1.0.0.jar",
+          "url": "fireflight-1.21.1-neoforge-1.0.0.jar",
+          "size": 488097,
+          "sha512": "fbae6bfb19b6aa2d4e30332f468f92cc5795e85e5cccbb567f5fe7fa205b7234dd735627f23f6cef0280058aadcd53b0156575910f2ad8ef18a63dc91e05381e",
+          "sha256": "5c6a7104dd1d846c7f083c7c03fc37cc9e2b417f7cd6f5d496fd2971263817c2",
+          "sha1": "791e5354766659ad36c32b56c76caf1cba97173e",
+          "md5": "ec5bb569f872ce583d0812278fa04887"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fireflight-1.21.1-neoforge-1.0.0-sources.jar",
+          "url": "fireflight-1.21.1-neoforge-1.0.0-sources.jar",
+          "size": 8240,
+          "sha512": "0e28a6d1a935b2e2db10fa01f5890d973eeb00721b309f642070c4f5b107b9142dc55ef00180ceebf19b1a6d15cf23395d4a1c5cccf31949aaa1cfae4f382964",
+          "sha256": "34a41f01f1cbadb48dd7dbaacf16d006c5a25bdbdca685a0da1e315fd9ba53e6",
+          "sha1": "dd0ebfc633a297a7dec774dcbea30f1d322bc946",
+          "md5": "ca160ccba77c2a7d2e1c334c6240b2d0"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fireflight-1.21.1-neoforge-1.0.0-dev-shadow.jar",
+          "url": "fireflight-1.21.1-neoforge-1.0.0-dev-shadow.jar",
+          "size": 135702,
+          "sha512": "c75c477c5f1f3999645c22ba3293544cbaae463fa541115b51f8e99a4016e9b3133d0f7cce764c671116f267c7131e5a7a6e0a110c437fbdef83fff2856bb85d",
+          "sha256": "b41bc2a3ed0995bc5c0b3284e3c9ce243ff34ae90d28b099fc4e32b3908f0e9b",
+          "sha1": "34d4735aa8ef11cd4d59c2742f4eb7a374c01bf1",
+          "md5": "08fba9b8428aebea5555e8b56ab00013"
+        }
+      ]
+    }
+  ]
+}

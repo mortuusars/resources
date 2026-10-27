@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.fireflight",
+    "module": "fireflight-1.21.1-common",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.64.0.453"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fireflight-1.21.1-common-1.0.0.jar",
+          "url": "fireflight-1.21.1-common-1.0.0.jar",
+          "size": 130353,
+          "sha512": "2fef059faeb1e65d2af64f8624579919c7482005d788f958e24028dc814e9cb5a92004953248dbe2b8978a26e19d362d43b50b6d74817f5b7e76cea8dadebac2",
+          "sha256": "224a0bcd7d486c1542303f8bdd90c230d49adc0975ceb7ef3ff7d1091e09e810",
+          "sha1": "d09eb7742e4d2d09d15a9400d989240680c61eac",
+          "md5": "d7da4e0fd070c41f81b9caa2e103d184"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fireflight-1.21.1-common-1.0.0.jar",
+          "url": "fireflight-1.21.1-common-1.0.0.jar",
+          "size": 130353,
+          "sha512": "2fef059faeb1e65d2af64f8624579919c7482005d788f958e24028dc814e9cb5a92004953248dbe2b8978a26e19d362d43b50b6d74817f5b7e76cea8dadebac2",
+          "sha256": "224a0bcd7d486c1542303f8bdd90c230d49adc0975ceb7ef3ff7d1091e09e810",
+          "sha1": "d09eb7742e4d2d09d15a9400d989240680c61eac",
+          "md5": "d7da4e0fd070c41f81b9caa2e103d184"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fireflight-1.21.1-common-1.0.0-sources.jar",
+          "url": "fireflight-1.21.1-common-1.0.0-sources.jar",
+          "size": 89906,
+          "sha512": "bd40bc7ece01f2132c57cbeb690617a7271022985fbd5a6c2f4280b442801e76561de264930673af0f9548e70446a608b2c1ae3c8d5f400e04be0bbbb6032f51",
+          "sha256": "e88a4ab5d3ceebdb36da51a32807954d6d7bd668c981f69455cad482948f1356",
+          "sha1": "85283ac436ba7a0b2c9f28a5f394dd39105dce6e",
+          "md5": "9e05c9caab7b5c9cd846431934a6aa2e"
+        }
+      ]
+    }
+  ]
+}

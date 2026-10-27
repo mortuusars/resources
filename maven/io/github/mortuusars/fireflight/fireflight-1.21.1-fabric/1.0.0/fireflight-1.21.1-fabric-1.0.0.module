@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.fireflight",
+    "module": "fireflight-1.21.1-fabric",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.5+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fireflight-1.21.1-fabric-1.0.0.jar",
+          "url": "fireflight-1.21.1-fabric-1.0.0.jar",
+          "size": 298801,
+          "sha512": "a3512107cdce922db0d967019918c9d9904e5340574ae710d87a36c5c8ca453740ceef449580fb6ebb9c1c79271fe71ca4756b1fb3ef5aa3f91d8e7b572b66fa",
+          "sha256": "3a82186ec8d964adc98f4aac4071146c0a453789e939fdee224a7292a98e4057",
+          "sha1": "70952e44aa9fcbaf891b0c95e8b82ec7410ab159",
+          "md5": "3a50537b482e6e26334d335016f5273c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.5+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.mortaar",
+          "module": "mortaar-1.21.1-fabric",
+          "version": {
+            "requires": "1.7.6"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fireflight-1.21.1-fabric-1.0.0.jar",
+          "url": "fireflight-1.21.1-fabric-1.0.0.jar",
+          "size": 298801,
+          "sha512": "a3512107cdce922db0d967019918c9d9904e5340574ae710d87a36c5c8ca453740ceef449580fb6ebb9c1c79271fe71ca4756b1fb3ef5aa3f91d8e7b572b66fa",
+          "sha256": "3a82186ec8d964adc98f4aac4071146c0a453789e939fdee224a7292a98e4057",
+          "sha1": "70952e44aa9fcbaf891b0c95e8b82ec7410ab159",
+          "md5": "3a50537b482e6e26334d335016f5273c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fireflight-1.21.1-fabric-1.0.0-sources.jar",
+          "url": "fireflight-1.21.1-fabric-1.0.0-sources.jar",
+          "size": 4843,
+          "sha512": "e7fb774ae292f950c7542d46ae920354a4386bf6515ba1484de4426e64b2c9626f6da2810886c2ee54f0a4efaa095b8245b75a6830292680804a16333d0ea030",
+          "sha256": "954df9f27e10ed8642564573765605a90278000efd84d08445cf353d95ad9578",
+          "sha1": "0f2ff81e5d404c8340c5e79d4becdfc68ae35070",
+          "md5": "7c52cef5827a6fd4787b622930f5de58"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fireflight-1.21.1-fabric-1.0.0-dev-shadow.jar",
+          "url": "fireflight-1.21.1-fabric-1.0.0-dev-shadow.jar",
+          "size": 129350,
+          "sha512": "278485166aee044762416f736944fe77503f158c5777b4901cff8233198b15a4f7f78b42153f64d5d11fedc5e075ea0f97a2f8cbee21832616106f985188b0fb",
+          "sha256": "412877af97a5770b4a3cffe0f5ff01875a690546308efc5003723988162f7a43",
+          "sha1": "70c02556f3cbc84a5ab0e2d077fbea203c32cf37",
+          "md5": "0013c025873d1ae0edbf69653f2d6a9f"
+        }
+      ]
+    }
+  ]
+}
