@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.envelope",
+    "module": "envelope-1.21.1-neoforge",
+    "version": "0.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.ryanhcode.sable-companion",
+          "module": "sable-companion-common-1.21.1",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-neoforge",
+          "version": {
+            "requires": "2101.7.2-build.353"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "envelope-1.21.1-neoforge-0.8.1.jar",
+          "url": "envelope-1.21.1-neoforge-0.8.1.jar",
+          "size": 2541943,
+          "sha512": "a3e6dd05e40dbf2e5e00b3bc9a43bfee9305e35de04396c8f2494f2d93ead785be18c4f81382c1fd84b16205b5dd0167cb9413ed00f7c7a45abfed2bfe185fd2",
+          "sha256": "e59baf937ddd859db3ed673733756a7b827bae0c722de750551e0159662eda8a",
+          "sha1": "f2f9510cbc6666b978ecd08dbfae77f5dd974956",
+          "md5": "68502cbff021e87d6778229941d288a4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "dev.ryanhcode.sable-companion",
+          "module": "sable-companion-common-1.21.1",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.mortaar",
+          "module": "mortaar-1.21.1-neoforge",
+          "version": {
+            "requires": "1.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "envelope-1.21.1-neoforge-0.8.1.jar",
+          "url": "envelope-1.21.1-neoforge-0.8.1.jar",
+          "size": 2541943,
+          "sha512": "a3e6dd05e40dbf2e5e00b3bc9a43bfee9305e35de04396c8f2494f2d93ead785be18c4f81382c1fd84b16205b5dd0167cb9413ed00f7c7a45abfed2bfe185fd2",
+          "sha256": "e59baf937ddd859db3ed673733756a7b827bae0c722de750551e0159662eda8a",
+          "sha1": "f2f9510cbc6666b978ecd08dbfae77f5dd974956",
+          "md5": "68502cbff021e87d6778229941d288a4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "envelope-1.21.1-neoforge-0.8.1-sources.jar",
+          "url": "envelope-1.21.1-neoforge-0.8.1-sources.jar",
+          "size": 41852,
+          "sha512": "3969546bdbffcbda556f12cadeedd3154b242e171c530aec2b7d4f7adb74a831b5e2847afca2d88261b277327e0f5728b738a4f4ffb9c6abecdf0a30ffa2bc67",
+          "sha256": "5893e998b29d172630bea519c7d286149c9991e6a07d85dfbc8f260d6d8ea118",
+          "sha1": "2731c1b0c544f499311af078d2dd54a36f39567f",
+          "md5": "ade4cff94bf99f6ff09e12c35003724b"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "envelope-1.21.1-neoforge-0.8.1-dev-shadow.jar",
+          "url": "envelope-1.21.1-neoforge-0.8.1-dev-shadow.jar",
+          "size": 2125171,
+          "sha512": "1c7a065d226fbd5dba30ed720b57379866420161d9ce9f97b3cd15b84bb764615698c47e2cc01080da0305e7fee0dadf4e9fead13595e93ab2c23ff928097b99",
+          "sha256": "981a852a7ff46ea241fab650cbbbc5cd8b47c397abeebcc03d15df886f4c2c80",
+          "sha1": "6e16c8d594ef8e6d88c236c40c8e3c4bc421f9eb",
+          "md5": "38f68cd2ad5a128cd40aba40a7cebc0f"
+        }
+      ]
+    }
+  ]
+}
