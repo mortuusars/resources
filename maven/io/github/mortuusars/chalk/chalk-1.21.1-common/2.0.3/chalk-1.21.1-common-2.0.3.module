@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.chalk",
+    "module": "chalk-1.21.1-common",
+    "version": "2.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.25.0.322"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chalk-1.21.1-common-2.0.3.jar",
+          "url": "chalk-1.21.1-common-2.0.3.jar",
+          "size": 413181,
+          "sha512": "ed50c75e347628d1c508366a257dc318eea21da23a816efa66d0e152cd3e527cf588e69cceac3cb4987ae0ecac17d1f429c88e8b833a2e2a0861a25df21f9559",
+          "sha256": "897290093ce27cfc159819fe0cfa043cfff0328e19bf10196c261ec8a5b93e18",
+          "sha1": "69c6cbffa73936292995b42cf7319a64e3b8a0d0",
+          "md5": "8d90259a097a1efb02a89b1e4c716a4a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chalk-1.21.1-common-2.0.3.jar",
+          "url": "chalk-1.21.1-common-2.0.3.jar",
+          "size": 413181,
+          "sha512": "ed50c75e347628d1c508366a257dc318eea21da23a816efa66d0e152cd3e527cf588e69cceac3cb4987ae0ecac17d1f429c88e8b833a2e2a0861a25df21f9559",
+          "sha256": "897290093ce27cfc159819fe0cfa043cfff0328e19bf10196c261ec8a5b93e18",
+          "sha1": "69c6cbffa73936292995b42cf7319a64e3b8a0d0",
+          "md5": "8d90259a097a1efb02a89b1e4c716a4a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "chalk-1.21.1-common-2.0.3-sources.jar",
+          "url": "chalk-1.21.1-common-2.0.3-sources.jar",
+          "size": 286930,
+          "sha512": "21a0eea7d7f26b90fa175960610bf7f2d6f75e16c6ad29533b20852cf701a278bf08a7a773759b28b9fc7cd2f2dad3e3aace27abfc7204e52f0dac2c88a0cc71",
+          "sha256": "2ca6fec422b1ffec5bc00d63af18aace8abc5676e8c49b0c8f3318b5e0607514",
+          "sha1": "d5954ae0f06e59423e262fadf4120b9c01be8500",
+          "md5": "5501b6813a5d1bdeb7eaf93f41393fd4"
+        }
+      ]
+    }
+  ]
+}

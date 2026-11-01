@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.chalk",
+    "module": "chalk-1.21.1-neoforge",
+    "version": "2.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "chalk-1.21.1-neoforge-2.0.3.jar",
+          "url": "chalk-1.21.1-neoforge-2.0.3.jar",
+          "size": 792522,
+          "sha512": "3c11b7080d97ed9040797d1d3461b37e118e27aca0c6a179a60d0ec86e8613d4b905bcbb921ef916a985a969d84f014681b63ea77dc5bead508fd5901605d4c5",
+          "sha256": "50cb49876522fb620ea0f0010866f71bff0ff0ec165b32044475fd0bacb5ba29",
+          "sha1": "6e7eff0cd223915e6cf26fa1c54eb95bde4fcd7a",
+          "md5": "72c627970c124c08273f4a1689312094"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.mortaar",
+          "module": "mortaar-1.21.1-neoforge",
+          "version": {
+            "requires": "1.7.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chalk-1.21.1-neoforge-2.0.3.jar",
+          "url": "chalk-1.21.1-neoforge-2.0.3.jar",
+          "size": 792522,
+          "sha512": "3c11b7080d97ed9040797d1d3461b37e118e27aca0c6a179a60d0ec86e8613d4b905bcbb921ef916a985a969d84f014681b63ea77dc5bead508fd5901605d4c5",
+          "sha256": "50cb49876522fb620ea0f0010866f71bff0ff0ec165b32044475fd0bacb5ba29",
+          "sha1": "6e7eff0cd223915e6cf26fa1c54eb95bde4fcd7a",
+          "md5": "72c627970c124c08273f4a1689312094"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "chalk-1.21.1-neoforge-2.0.3-sources.jar",
+          "url": "chalk-1.21.1-neoforge-2.0.3-sources.jar",
+          "size": 22139,
+          "sha512": "1b6d18e1c6a573f7696c541df400e54eeb42e8111f4f1a38ef086620512a6c241c6e43c89230a94916ef0d813e001886080c6c2f882fbf2411f79e89522c265c",
+          "sha256": "46eca8de7557790c5248d207141ef90acadb7810cb55fe7051e19b8af493a7b5",
+          "sha1": "bcf380e435100496905c93087b76f090fab3ccd8",
+          "md5": "b73fec79451fa1612312fd6c8dbf0d24"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "chalk-1.21.1-neoforge-2.0.3-dev-shadow.jar",
+          "url": "chalk-1.21.1-neoforge-2.0.3-dev-shadow.jar",
+          "size": 434998,
+          "sha512": "bfceb76a3422ca94f032d01ee708890a41d2af2e82943cb5220c1af981c63892d74ced4757706af1a09ef095965e4a7672f981ea9be6fd943f26649c0c898d22",
+          "sha256": "2df71dba1da3929d2179f2d3e1d10b6f920a9854b147b3ed49122dddd83b1b38",
+          "sha1": "9dd892981c9f3310aac215438926d8fb3217e58c",
+          "md5": "eeda0a407fb9bf260b197962c3961520"
+        }
+      ]
+    }
+  ]
+}
