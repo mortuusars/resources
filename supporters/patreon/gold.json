@@ -37,5 +37,10 @@
         "name": "RadioPen",
         "uuid": "d70b8d39-ffec-4799-a264-359f7851537e",
         "active": true
-    } 
+    },
+    {
+        "name": "zappyccino",
+        "uuid": "9e6bf9b1-32fc-4a92-8925-c4769d3ce1b4",
+        "active": true
+    }
 ]
