@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.chalk",
+    "module": "chalk-26.3-common",
+    "version": "2.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.3.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-26.3-common-api",
+          "version": {
+            "requires": "31.11.0.64"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chalk-26.3-common-2.0.3.jar",
+          "url": "chalk-26.3-common-2.0.3.jar",
+          "size": 373828,
+          "sha512": "cd4b6da8f3db31e6edb82c745b3ded925b3638bb07b25cd266edaec35e7bdb0bf8fa04f6738ad797dd00ee0ea2a2ad667e35f5a6860448b28e53c2c02e631833",
+          "sha256": "39417e1a26ff3f46b59b905269297115a359cf1013300022489f3258762b0db2",
+          "sha1": "89b9df43d7eda9c677a185626b3093fc7ad96c58",
+          "md5": "8238184ad63d4597b4dfe0a381fd211a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chalk-26.3-common-2.0.3.jar",
+          "url": "chalk-26.3-common-2.0.3.jar",
+          "size": 373828,
+          "sha512": "cd4b6da8f3db31e6edb82c745b3ded925b3638bb07b25cd266edaec35e7bdb0bf8fa04f6738ad797dd00ee0ea2a2ad667e35f5a6860448b28e53c2c02e631833",
+          "sha256": "39417e1a26ff3f46b59b905269297115a359cf1013300022489f3258762b0db2",
+          "sha1": "89b9df43d7eda9c677a185626b3093fc7ad96c58",
+          "md5": "8238184ad63d4597b4dfe0a381fd211a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "chalk-26.3-common-2.0.3-sources.jar",
+          "url": "chalk-26.3-common-2.0.3-sources.jar",
+          "size": 257003,
+          "sha512": "78619d6cd240dc3f84d5ed7dcc66004a095c295d3e5d94eeaa733a5850a996bb0b9b61566af3f812d0506538e1ceababa0983f7e0faf6b4cb509b05d444c60a8",
+          "sha256": "fd08e2f676ad39209ecf657f4642c7c2aed39e96a2c1b5ab96a85f88210c2c82",
+          "sha1": "471d4974a090f9c29e4e4027aec1f1ffb9086739",
+          "md5": "fe0eb2c21908c81b727fc24727fda558"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "chalk-26.3-common-2.0.3.jar",
+          "url": "chalk-26.3-common-2.0.3.jar",
+          "size": 373828,
+          "sha512": "cd4b6da8f3db31e6edb82c745b3ded925b3638bb07b25cd266edaec35e7bdb0bf8fa04f6738ad797dd00ee0ea2a2ad667e35f5a6860448b28e53c2c02e631833",
+          "sha256": "39417e1a26ff3f46b59b905269297115a359cf1013300022489f3258762b0db2",
+          "sha1": "89b9df43d7eda9c677a185626b3093fc7ad96c58",
+          "md5": "8238184ad63d4597b4dfe0a381fd211a"
+        }
+      ]
+    }
+  ]
+}

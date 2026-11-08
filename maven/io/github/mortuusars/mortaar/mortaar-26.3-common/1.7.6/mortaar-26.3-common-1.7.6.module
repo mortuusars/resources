@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.mortaar",
+    "module": "mortaar-26.3-common",
+    "version": "1.7.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mortaar-26.3-common-1.7.6.jar",
+          "url": "mortaar-26.3-common-1.7.6.jar",
+          "size": 150682,
+          "sha512": "a906097ac7a550c438d2a788274fd242dc4b3d1132f399935a230d60f9d70bb866e3c85e374ff6862eaf62723c4ac1be99417e510a6e57d519f22e0fd56defd0",
+          "sha256": "63328682b5ab6d173bb0b92e7005c341802df68a70714302fe787003c273c28b",
+          "sha1": "ca167605c42f8509f85e87df2ffb6a35f4e7b5de",
+          "md5": "2e2de8407f0bd0ca53699850d4a1d136"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mortaar-26.3-common-1.7.6.jar",
+          "url": "mortaar-26.3-common-1.7.6.jar",
+          "size": 150682,
+          "sha512": "a906097ac7a550c438d2a788274fd242dc4b3d1132f399935a230d60f9d70bb866e3c85e374ff6862eaf62723c4ac1be99417e510a6e57d519f22e0fd56defd0",
+          "sha256": "63328682b5ab6d173bb0b92e7005c341802df68a70714302fe787003c273c28b",
+          "sha1": "ca167605c42f8509f85e87df2ffb6a35f4e7b5de",
+          "md5": "2e2de8407f0bd0ca53699850d4a1d136"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mortaar-26.3-common-1.7.6-sources.jar",
+          "url": "mortaar-26.3-common-1.7.6-sources.jar",
+          "size": 76441,
+          "sha512": "d4529655d5d52275dd560b91630b4176d31bc2539ab6c33a729d77059d7669fb87479b2c1a84360fd0978c6bd0e89e41adbf66629871d9b66e8dc12ccd012b2f",
+          "sha256": "6b9a1a5e34cf5ec194d5fd4e4c969e7c331f506dea3056ef5a49a674d709b1f1",
+          "sha1": "73c5257540fd6e29c0aacaedf2fd35dae614f7bf",
+          "md5": "d44fe7b62d4d68dc6eb4c757133b1e40"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mortaar-26.3-common-1.7.6.jar",
+          "url": "mortaar-26.3-common-1.7.6.jar",
+          "size": 150682,
+          "sha512": "a906097ac7a550c438d2a788274fd242dc4b3d1132f399935a230d60f9d70bb866e3c85e374ff6862eaf62723c4ac1be99417e510a6e57d519f22e0fd56defd0",
+          "sha256": "63328682b5ab6d173bb0b92e7005c341802df68a70714302fe787003c273c28b",
+          "sha1": "ca167605c42f8509f85e87df2ffb6a35f4e7b5de",
+          "md5": "2e2de8407f0bd0ca53699850d4a1d136"
+        }
+      ]
+    }
+  ]
+}
