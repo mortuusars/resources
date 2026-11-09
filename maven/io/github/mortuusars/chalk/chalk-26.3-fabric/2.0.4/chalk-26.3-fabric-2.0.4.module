@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.chalk",
+    "module": "chalk-26.3-fabric",
+    "version": "2.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.155.0+26.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chalk-26.3-fabric-2.0.4.jar",
+          "url": "chalk-26.3-fabric-2.0.4.jar",
+          "size": 539098,
+          "sha512": "ad25f52d72904c409b9e8eef9502adec00c9b29b6b0d1b359c95088ab17b4744cd9803f556a3d5de6dac053ab1ccd2a1bcbf06d33c33a9627ca7d1cc0bcd59ff",
+          "sha256": "1aefd525c9ccec719682623448ee9428ba28f0e58c65dba234a403330135f081",
+          "sha1": "81ee71d4a7fea778755c5b06e3836ad66bc00b3c",
+          "md5": "f9c951af0e9a8c5049ff85f2a8f4fa10"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.mortaar",
+          "module": "mortaar-26.3-fabric",
+          "version": {
+            "requires": "1.7.6"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.155.0+26.3"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "26.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chalk-26.3-fabric-2.0.4.jar",
+          "url": "chalk-26.3-fabric-2.0.4.jar",
+          "size": 539098,
+          "sha512": "ad25f52d72904c409b9e8eef9502adec00c9b29b6b0d1b359c95088ab17b4744cd9803f556a3d5de6dac053ab1ccd2a1bcbf06d33c33a9627ca7d1cc0bcd59ff",
+          "sha256": "1aefd525c9ccec719682623448ee9428ba28f0e58c65dba234a403330135f081",
+          "sha1": "81ee71d4a7fea778755c5b06e3836ad66bc00b3c",
+          "md5": "f9c951af0e9a8c5049ff85f2a8f4fa10"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "chalk-26.3-fabric-2.0.4-sources.jar",
+          "url": "chalk-26.3-fabric-2.0.4-sources.jar",
+          "size": 263295,
+          "sha512": "7b37de5c72c98bf490673cca3ee9efe4df03af6f12793135b9e77f1db0d767536c354a5059728e542cafea165ffe4989082ae019ef1bc299320414e707106866",
+          "sha256": "59a6db4ece9d3b83416861a5e7afb8bcffb9c4a4af32bf54c5bef24be68d1d96",
+          "sha1": "b3d0eb480c7daf15ad8c6ea97382d31a585975ae",
+          "md5": "7fe471d09f44a9cb75cf1f021247ea90"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "chalk-26.3-fabric-2.0.4.jar",
+          "url": "chalk-26.3-fabric-2.0.4.jar",
+          "size": 539098,
+          "sha512": "ad25f52d72904c409b9e8eef9502adec00c9b29b6b0d1b359c95088ab17b4744cd9803f556a3d5de6dac053ab1ccd2a1bcbf06d33c33a9627ca7d1cc0bcd59ff",
+          "sha256": "1aefd525c9ccec719682623448ee9428ba28f0e58c65dba234a403330135f081",
+          "sha1": "81ee71d4a7fea778755c5b06e3836ad66bc00b3c",
+          "md5": "f9c951af0e9a8c5049ff85f2a8f4fa10"
+        }
+      ]
+    }
+  ]
+}
