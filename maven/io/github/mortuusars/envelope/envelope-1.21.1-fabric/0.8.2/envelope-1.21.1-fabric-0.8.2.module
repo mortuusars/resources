@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.envelope",
+    "module": "envelope-1.21.1-fabric",
+    "version": "0.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.5+1.21.1"
+          }
+        },
+        {
+          "group": "dev.ryanhcode.sable-companion",
+          "module": "sable-companion-fabric-1.21.1",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "envelope-1.21.1-fabric-0.8.2.jar",
+          "url": "envelope-1.21.1-fabric-0.8.2.jar",
+          "size": 2268620,
+          "sha512": "2a98b97b480b8216b22149d3cc406e38cd24dc3586c44586b443b0c91b8b7fe0de7f161d4056bce849f4ef28a1045fccef08d1c5319762facc6628fd01d95227",
+          "sha256": "de026bbe6c4ef40533eea58aee34076b25c31f82ac288d905faa18d600db0288",
+          "sha1": "a0d420d4183c4e8f9f2d95d77d6cc955d6a93e7d",
+          "md5": "e14a1b70066b111986e32aa63805456e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.5+1.21.1"
+          }
+        },
+        {
+          "group": "dev.ryanhcode.sable-companion",
+          "module": "sable-companion-fabric-1.21.1",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "io.github.mortuusars.mortaar",
+          "module": "mortaar-1.21.1-fabric",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "envelope-1.21.1-fabric-0.8.2.jar",
+          "url": "envelope-1.21.1-fabric-0.8.2.jar",
+          "size": 2268620,
+          "sha512": "2a98b97b480b8216b22149d3cc406e38cd24dc3586c44586b443b0c91b8b7fe0de7f161d4056bce849f4ef28a1045fccef08d1c5319762facc6628fd01d95227",
+          "sha256": "de026bbe6c4ef40533eea58aee34076b25c31f82ac288d905faa18d600db0288",
+          "sha1": "a0d420d4183c4e8f9f2d95d77d6cc955d6a93e7d",
+          "md5": "e14a1b70066b111986e32aa63805456e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "envelope-1.21.1-fabric-0.8.2-sources.jar",
+          "url": "envelope-1.21.1-fabric-0.8.2-sources.jar",
+          "size": 8814,
+          "sha512": "ab08e4b0c7f3a1a1ca6dd249a9b6206e2ca7ed7423fc978b557e8479230f9e28e859f1e8753824882484748c0b93141adc7da5726570f1175d46449e39662585",
+          "sha256": "726ec2805db898d7a727cfed48970005294d937ff1ec892ec486732768e1b3f3",
+          "sha1": "a305d5a00d354c6055d593daf1346540a96cded8",
+          "md5": "b4cb8796bca12b21c7fdd4476baef965"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "envelope-1.21.1-fabric-0.8.2-dev-shadow.jar",
+          "url": "envelope-1.21.1-fabric-0.8.2-dev-shadow.jar",
+          "size": 2053633,
+          "sha512": "88c6ed1b73a5b600c1207128525ebd07304209afd7c9dda86a7a01dfb47e44ceb57391a0c6e80e8f7fa472485911538139ec86ac4c0c2d429567469a7793e9da",
+          "sha256": "10bbeb13a477a1a9d9f1530358779177680191732521c3b197fafcf4170a247c",
+          "sha1": "283a9fa5bddf9f45fe60415f2bf442a529e2fd19",
+          "md5": "12b8df8e8b9f0bb333b751458eee4b5d"
+        }
+      ]
+    }
+  ]
+}
