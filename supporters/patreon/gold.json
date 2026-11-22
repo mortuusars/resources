@@ -40,5 +40,10 @@
         "name": "zappyccino",
         "uuid": "9e6bf9b1-32fc-4a92-8925-c4769d3ce1b4",
         "active": true
+    },
+    {
+        "name": "Krozok",
+        "uuid": "f1bc1344-6f55-4474-a37e-04b6bea7b141",
+        "active": true
     }
 ]
