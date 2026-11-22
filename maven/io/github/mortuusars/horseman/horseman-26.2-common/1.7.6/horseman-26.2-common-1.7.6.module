@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.horseman",
+    "module": "horseman-26.2-common",
+    "version": "1.7.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.2.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-26.2-common-api",
+          "version": {
+            "requires": "30.15.0.108"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "horseman-26.2-common-1.7.6.jar",
+          "url": "horseman-26.2-common-1.7.6.jar",
+          "size": 258416,
+          "sha512": "f586c4acb4be8ad5103b0671d6ab573183f1f3ed7ec3b77678e14215eb662415b1390fcfd10c3f5f3f9ef068bc61cc50a8244e65d5429e3399ee0e38acbfe2ee",
+          "sha256": "b0df2d15b61ff1719d72b2dfc377e6616c8bdb51ea5c9edaf3f05fb5a7c8fd46",
+          "sha1": "0ce80f95a84651094a18d56fdd6e1a4125f1e214",
+          "md5": "3ba64dc78342e6e78e5c8dd9bf07f25e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "horseman-26.2-common-1.7.6.jar",
+          "url": "horseman-26.2-common-1.7.6.jar",
+          "size": 258416,
+          "sha512": "f586c4acb4be8ad5103b0671d6ab573183f1f3ed7ec3b77678e14215eb662415b1390fcfd10c3f5f3f9ef068bc61cc50a8244e65d5429e3399ee0e38acbfe2ee",
+          "sha256": "b0df2d15b61ff1719d72b2dfc377e6616c8bdb51ea5c9edaf3f05fb5a7c8fd46",
+          "sha1": "0ce80f95a84651094a18d56fdd6e1a4125f1e214",
+          "md5": "3ba64dc78342e6e78e5c8dd9bf07f25e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "horseman-26.2-common-1.7.6-sources.jar",
+          "url": "horseman-26.2-common-1.7.6-sources.jar",
+          "size": 179708,
+          "sha512": "940f52e79775b5b6e613d9b071156f1397d4ecd64c8f5e5f2f73e973845264d670a3906dfbb07c29a2ed3720890d332a33fd34251e64b58bfab7443283e8d9c1",
+          "sha256": "d33b0ca2a636a3b8f12d02db6711aeaf4c8d3c701e10b97c28170d251d4ae9c5",
+          "sha1": "38f24a4e9ef20ba1cefaafc21543de5c82818fc1",
+          "md5": "4bfa7ff9d53343b8d12ffa6953c7d8f8"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "horseman-26.2-common-1.7.6.jar",
+          "url": "horseman-26.2-common-1.7.6.jar",
+          "size": 258416,
+          "sha512": "f586c4acb4be8ad5103b0671d6ab573183f1f3ed7ec3b77678e14215eb662415b1390fcfd10c3f5f3f9ef068bc61cc50a8244e65d5429e3399ee0e38acbfe2ee",
+          "sha256": "b0df2d15b61ff1719d72b2dfc377e6616c8bdb51ea5c9edaf3f05fb5a7c8fd46",
+          "sha1": "0ce80f95a84651094a18d56fdd6e1a4125f1e214",
+          "md5": "3ba64dc78342e6e78e5c8dd9bf07f25e"
+        }
+      ]
+    }
+  ]
+}

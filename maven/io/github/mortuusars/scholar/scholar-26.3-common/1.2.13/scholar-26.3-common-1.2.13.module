@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mortuusars.scholar",
+    "module": "scholar-26.3-common",
+    "version": "1.2.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.3.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-26.3-common-api",
+          "version": {
+            "requires": "31.12.0.65"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-26.3-common-1.2.13.jar",
+          "url": "scholar-26.3-common-1.2.13.jar",
+          "size": 719417,
+          "sha512": "f208fd2f21da4d26a0fa4cd68570c41894cada3e6f1480b85c8769949ae52a3e384f6d72e14e8c5251a7f4454dcebdb11431738ce761278965ff559d5fdb2141",
+          "sha256": "92d455ae262be2163a430b2519520121e41ede0a7e986c5a1fc55d4a47ec7506",
+          "sha1": "1bef0e3d4522c669b14de6f655d1c0b94561c889",
+          "md5": "bf2bda7a64d7eede0c5a977b74ff07dc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.20.1"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-common-neoforgeapi",
+          "version": {
+            "requires": "26.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scholar-26.3-common-1.2.13.jar",
+          "url": "scholar-26.3-common-1.2.13.jar",
+          "size": 719417,
+          "sha512": "f208fd2f21da4d26a0fa4cd68570c41894cada3e6f1480b85c8769949ae52a3e384f6d72e14e8c5251a7f4454dcebdb11431738ce761278965ff559d5fdb2141",
+          "sha256": "92d455ae262be2163a430b2519520121e41ede0a7e986c5a1fc55d4a47ec7506",
+          "sha1": "1bef0e3d4522c669b14de6f655d1c0b94561c889",
+          "md5": "bf2bda7a64d7eede0c5a977b74ff07dc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-26.3-common-1.2.13-sources.jar",
+          "url": "scholar-26.3-common-1.2.13-sources.jar",
+          "size": 560893,
+          "sha512": "e1647bab1432ede0c36f8ddc58eec43e2d2850d195245609d96ebea0c8e541d55b4e2a4f03a1f6a8447151764357ef1552c0bddbee47c14869f445eb07ca425f",
+          "sha256": "cd6f92ceae232770f841fe566d52579cd3ecf79f96a9c7c46680a8003a32c585",
+          "sha1": "ccc55b0f1ef26db81103f5b8f0160cab5528f050",
+          "md5": "d99b5ced79bcc95cf6347934484f5c7a"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scholar-26.3-common-1.2.13.jar",
+          "url": "scholar-26.3-common-1.2.13.jar",
+          "size": 719417,
+          "sha512": "f208fd2f21da4d26a0fa4cd68570c41894cada3e6f1480b85c8769949ae52a3e384f6d72e14e8c5251a7f4454dcebdb11431738ce761278965ff559d5fdb2141",
+          "sha256": "92d455ae262be2163a430b2519520121e41ede0a7e986c5a1fc55d4a47ec7506",
+          "sha1": "1bef0e3d4522c669b14de6f655d1c0b94561c889",
+          "md5": "bf2bda7a64d7eede0c5a977b74ff07dc"
+        }
+      ]
+    }
+  ]
+}
